@@ -42,7 +42,7 @@ class ContactController extends Controller
     public function store(Request $request)
     {
 
-      Mail::to("mickael.delpech@gmail.com")->send(new Contact($request->except('_token')));
+      Mail::to("mickael@lyneo.fr")->send(new Contact($request->except('_token')));
       $msg = 'Votre message a été envoyé avec succès, <a href="'. ('/') . '"> cliquez ici  </a>  pour revenir à l\'accueil';
       //session()->flash('message', $msg);
       return Redirect::back()->withSuccess($msg);
@@ -50,7 +50,7 @@ class ContactController extends Controller
 
     public function newsletter(Request $request)
     {
-      Mail::to("mickael.delpech@gmail.com")->send(new Newsletter($request->except('_token')));
+      Mail::to("mickael@lyneo.fr")->send(new Newsletter($request->except('_token')));
       $msg = 'Votre message a été envoyé avec succès, <a href="'. ('/') . '"> cliquez ici  </a>  pour revenir à l\'accueil';
       //session()->flash('message', $msg);
       Flashy::message('Welcome Aboard!', 'http://your-awesome-link.com');
