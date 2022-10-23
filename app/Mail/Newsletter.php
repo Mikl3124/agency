@@ -31,7 +31,7 @@ class Newsletter extends Mailable
      */
     public function build()
     {
-      return $this->from('bonjour@lyneo.fr')
+      return $this->from('mickael@lyneo.fr', 'Mickael de Lyneo')
       ->subject('Lyneo - Nouvel inscrit à la newsletter')
       ->view('emails.newsletter');
     }
