@@ -28,9 +28,9 @@
 			<div class="auto-container">
         <div class="row text-center">
           <div class="link-box mb-5 text-center">
-            <a class="theme-btn btn-style-four" href="https://tidycal.com/lyneo/discutons-de-votre-projet">
+            <a class="theme-btn btn-style-one" href="https://tidycal.com/lyneo/discutons-de-votre-projet">
                 <i class="btn-curve"></i>
-                <span class="btn-title">On en discute ensemble?</span>
+                <span class="btn-title">On en discute ?</span>
             </a>
           </div>
         </div>
