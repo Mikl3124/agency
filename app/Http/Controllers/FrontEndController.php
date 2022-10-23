@@ -78,11 +78,35 @@ class FrontEndController extends Controller
       return view('website.developpement');
     }
 
-    public function vitrine(){
-      return view('website.vitrine');
+    public function wordpress(){
+      return view('website.wordpress');
     }
 
     public function commerce(){
       return view('website.commerce');
+    }
+
+    public function custom(){
+      return view('website.custom');
+    }
+
+    public function marketing(){
+      return view('website.marketing-digital');
+    }
+
+    public function seo(){
+      return view('website.seo');
+    }
+
+    public function seo_local(){
+      return view('website.seo-local');
+    }
+
+    public function seo_technique(){
+      return view('website.seo-technique');
+    }
+
+    public function ppc(){
+      return view('website.ppc');
     }
 }

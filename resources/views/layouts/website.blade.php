@@ -34,14 +34,16 @@
 
     <link rel="shortcut icon" href="{{ asset('images') }}/favicon.png" id="fav-shortcut" type="image/x-icon">
     <link rel="icon" href="{{ asset('images') }}/favicon.png" id="fav-icon" type="image/x-icon">
-
     <!-- Responsive Settings -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="{{ asset('js') }}/respond.js"></script><![endif]-->
-</head>
 
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'>
+
+</head>
 
 <body class="body">
   <div class="page-wrapper">
@@ -78,5 +80,6 @@
 
 </html>
   @yield('script')
+
   </body>
 </html>

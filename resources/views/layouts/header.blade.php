@@ -21,65 +21,30 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="dropdown {{ Route::is('home') ? 'current' : '' }}">
+                            <li class="dropdown {{ (request()->is('/')) ? 'active' : '' }}">
                                 <a href="{{ route('home') }}">L'agence</a>
                             </li>
-                            <li class="dropdown {{ (request()->is('developpement-web*')) ? 'current' : '' }}"><a href="{{ route('developpement') }}">Développement Web</a>
+                            <li class="dropdown {{ (request()->is('developpement-web/*')) || (request()->is('developpement-web')) ? 'current' : '' }}"><a href="{{ route('developpement') }}">Développement Web</a>
                               <ul>
-                                  <li><a href="{{ route('vitrine') }}">Site Vitrine</a></li>
+                                  <li><a href="{{ route('wordpress') }}">Site Wordpress</a></li>
+                                  <li><a href="{{ route('custom') }}">Site sur-mesure</a></li>
                                   <li><a href="{{ route('commerce') }}">Site E-commerce</a></li>
 
                               </ul>
                           </li>
-                            <li class="dropdown"><a href="services.html">Référencement</a>
+                            <li class="dropdown {{ (request()->is('marketing-digital/*'))  || (request()->is('marketing-digital'))  ? 'current' : '' }}"><a href="{{ route('marketing-digital') }}">Marketing Digital</a>
                                 <ul>
-                                    <li><a href="services.html">All Services</a></li>
-                                    <li><a href="services-2.html">Services Two</a></li>
-                                    <li><a href="web-development.html">Website Development</a></li>
-                                    <li><a href="graphic-designing.html">Graphic Designing</a></li>
-                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                                    <li><a href="seo.html">SEO & Content Writting</a></li>
-                                    <li><a href="app-development.html">App Development</a></li>
-                                    <li><a href="ui-designing.html">UI/UX Designing</a></li>
+                                    <li><a href="{{ route('seo') }}">SEO</a></li>
+                                    <li><a href="{{ route('seo-local') }}">SEO Local</a></li>
+                                    <li><a href="{{ route('seo-technique') }}">SEO Technique</a></li>
+                                    <li><a href="{{ route('publicite-en-ligne') }}">Publicité en ligne</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="portfolio.html">Portfolio</a>
-                                <ul>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="portfolio-2-columns.html">Portfolio 2 Col <span>new</span></a>
-                                    </li>
-                                    <li><a href="portfolio-4-columns.html">Portfolio 4 Col <span>new</span></a>
-                                    </li>
-                                    <li><a href="portfolio-masonary.html">Portfolio Masonary
-                                            <span>new</span></a></li>
-                                    <li><a href="portfolio-single.html">Portfolio Single 01</a></li>
-                                    <li><a href="portfolio-single-2.html">Portfolio Single 02</a></li>
-                                    <li><a href="portfolio-single-3.html">Portfolio Single 03
-                                        </a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="shop.html">Shop</a>
-                                <ul>
-                                    <li><a href="shop.html">Shop Page</a></li>
-                                    <li><a href="product-details.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout Page</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="{{ route('website.blog') }}">Blog</a>
-                                <ul>
-              <li><a href="blog.html">Blog Right Sidebar</a></li>
-              <li><a href="blog-left.html">Blog Left Sidebar <span>new</span></a></li>
-              <li><a href="blog-grid.html">Blog Grid View</a></li>
-              <li><a href="blog-single.html">Blog Single</a></li>
-            </ul>
+                            <li class="dropdown {{ (request()->is('blog/*')) || (request()->is('blog'))  ? 'current' : '' }}">
+                              <a href="{{ route('website.blog') }}">Blog</a>
                             </li>
                             <li class="dropdown">
-                                <a href="contact.html">Contact</a>
-                                <ul>
-                                    <li><a href="contact.html">Contact 01</a></li>
-                                    <li><a href="contact-2.html">Contact 02 <span>New</span></a></li>
-                                </ul>
+                              <a href="{{ route('website.contact') }}">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -87,22 +52,17 @@
             </div>
 
             <div class="other-links clearfix">
-                <!-- cart btn -->
-                <div class="cart-btn">
-                    <a href="cart.html" class="theme-btn cart-toggler"><span
-                            class="flaticon-shopping-cart"></span></a>
-                </div>
                 <!--Search Btn-->
-                <div class="search-btn">
+                {{-- <div class="search-btn">
                     <button type="button" class="theme-btn search-toggler"><span
                             class="flaticon-loupe"></span></button>
-                </div>
+                </div> --}}
                 <div class="link-box">
                     <div class="call-us">
-                        <a class="link" href="tel:6668880000">
+                        <a class="link" href="tel:0780944646">
                             <span class="icon"></span>
                             <span class="sub-text">Nous contacter</span>
-                            <span class="number">666 888 0000</span>
+                            <span class="number">07 80 94 46 46</span>
                         </a>
                     </div>
                 </div>

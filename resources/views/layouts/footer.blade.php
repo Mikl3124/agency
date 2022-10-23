@@ -30,16 +30,13 @@
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-12">
                                     <ul>
-                                        <li><a href="#">Notre agence</a></li>
-                                        <li><a href="#">Nous rejoindre</a></li>
-                                        <li><a href="#">Réalisations</a></li>
-                                        <li><a href="#">Articles</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href=" {{ route('home') }} ">Notre agence</a></li>
+                                        <li><a href=" {{ route('website.blog') }} ">Articles</a></li>
+                                        <li><a href=" {{ route('website.contact') }} ">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <ul>
-                                        <li><a href="#">Support</a></li>
                                         <li><a href="#">Politique de confidentialité</a></li>
                                         <li><a href="#">Mentions légales</a></li>
                                     </ul>
@@ -55,12 +52,11 @@
                         <div class="widget-content">
                             <h6>Contact</h6>
                             <ul class="contact-info">
-                                <li class="address"><span class="icon flaticon-pin-1"></span> 66 Broklyn Street,
-                                    New York <br>United States of America</li>
-                                <li><span class="icon flaticon-call"></span><a href="tel:666888000">666 888
-                                        000</a></li>
+                                {{-- <li class="address"><span class="icon flaticon-pin-1"></span> 66 Broklyn Street,
+                                    New York <br>United States of America</li> --}}
+                                <li><span class="icon flaticon-call"></span><a href="tel:0780944646">07 80 94 46 46</a></li>
                                 <li><span class="icon flaticon-email-2"></span><a
-                                        href="mailto:needhelp@linoor.com">needhelp@linoor.com</a></li>
+                                        href="mailto:bonjour@lyneo.fr">bonjour@lyneo.fr</a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,16 +68,26 @@
                         <div class="widget-content">
                             <h6>Newsletter</h6>
                             <div class="newsletter-form">
-                                <form method="post" action="contact.html">
-                                    <div class="form-group clearfix">
-                                        <input type="email" name="email" value="" placeholder="Email Address"
-                                            required="">
-                                        <button type="submit" class="theme-btn"><span
-                                                class="fa fa-envelope"></span></button>
-                                    </div>
+                              <form method="post" action="{{ route("newsletter-mail") }}">
+                                @csrf
+                                  <div class="form-group clearfix">
+                                    <input type="email" name="email" value="" placeholder="@if (session()->has('success')) Inscrit à la newsletter @else Adresse email @endif"
+                                          required>
+                                    @if (session()->has('success'))
+                                    @else
+                                    <button type="submit" class="theme-btn"><span
+                                      class="fa fa-envelope"></span></button>
+                                    @endif
+
+                                  </div>
                                 </form>
                             </div>
-                            <div class="text">Inscrivez-vous pour recevoir nos dernières nouvelles et articles. Nous ne vous enverrons pas de SPAM.</div>
+
+                            @if (session()->has('success'))
+
+                            @else
+                              <div class="text">Inscrivez-vous pour recevoir nos dernières nouvelles et articles. Nous ne vous enverrons pas de SPAM.</div>
+                            @endif
                         </div>
                     </div>
                 </div>

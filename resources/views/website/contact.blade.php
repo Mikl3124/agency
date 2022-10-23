@@ -1,81 +1,148 @@
 @extends('layouts.website')
-@section('content')    
-    <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('{{ asset('website') }}/images/img_4.jpg');">
-      <div class="container">
-        <div class="row same-height justify-content-center">
-          <div class="col-md-12 col-lg-10">
-            <div class="post-entry text-center">
-              <h1 class="">Contact Us</h1>
-              <p class="lead mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, adipisci?</p>
-            </div>
+@section('content')
+
+ <!-- Banner Section -->
+ <section class="page-banner">
+  <div class="image-layer" style="background-image:url({{ asset('images') }}/contact-lyneo.svg)" alt="Nous contacter"></div>
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+  <div class="banner-inner">
+      <div class="auto-container">
+          <div class="inner-container clearfix">
+              <h1>Contact</h1>
+              <div class="page-nav">
+                  <ul class="bread-crumb clearfix">
+                      <li><a href="{{ route("home") }}">Accueil</a></li>
+                      <li class="active">Contact</li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-    
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 mb-5">
-            <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
-              @csrf 
-              @include('includes.errors')
-              @if(Session::has('message-send'))
-                <div class="alert alert-success">{{ Session::get('message-send') }}</div>
-              @endif
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="fname">Name</label>
-                  <input type="text" id="name" name="name" class="form-control" placeholder="Name">
-                </div>
-              </div>
+  </div>
+</section>
+<!--End Banner Section -->
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
-                  <input type="subject" id="subject" name="subject" class="form-control" placeholder="Subject">
-                </div>
-              </div>
+		<!--Contact Section-->
+		<section class="contact-section contact-two">
+			<div class="auto-container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="contact-two__content">
+							<div class="sec-title">
+								<h2>Contactez-nous<span class="dot">.</span></h2>
+							</div>
+							<p class="contact-two__text">Des questions? Vous avez besoin de renseignements? Contactez-nous en utilisant ce formulaire.</p>
+							<!-- /.contact-two__text -->
+							<div class="contact-two__social">
+								<a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+							</div><!-- /.contact-two__social -->
+						</div><!-- /.contact-two__content -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-8">
+						<div class="form-box">
+							<div class="default-form">
+								<form method="post" action="{{ route("contact-mail") }}">
+                  @csrf
+									<div class="row clearfix">
+										<div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="text" name="lastname" value="" placeholder="Nom*"
+													required="">
+											</div>
+										</div>
+										<div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="text" name="firstname" value="" placeholder="Prénom*"
+													required="">
+											</div>
+										</div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="text" name="phone" value="" placeholder="Téléphone"
+													required="">
+											</div>
+										</div>
+										<div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="email" name="email" value="" placeholder="E-mail*"
+													required="">
+											</div>
+										</div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="text" name="website" value="" placeholder="Site web"
+													required="">
+											</div>
+										</div>
+										<div class="form-group col-lg-6 col-md-6 col-sm-12">
+											<div class="field-inner">
+												<input type="email" name="email" value="" placeholder="Sujet"
+													required="">
+											</div>
+										</div>
+										<div class="form-group col-lg-12 col-md-12 col-sm-12">
+											<div class="field-inner">
+												<textarea name="message" placeholder="Écrivez votre message*"
+													required=""></textarea>
+											</div>
+										</div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                      @if (session()->has('success'))
+                        <div class="alert alert-success">
+                          {!! session()->get('success')!!}
+                        </div>
+                        @else
+                        <button class="theme-btn btn-style-one">
+                          <i class="btn-curve"></i>
+                          <span class="btn-title">Envoyer le message</span>
+                        </button>
+                      @endif
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                </div>
-              </div>
+			</div>
+		</section>
 
-              <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
-                </div>
-              </div>
 
-  
-            </form>
-          </div>
-          <div class="col-md-5">
-            
-            <div class="p-4 mb-3 bg-white">
-              <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">{{ $setting->address }}</p>
+		<section class="contact-info-two">
+			<div class="auto-container">
+				<div class="row">
+					<div class="col-md-12 col-lg-4">
+						<div class="contact-info-two__card wow fadeInUp" data-wow-duration="1500ms">
+							<i class="fa fa-map-marker-alt"></i>
+							<a href="#">Bordeaux</a>
+						</div><!-- /.contact-info-two__card -->
+					</div><!-- /.col-md-12 col-lg-4 -->
+					<div class="col-md-12 col-lg-4">
+						<div class="contact-info-two__card wow fadeInUp" data-wow-duration="1500ms"
+							data-wow-delay="300ms">
+							<i class="fa fa-envelope"></i>
+							<a href="mailto:bonjour@lyneo.fr">bonjour@lyneo.fr</a>
+						</div><!-- /.contact-info-two__card -->
+					</div><!-- /.col-md-12 col-lg-4 -->
+					<div class="col-md-12 col-lg-4">
+						<div class="contact-info-two__card wow fadeInUp" data-wow-delay="600ms"
+							data-wow-duration="1500ms">
+							<i class="fa fa-phone"></i>
+							<a href="tel:+926668880000">+92 (666) 888- 0000</a>
+						</div><!-- /.contact-info-two__card -->
+					</div><!-- /.col-md-12 col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.auto-container -->
+		</section><!-- /.contact-info-two -->
 
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">{{ $setting->phone }}</a></p>
+		<div class="map-box">
+			<iframe class="map-iframe"
+				src="https://maps.google.com/maps?q=grand%20hommes%203300&t=&z=13&ie=UTF8&iwloc=&output=embed"
+				style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+		</div>
 
-              <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">{{ $setting->email }}</a></p>
 
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
 @endsection

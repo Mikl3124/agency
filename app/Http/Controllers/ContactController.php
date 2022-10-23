@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Session;
-use App\Contact;
+use App\Mail\Contact;
+use App\Mail\Newsletter;
 use Illuminate\Http\Request;
+use MercurySeries\Flashy\Flashy;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Redirect;
 
 class ContactController extends Controller
 {
@@ -37,7 +41,20 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+      Mail::to("mickael@gmail.com")->send(new Contact($request->except('_token')));
+      $msg = 'Votre message a été envoyé avec succès, <a href="'. ('/') . '"> cliquez ici  </a>  pour revenir à l\'accueil';
+      //session()->flash('message', $msg);
+      return Redirect::back()->withSuccess($msg);
+    }
+
+    public function newsletter(Request $request)
+    {
+      Mail::to("mickael@gmail.com")->send(new Newsletter($request->except('_token')));
+      $msg = 'Votre message a été envoyé avec succès, <a href="'. ('/') . '"> cliquez ici  </a>  pour revenir à l\'accueil';
+      //session()->flash('message', $msg);
+      Flashy::message('Welcome Aboard!', 'http://your-awesome-link.com');
+      return Redirect::back()->withSuccess($msg);
     }
 
     /**

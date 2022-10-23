@@ -7,8 +7,17 @@ Auth::routes();
 // Front End Routes
 Route::get('/', 'FrontEndController@home')->name('home');
 Route::get('/developpement-web/', 'FrontEndController@developpement')->name('developpement');
-Route::get('/developpement-web/site-vitrine', 'FrontEndController@vitrine')->name('vitrine');
+Route::get('/developpement-web/site-wordpress', 'FrontEndController@wordpress')->name('wordpress');
 Route::get('/developpement-web/site-ecommerce', 'FrontEndController@commerce')->name('commerce');
+Route::get('/developpement-web/site-sur-mesure', 'FrontEndController@custom')->name('custom');
+Route::get('/marketing-digital/', 'FrontEndController@marketing')->name('marketing-digital');
+Route::get('/marketing-digital/seo', 'FrontEndController@seo')->name('seo');
+Route::get('/marketing-digital/seo-local', 'FrontEndController@seo_local')->name('seo-local');
+Route::get('/marketing-digital/seo-technique', 'FrontEndController@seo_technique')->name('seo-technique');
+Route::get('/marketing-digital/publicite-en-ligne', 'FrontEndController@ppc')->name('publicite-en-ligne');
+
+Route::post('/contact-form', 'ContactController@store')->name('contact-mail');
+Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
 
 Route::get('/blog', 'FrontEndController@blog')->name('website.blog');
 Route::get('/about', 'FrontEndController@about')->name('website.about');

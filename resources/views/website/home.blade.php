@@ -526,8 +526,8 @@
                         <div class="designation">permis-construire.com</div>
                     </div><!-- /.testimonials-four-card__content -->
                     <div class="image">
-                        <img src="images/leo-archimbault.jpeg" alt="temoignage leo archimbault">
-                    </div>
+                      <img src="images/leo-archimbault.jpeg" alt="temoignage romain catala">
+                  </div>
                 </div><!-- /.testimonials-four-card -->
             </div><!-- /.col-md-6 col-lg-4 -->
 
@@ -695,9 +695,9 @@
           <div class="inner clearfix">
               <div class="shape-1 wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
               <div class="shape-2 wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
-              <h2>Des questions à nous poser?<br>C'est parti!</h2>
+              <h2>Des questions à nous poser?</h2>
               <div class="link-box">
-                  <a class="theme-btn btn-style-two" href="about.html">
+                  <a class="theme-btn btn-style-two" href="{{ route("website.contact") }}">
                       <i class="btn-curve"></i>
                       <span class="btn-title">Nous contacter</span>
                   </a>
