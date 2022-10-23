@@ -26,6 +26,14 @@
 		<!--Contact Section-->
 		<section class="contact-section contact-two">
 			<div class="auto-container">
+        <div class="row text-center">
+          <div class="link-box mb-5 text-center">
+            <a class="theme-btn btn-style-four" href="https://tidycal.com/lyneo/discutons-de-votre-projet">
+                <i class="btn-curve"></i>
+                <span class="btn-title">On en discute ensemble?</span>
+            </a>
+          </div>
+        </div>
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="contact-two__content">
@@ -131,7 +139,7 @@
 						<div class="contact-info-two__card wow fadeInUp" data-wow-delay="600ms"
 							data-wow-duration="1500ms">
 							<i class="fa fa-phone"></i>
-							<a href="tel:+926668880000">+92 (666) 888- 0000</a>
+							<a href="tel:0780944646">07 80 94 46 46</a>
 						</div><!-- /.contact-info-two__card -->
 					</div><!-- /.col-md-12 col-lg-4 -->
 				</div><!-- /.row -->

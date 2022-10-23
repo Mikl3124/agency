@@ -438,6 +438,68 @@ figure {
   color: #fff;
 }
 
+/*Btn Style Four*/
+.btn-style-four {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--thm-base);
+  color: var(--thm-black);
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: var(--thm-font);
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.btn-style-four .btn-title {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: 19px 50px 16px;
+  z-index: 1;
+}
+
+.btn-style-four:hover {
+  background: white;
+  color: var(--thm-base) !important;
+}
+
+.btn-style-four .btn-curve {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 26px;
+  height: 100%;
+  background: white;
+  color: var(--thm-base) !important;
+  opacity: 0.2;
+  z-index: 0;
+  -webkit-transform: skewX(-22deg);
+  transform: skewX(-22deg);
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.btn-style-four:hover .btn-curve {
+  opacity: 1;
+  right: 0;
+  width: 100%;
+  -webkit-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+
 .pull-right {
   float: right;
 }

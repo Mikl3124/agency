@@ -15,13 +15,15 @@
       <div class="sidebar-widget call-up">
           <div class="widget-inner">
               <div class="sidebar-title">
-                  <h4>need Linoor help?</h4>
+                  <h4>Besoin de renseignements?</h4>
               </div>
-              <div class="text">Prefer speaking with a human to filling out a form? call corporate
-                  office and we will connect you with a team member who can help.
+              <div class="text">Vous préférez parler à une personne plutôt que de remplir un formulaire? Cliquez sur le bouton ci-dessous, et prenons un rendez-vous.
               </div>
-              <div class="phone"><a href="tel:666888000"><span
-                class="icon flaticon-call"></span>07 85 65 92 65</a>
+              <div class="link-box my-4 text-center">
+                <a class="theme-btn btn-style-four" href="https://tidycal.com/lyneo/discutons-de-votre-projet">
+                    <i class="btn-curve"></i>
+                    <span class="btn-title">Discutons-en</span>
+                </a>
               </div>
           </div>
       </div>

@@ -5,7 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lyneo - L'agence web qui libère votre plein potentiel</title>
+    <title>{{ $title }}</title>
+    <link rel="canonical" href="{{ Request::url() }}">
+    <meta name="description" content="{{ $meta_description }}">
     <!-- Stylesheets -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -42,6 +44,7 @@
 
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'>
+
 
 </head>
 
