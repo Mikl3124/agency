@@ -52,3 +52,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::get('/contact/show/{id}', 'ContactController@show')->name('contact.show');
     Route::delete('/contact/delete/{id}', 'ContactController@destroy')->name('contact.destroy');
 });
+
+Route::get('/sitemap.xml', 'SitemapXmlController@index');
