@@ -394,7 +394,7 @@
               <div class="inner clearfix">
                 <h2>We’re Ready to Bring Bigger <br>& Stronger Projects</h2>
                 <div class="link-box">
-                  <a class="theme-btn btn-style-two" href="about.html">
+                  <a class="theme-btn btn-style-two" href="{{ route("website.contact") }}">
                     <i class="btn-curve"></i>
                     <span class="btn-title">Contact with us</span>
                   </a>

@@ -40,10 +40,10 @@
                                     <li><a href="{{ route('publicite-en-ligne') }}">Publicité en ligne</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown {{ (request()->is('blog/*')) || (request()->is('blog'))  ? 'current' : '' }}">
+                            <li class="{{ (request()->is('blog/*')) || (request()->is('blog'))  ? 'current' : '' }}">
                               <a href="{{ route('website.blog') }}">Blog</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="">
                               <a href="{{ route('website.contact') }}">Contact</a>
                             </li>
                         </ul>
@@ -97,8 +97,7 @@
         <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
         <div class="side-menu__content">
             <p>Lyneo Création, l'agence Web et SEO à Bordeaux, qui libère votre plein potentiel.</p>
-            <p><a href="mailto:bonjour@lyneo.fr">bonjour@lyneo.fr</a> <br> <a href="tel:888-999-0000">888
-                    999 0000</a></p>
+            <p><a href="mailto:bonjour@lyneo.fr">bonjour@lyneo.fr</a> <br> <a href="tel:0780944646">07 80 94 46 46</a></p>
             <div class="side-menu__social">
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>

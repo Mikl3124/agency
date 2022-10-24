@@ -1,7 +1,5 @@
 @extends('layouts.website')
 @section('content')
-
-
         <!-- Banner Section -->
         <section class="page-banner">
           <div class="image-layer" style="background-image:url({{ asset('images') }}/developpement-web.png)" ></div>
@@ -224,7 +222,7 @@
               <div class="inner clearfix">
                   <h2>Besoin d'un site Web? <br>Vous avez des questions?</h2>
                   <div class="link-box">
-                      <a class="theme-btn btn-style-two" href="about.html">
+                      <a class="theme-btn btn-style-two" href="{{ route("website.contact") }}">
                           <i class="btn-curve"></i>
                           <span class="btn-title">Parlons-en</span>
                       </a>

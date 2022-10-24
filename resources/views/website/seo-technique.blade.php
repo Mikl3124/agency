@@ -250,7 +250,7 @@
               <div class="inner clearfix">
                   <h2>Besoin d'une stratégie SEO?<br>Vous avez des questions?</h2>
                   <div class="link-box">
-                      <a class="theme-btn btn-style-two" href="about.html">
+                      <a class="theme-btn btn-style-two" href="{{ route("website.contact") }}">
                           <i class="btn-curve"></i>
                           <span class="btn-title">Contactez-nous</span>
                       </a>

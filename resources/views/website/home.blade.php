@@ -29,9 +29,9 @@
                               <div class="sub-title">L'agence web qui libère votre plein potentiel</div>
                               <h1>Agence Web <br>à Bordeaux</h1>
                               <div class="link-box">
-                                  <a class="theme-btn btn-style-one" href="about.html">
+                                  <a class="theme-btn btn-style-one" href="{{ route('website.contact') }}">
                                       <i class="btn-curve"></i>
-                                      <span class="btn-title">Nous découvrir</span>
+                                      <span class="btn-title">Nous contacter</span>
                                   </a>
                               </div>
                           </div>
