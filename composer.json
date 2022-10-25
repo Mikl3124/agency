@@ -19,6 +19,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "mercuryseries/flashy": "^1.0",
+        "spatie/laravel-honeypot": "^2.1",
         "symfony/http-client": "^5.4",
         "symfony/mailgun-mailer": "^5.4",
         "symfony/translation": "^5.4"

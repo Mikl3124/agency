@@ -51,8 +51,14 @@
 					<div class="col-lg-8">
 						<div class="form-box">
 							<div class="default-form">
+                @if (session()->has('error'))
+                  <div class="alert alert-danger">
+                    {!! session()->get('error')!!}
+                  </div>
+                @endif
 								<form method="post" action="{{ route("contact-mail") }}">
                   @csrf
+                  @honeypot
 									<div class="row clearfix">
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
@@ -86,7 +92,7 @@
 										</div>
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="email" name="email" value="" placeholder="Sujet"
+												<input type="text" name="sujet" value="" placeholder="Sujet"
 													required="">
 											</div>
 										</div>

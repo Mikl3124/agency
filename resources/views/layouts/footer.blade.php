@@ -70,6 +70,7 @@
                             <div class="newsletter-form">
                               <form method="post" action="{{ route("newsletter-mail") }}">
                                 @csrf
+                                @honeypot
                                   <div class="form-group clearfix">
                                     <input type="email" name="email" value="" placeholder="@if (session()->has('success')) Inscrit à la newsletter @else Adresse email @endif"
                                           required>
