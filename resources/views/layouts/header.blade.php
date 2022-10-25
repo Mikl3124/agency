@@ -53,10 +53,10 @@
 
             <div class="other-links clearfix">
                 <!--Search Btn-->
-                {{-- <div class="search-btn">
+                <div class="search-btn">
                     <button type="button" class="theme-btn search-toggler"><span
                             class="flaticon-loupe"></span></button>
-                </div> --}}
+                </div>
                 <div class="link-box">
                     <div class="call-us">
                         <a class="link" href="tel:0780944646">
