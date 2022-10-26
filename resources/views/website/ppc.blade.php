@@ -272,7 +272,7 @@
                                               Vous n'avez pas le temps d'effectuer un audit PPC et de lancer votre campagne de paiement par clic? Confiez vos services PPC à notre agence de paiement par clic et laissez-nous faire le travail technique pour vous.
                                             </p>
                                             <div class="link-box my-4 text-center">
-                                              <a class="theme-btn btn-style-one" href="">
+                                              <a class="theme-btn btn-style-one" href="{{ route('contact') }}">
                                                   <i class="btn-curve"></i>
                                                   <span class="btn-title">Parlez-nous de votre projet</span>
                                               </a>

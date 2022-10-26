@@ -27,7 +27,7 @@
                       <div class="content">
                           <div class="inner">
                               <div class="sub-title">L'agence web qui libère votre plein potentiel</div>
-                              <h1>Agence Web <br>à Bordeaux</h1>
+                              <h1>Agence Web</h1>
                               <div class="link-box">
                                   <a class="theme-btn btn-style-one" href="{{ route('website.contact') }}">
                                       <i class="btn-curve"></i>
@@ -50,8 +50,8 @@
                   <div class="content-box">
                       <div class="content">
                           <div class="inner">
-                              <div class="sub-title">L'agence SEO qui libère votre plein potentiel/div>
-                              <h1>Agence SEO <br>à Bordeaux</h1>
+                              <div class="sub-title">L'agence SEO qui libère votre plein potentiel</div>
+                              <h1>Agence SEO</h1>
                               <div class="link-box">
                                   <a class="theme-btn btn-style-one" href="about.html">
                                       <i class="btn-curve"></i>
@@ -77,37 +77,39 @@
                   <div class="inner">
                       <div class="sec-title">
                           <h2>Faites décoller <br>Vos Ventes<span class="dot">.</span></h2>
-                          <div class="lower-text">Lyneo Création est une agence de conception de sites Web, et de référencement à Bordeaux qui vous aide à être visible en ligne, afin d'attirer plus de clients.
+                          <div class="lower-text">Lyneo Création est une agence de conception de sites Web, et de référencement qui vous aide à être visible en ligne, afin d'attirer plus de clients.
                             <br>
-                            Nous vous aidons à atteindre vos objectifs, grâce à notre expérience, notre savoir-faire et notre engagement, tout en respectant votre identité visuelle.                         </div>
+                            Nous vous aidons à atteindre vos objectifs, grâce à notre expérience, notre savoir-faire et notre engagement, tout en respectant votre identité visuelle.</div>
                         </div>
                   </div>
               </div>
               <div class="image-column align-self-center text-center col-xl-4 col-lg-12 col-md-12 col-sm-12">
                 <div class="inner">
                     <div class="image-block wow fadeInUp " data-wow-delay="300ms" data-wow-duration="1500ms"><img
-                            src="{{ asset('images') }}/Strategie Digitale Bordeaux Lyneo.webp" alt="referencement web bordeaux" width="200" height="200"></div>
+                            src="{{ asset('images') }}/Strategie Digitale Bordeaux Lyneo.webp" alt="referencement web" width="200" height="200"></div>
                 </div>
             </div>
             <div class="row clearfix">
               <!--Service Block-->
-              <div class="service-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms"
-                  data-wow-duration="1500ms">
+
+                <div class="service-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms"
+                data-wow-duration="1500ms">
                   <div class="inner-box">
                       <div class="bottom-curve"></div>
                       <div class="icon-box"><span class="flaticon-responsive"></span></div>
-                      <h6 class="mb-4"><a href="web-development.html">Développement<br>Web</a></h6>
-                      <p class="text-card">Vous avez besoin d'être présent sur internet ? Notre agence web de Bordeaux vous accompagne dans la création de votre site internet, et vous conseille tout au long de votre projet pour garantir les meilleurs résultats.</p>
+                      <h6 class="mb-4"><a href="{{ route('developpement') }}">Développement<br>Web</a></h6>
+                      <p class="text-card">Vous avez besoin d'être présent sur internet ? Notre agence web vous accompagne dans la création de votre site internet, et vous conseille tout au long de votre projet pour garantir les meilleurs résultats.</p>
                   </div>
-              </div>
+                </div>
+
               <!--Service Block-->
               <div class="service-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft"
               data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="inner-box">
                   <div class="bottom-curve"></div>
                   <div class="icon-box"><span class="flaticon-development"></span></div>
-                  <h6  class="mb-4"><a href="seo.html">Référencement Naturel <br>Seo</a></h6>
-                  <p class="text-card">Le référencement naturel est l'un des principaux leviers de croissance pour une entreprise sur internet. Nous sommes spécialisés dans le SEO à Bordeaux. Nous vous accompagnons pour améliorer votre visibilité et positionner votre site sur le web.</p>
+                  <h6  class="mb-4"><a href="{{ route('seo') }}">Référencement Naturel <br>Seo</a></h6>
+                  <p class="text-card">Le référencement naturel est l'un des principaux leviers de croissance pour une entreprise sur internet. Nous sommes spécialisés dans le SEO. Nous vous accompagnons pour améliorer votre visibilité et positionner votre site sur le web.</p>
                 </div>
               </div>
               <div class="service-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms"
@@ -115,8 +117,8 @@
                   <div class="inner-box">
                       <div class="bottom-curve"></div>
                       <div class="icon-box"><span class="flaticon-digital-marketing"></span></div>
-                      <h6 class="mb-4"><a href="digital-marketing.html">Publicité <br>En Ligne</a></h6>
-                      <p class="text-card">Notre agence web de Bordeaux vous propose des outils digitaux performants et ciblés, adaptés à vos objectifs et votre budget : emailing, réseaux  sociaux, inbound marketing, campagnes publicitaires (SEA).</p>
+                      <h6 class="mb-4"><a href="{{ route('publicite-en-ligne')}}">Publicité <br>En Ligne</a></h6>
+                      <p class="text-card">Notre agence web vous propose des outils digitaux performants et ciblés, adaptés à vos objectifs et votre budget : emailing, réseaux  sociaux, inbound marketing, campagnes publicitaires (SEA).</p>
                   </div>
               </div>
           </div>
@@ -131,25 +133,25 @@
               <div class="image-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                   <div class="inner">
                       <div class="image-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img
-                              src="{{ asset('images') }}/agence-web-bordeaux.svg" alt="agence web Bordeaux"></div>
+                              src="{{ asset('images') }}/agence-web-bordeaux.svg" alt="agence web"></div>
                       {{-- <div class="image-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"><img
-                              src="{{ asset('images') }}/resource/featured-image-2.jpeg" alt="agence seo Bordeaux"></div> --}}
+                              src="{{ asset('images') }}/resource/featured-image-2.jpeg" alt="agence seo"></div> --}}
                   </div>
               </div>
               <!--Text Column-->
               <div class="text-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                   <div class="inner">
                       <div class="sec-title">
-                          <h2>Lyneo<br>votre agence web à Bordeaux<span class="dot">.</span></h2>
+                          <h2>Lyneo<br> votre agence web dédiée<span class="dot">.</span></h2>
                           <div class="lower-text">Nous nous engageons à fournir à nos clients un service exceptionnel en toutes circonstances.  afin de répondre parfaitement à  leurs besoins et attentes</div>
                       </div>
                       <div class="text">
-                          <p>Notre équipe de professionnels à Bordeaux est à votre disposition pour vous accompagner dans la définition de votre stratégie digitale, la mise en place et le suivi de vos campagnes publicitaires, ainsi que pour toute prestation connexe (SEO, Social Media, webdesign…).</p>
+                          <p>Notre équipe de professionnels est à votre disposition pour vous accompagner dans la définition de votre stratégie digitale, la mise en place et le suivi de vos campagnes publicitaires, ainsi que pour toute prestation connexe (SEO, Social Media, webdesign…).</p>
                       </div>
                       <div class="link-box">
-                          <a class="theme-btn btn-style-one" href="about.html">
+                          <a class="theme-btn btn-style-one" href="{{ route('contact') }}">
                               <i class="btn-curve"></i>
-                              <span class="btn-title">Nous découvrir</span>
+                              <span class="btn-title">Nous contacter</span>
                           </a>
                       </div>
                   </div>
@@ -168,7 +170,7 @@
                           <h2>Nous vous accompagnons vers<br>votre réussite<span class="dot">.</span></h2>
                       </div>
                       <div class="featured-block clearfix">
-                          <div class="image"><img src="{{ asset('images') }}/shopping-cart.svg" alt="Agence web Bordeaux"></div>
+                          <div class="image"><img src="{{ asset('images') }}/shopping-cart.svg" alt="Agence web"></div>
                           <div class="text">49 millions de Français, soit 92% des internautes en France ont acheté sur internet cette année </div>
                       </div>
                       <div class="progress-box">
@@ -190,10 +192,10 @@
                           <ul class="accordion-box accordion-box__dark clearfix">
                               <!--Block-->
                               <li class="accordion block active-block">
-                                  <div class="acc-btn active"><span class="count">1.</span> Une agence digitale à Bordeaux qui vous comprend</div>
+                                  <div class="acc-btn active"><span class="count">1.</span> Une agence digitale qui vous comprend</div>
                                   <div class="acc-content current">
                                       <div class="content">
-                                          <div class="text">Notre équipe est composée de professionnels expérimentés en communication digitale et en webmarketing. Nous sommes là pour vous aider à bâtir votre projet sur le web et à atteindre vos objectifs.</div>
+                                          <div class="text">Notre équipe est composée de professionnels expérimentés en <a href="{{ route('marketing-digital')}}">communication digitale</a>  et en webmarketing. Nous sommes là pour vous aider à bâtir votre projet sur le web et à atteindre vos objectifs.</div>
                                       </div>
                                   </div>
                               </li>
@@ -203,7 +205,7 @@
                                   <div class="acc-btn"><span class="count">2.</span> Des services webmarketing complets</div>
                                   <div class="acc-content">
                                       <div class="content">
-                                          <div class="text">Notre agence Lyneo accompagne les entreprises bordelaises dans leur stratégie web. Nous mettons à votre disposition notre expertise en matière de référencement naturel (SEO), de Google Adwords, de création de sites internet et de webdesign. </div>
+                                          <div class="text">Notre agence Lyneo accompagne les entreprises dans leur stratégie web. Nous mettons à votre disposition notre expertise en matière de <a href="{{ route('seo') }}">référencement naturel </a> (SEO), de Google Adwords, de création de sites internet et de webdesign. </div>
                                       </div>
                                   </div>
                               </li>
@@ -213,7 +215,7 @@
                                   <div class="acc-btn"><span class="count">3.</span> Une agence Web tournée vers la créativité</div>
                                   <div class="acc-content">
                                       <div class="content">
-                                          <div class="text">Bordeaux est une ville dynamique et cosmopolite, en constante évolution. Notre agence web s'inspire de cette dynamique pour créer des sites web uniques et innovants.Nous travaillons avec les dernières technologies et suivons les dernières tendances du web design pour offrir à nos clients un service de qualité.</div>
+                                          <div class="text">Notre agence web développe des <a href="{{ route('developpement') }}">sites web</a> uniques et innovants. Nous travaillons avec les dernières technologies et suivons les dernières tendances du web design pour offrir à nos clients un service de qualité.</div>
                                       </div>
                                   </div>
                               </li>
@@ -626,7 +628,7 @@
                               <!--Tab-->
                               <div class="tab" id="tab-2">
                                   <div class="content">
-                                      <div class="text">Nous accompagnons les entreprises Bordelaises dans leurs stratégies digitales et relationnelles. Ensemble, nous travaillons à développer une présence online forte et impactante, afin de vous permettre de toucher un maximum de clients potentiels. Notre objectif est de vous aider à atteindre vos objectifs commerciaux tout en boostant votre visibilité sur le web.</div>
+                                      <div class="text">Nous accompagnons les entreprises dans leurs stratégies digitales et relationnelles. Ensemble, nous travaillons à développer une présence online forte et impactante, afin de vous permettre de toucher un maximum de clients potentiels. Notre objectif est de vous aider à atteindre vos objectifs commerciaux tout en boostant votre visibilité sur le web.</div>
                                   </div>
                               </div>
                           </div>
@@ -636,7 +638,7 @@
               <!--Right Column-->
               <div class="right-col col-xl-6 col-lg-12 col-md-12 col-sm-12">
                   <div class="inner">
-                      <div class="text">Nous sommes convaincus qu'un soutien engagé crée une relation de confiance forte et durable avec nos partenaires et nos clients. Notre objectif est de créer un site web qui réponde à 100% de vos attentes.</div>
+                      <div class="text">Nous sommes convaincus qu'un soutien engagé crée une relation de confiance forte et durable avec nos partenaires et nos clients. Notre objectif est de créer un <a href="{{ route('developpement') }}">site web</a>  qui réponde à 100% de vos attentes.</div>
                       <div class="featured-block-two clearfix">
                           <div class="image"><img src="{{ asset('images') }}/lyneo-confiance.svg" alt="agence web de confiance"></div>
                           <div class="text">

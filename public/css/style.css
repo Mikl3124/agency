@@ -6699,7 +6699,7 @@ img.lazy-image.loaded {
 
 .main-footer .widgets-section {
   position: relative;
-  padding: 170px 0px 70px;
+  padding-top: 170px;
 }
 
 .main-footer.normal-padding .widgets-section {
@@ -26611,4 +26611,8 @@ img.lazy-image.loaded {
 .service-icon{
   width: 40px;
   height: 40px;
+}
+
+.text-primary{
+  color: var(--thm-base) !important;
 }

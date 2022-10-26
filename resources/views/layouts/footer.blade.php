@@ -13,7 +13,7 @@
                             <div class="logo">
                                 <a href="index.html"><img id="fLogo" src="{{ asset('images') }}/logo-lyneo.png" alt="Logo Lyneo" /></a>
                             </div>
-                            <div class="text">L'agence Web et SEO à Bordeaux, qui libère votre plein potentiel.</div>
+                            <div class="text">L'agence Web et SEO, qui libère votre plein potentiel.</div>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                                 <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
@@ -26,12 +26,12 @@
                 <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
                         <div class="widget-content">
-                            <h6>Découvrir</h6>
+                            <h6>Nous Découvrir</h6>
                             <div class="row clearfix">
                                 <div class="col-md-6 col-sm-12">
                                     <ul>
                                         <li><a href=" {{ route('home') }} ">Notre agence</a></li>
-                                        <li><a href=" {{ route('website.blog') }} ">Articles</a></li>
+                                        <li><a href=" {{ route('website.blog') }} ">Blog</a></li>
                                         <li><a href=" {{ route('website.contact') }} ">Contact</a></li>
                                     </ul>
                                 </div>
@@ -102,9 +102,20 @@
     <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="auto-container">
-            <div class="inner clearfix">
-                <div class="copyright">&copy; Copyright 2022 - Lyneo Création</div>
+          <div class="row clearfix footer-widget links-widget">
+            <div class="col-md-6 col-sm-12">
+                <ul>
+                    <li><a href="#">BORDEAUX</a></li>
+                </ul>
             </div>
+            <div class="col-md-6 col-sm-12">
+                <ul>
+                  <li><a href="#">BERGERAC</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="copyright">&copy; Copyright 2022 - Lyneo Création</div>
+
         </div>
     </div>
 

@@ -105,9 +105,9 @@
                           <h2>Développement <span class="dot">.</span><!-- /.dot -->
                           </h2>
                       </div><!-- /.sec-title -->
-                      <p class="process-one__summery">Avec notre équipe de développement personnalisé, vous pourrez être sûr que chaque détail de votre site Web est exactement comme vous le souhaitiez. Cela inclut la réalisation de toutes les maquettes et leur intégration dans un site fonctionnel.
+                      <p class="process-one__summery">Avec notre équipe de <a href="{{ route('custom') }}">développement personnalisé</a>, vous pourrez être sûr que chaque détail de votre site Web est exactement comme vous le souhaitiez. Cela inclut la réalisation de toutes les maquettes et leur intégration dans un site fonctionnel.
                         <br>
-                        Notre CMS/plateforme dépend des besoins individuels du projet, mais nous aimons généralement travailler avec Webflow parce qu'il nous offre une flexibilité de conception totale, sans nous faire perdre de temps à écrire du code à la main.
+                        Notre CMS/plateforme dépend des besoins individuels du projet, mais nous aimons généralement travailler avec <a href="{{ route('wordpress') }}">WORDPRESS</a>  parce qu'il nous offre une flexibilité de conception totale, sans nous faire perdre de temps à réécrire du code à la main.
                         <br>
                         Les services personnalisés offerts par notre équipe de développement garantissent que chaque élément de votre produit - depuis les détails esthétiques jusqu'aux fonctions sous-jacentes - correspond exactement à vos attentes.</p><!-- /.process-one__summery -->
 

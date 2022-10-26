@@ -15,6 +15,7 @@ Route::get('/marketing-digital/seo', 'FrontEndController@seo')->name('seo');
 Route::get('/marketing-digital/seo-local', 'FrontEndController@seo_local')->name('seo-local');
 Route::get('/marketing-digital/seo-technique', 'FrontEndController@seo_technique')->name('seo-technique');
 Route::get('/marketing-digital/publicite-en-ligne', 'FrontEndController@ppc')->name('publicite-en-ligne');
+Route::get('/contact', 'FrontEndController@contact')->name('contact');
 
 Route::post('/contact-form', 'ContactController@store')->name('contact-mail');
 Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
@@ -23,7 +24,7 @@ Route::get('/blog', 'FrontEndController@blog')->name('website.blog');
 Route::get('/about', 'FrontEndController@about')->name('website.about');
 Route::get('/blog/{slug}', 'FrontEndController@category')->name('website.category');
 
-Route::get('/contact', 'FrontEndController@contact')->name('website.contact');
+
 // Route::get('/blog/{slug}', 'FrontEndController@post')->name('website.post');
 
 Route::get('/blog/{category}/{slug?}', 'FrontEndController@post')->name('website.post');
