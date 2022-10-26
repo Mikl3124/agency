@@ -132,7 +132,7 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box" src="{{ asset('images') }}/design-flexibility-wordpress.svg" alt="Flexibilité Wordpress">
                                 <h3 class="how-it-works-card__title">
-                                      <a href="team.html">Conception Flexible</a>
+                                      <a href="#">Conception Flexible</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
                                     Entre les mains d'un expert WordPress, vous disposez d'une plateforme web entièrement personnalisable, c'est un CMS idéal pour créer pratiquement tout type de site web. Présentez votre site d'entreprise, votre blog ou votre boutique e-commerce comme vous le souhaitez grâce à la conception de sites Web WordPress.<br>
@@ -147,7 +147,7 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box" src="{{ asset('images') }}/content-management.svg" alt="Facilité d'utilisation de Wordpress">
                                   <h3 class="how-it-works-card__title">
-                                      <a href="about.html">Facile d'utilisation</a>
+                                      <a href="#">Facile d'utilisation</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
                                     L'administration de votre site ne devrait pas être compliquée. L'équipe développement WordPress a spécifiquement conçu la plateforme pour répondre aux besoins d'un public non technique. Le CMS WordPress est si intuitif, il peut donner à n'importe qui l'impression d'être un développeur web WordPress. Il suffit de se connecter à votre tableau de bord d'administration WordPress, d'ajouter ou de mettre à jour votre contenu web et de voir les changements instantanément lorsque vous rafraîchissez la page.
@@ -164,7 +164,7 @@
                             <div class="how-it-works-card__inner">
                               <img class="my-5 icon-box" src="{{ asset('images') }}/powerfull-plugins.svg" alt="Plugins Wordpress performants">
                                 <h3 class="how-it-works-card__title">
-                                    <a href="team.html">Des plugins performants</a>
+                                    <a href="#">Des plugins performants</a>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
                                   WordPress est connu comme un simple éditeur visuel, mais l'étendue de ses capacités de conception de sites Web recèle beaucoup de puissance. Grâce aux plugins, vous pouvez ajouter des formulaires personnalisés, des caroussels et bien d'autres éléments indispensables à votre site Web, en plus de puissants outils d'analyse et de référencement WordPress. Les plus de 50 000 plugins gratuits simplifient la création d'un site Web WordPress avec une fonctionnalité complète.
@@ -178,7 +178,7 @@
                             <div class="how-it-works-card__inner">
                               <img class="my-5 icon-box" src="{{ asset('images') }}/seo-ready-design.svg" alt="referencement Wordpress">
                                 <h3 class="how-it-works-card__title">
-                                    <a href="about.html">Prêt pour le référencement</a>
+                                    <a href="#">Prêt pour le référencement</a>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
                                   En plus des excellents plugins WordPress pour le SEO, la plateforme est structurée pour rendre l'optimisation de votre site aussi facile que possible. Vous pouvez aisément inclure vos mots-clés dans vos permaliens, ajouter des métadonnées sur tous les articles et optimiser vos images avec du texte alt. Mieux encore, les thèmes et plugins WordPress sont connus pour offrir une excellente expérience utilisateur que Google récompense par un meilleur classement dans les moteurs de recherche.                                  </p><!-- /.how-it-works-card__text -->

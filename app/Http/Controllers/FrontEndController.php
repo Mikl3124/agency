@@ -139,4 +139,12 @@ class FrontEndController extends Controller
 
       return view('website.ppc', compact('title', 'meta_description'));
     }
+
+    public function marketing_digital_bordeaux(){
+
+      $title = "Agence de publicité Web | Les meilleurs services de marketing PPC";
+      $meta_description = "Développez votre entreprise et élargissez votre champ d'action grâce à des campagnes et des services de marketing PPC optimisés et basés sur des données.";
+
+      return view('website.bordeaux.marketing-digital', compact('title', 'meta_description'));
+    }
 }

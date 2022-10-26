@@ -17,6 +17,10 @@ Route::get('/marketing-digital/seo-technique', 'FrontEndController@seo_technique
 Route::get('/marketing-digital/publicite-en-ligne', 'FrontEndController@ppc')->name('publicite-en-ligne');
 Route::get('/contact', 'FrontEndController@contact')->name('contact');
 
+//Bordeaux
+Route::get('/agence-web-bordeaux', 'FrontEndController@marketing_digital_bordeaux')->name('agence-bordeaux');
+
+
 Route::post('/contact-form', 'ContactController@store')->name('contact-mail');
 Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
 

@@ -241,7 +241,7 @@
                 </div>
               </div>
             </section>
-          </div>
+        </div>
 
 
       <!-- Call To Section -->
@@ -258,6 +258,7 @@
               </div>
           </div>
       </section>
+      </div>
 
 
 @endsection

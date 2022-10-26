@@ -11537,7 +11537,7 @@ img.lazy-image.loaded {
 ***/
 .sidebar-page-container {
   position: relative;
-  padding: 120px 0px 90px;
+  padding: 120px 0px 0px 0px;
 }
 
 .sidebar-page-container .content-side {
@@ -26551,6 +26551,9 @@ img.lazy-image.loaded {
   height: 80px;
 }
 
+.icon-box-2{
+  height: 100px;
+}
 .count-list{
   color: var(--thm-base);
   padding-right: 3px;
@@ -26615,4 +26618,11 @@ img.lazy-image.loaded {
 
 .text-primary{
   color: var(--thm-base) !important;
+}
+
+#more {display: none;}
+
+#myBtn{
+  color: var(--thm-base);
+  padding: 0px 5px;
 }

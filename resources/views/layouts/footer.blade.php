@@ -105,7 +105,7 @@
           <div class="row clearfix footer-widget links-widget">
             <div class="col-md-6 col-sm-12">
                 <ul>
-                    <li><a href="#">BORDEAUX</a></li>
+                    <li><a href="{{ route('agence-bordeaux') }}">BORDEAUX</a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12">
