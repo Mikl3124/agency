@@ -96,7 +96,7 @@
         </nav>
         <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
         <div class="side-menu__content">
-            <p>Lyneo Création, l'agence Web et SEO à Bordeaux, qui libère votre plein potentiel.</p>
+            <p>Lyneo Création, l'agence Web et SEO, qui libère votre plein potentiel.</p>
             <p><a href="mailto:bonjour@lyneo.fr">bonjour@lyneo.fr</a> <br> <a href="tel:0780944646">07 80 94 46 46</a></p>
             <div class="side-menu__social">
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
