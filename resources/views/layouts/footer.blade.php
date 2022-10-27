@@ -103,12 +103,12 @@
     <div class="footer-bottom">
         <div class="auto-container">
           <div class="row clearfix footer-widget links-widget">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-6">
                 <ul>
                     <li><a href="{{ route('marketing-bordeaux') }}">BORDEAUX</a></li>
                 </ul>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-6">
                 <ul>
                   <li><a href="#">BERGERAC</a></li>
                 </ul>
