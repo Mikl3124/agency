@@ -140,11 +140,21 @@ class FrontEndController extends Controller
       return view('website.ppc', compact('title', 'meta_description'));
     }
 
+    // BORDEAUX
+
     public function marketing_digital_bordeaux(){
 
-      $title = "Agence de publicité Web | Les meilleurs services de marketing PPC";
-      $meta_description = "Développez votre entreprise et élargissez votre champ d'action grâce à des campagnes et des services de marketing PPC optimisés et basés sur des données.";
+      $title = "Agence marketing numérique à Bordeaux | SEA, PPC, SEO | Lyneo Bordeaux";
+      $meta_description = "Lyneo, agence marketing Web à Bordeaux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
 
       return view('website.bordeaux.marketing-digital', compact('title', 'meta_description'));
+    }
+
+    public function seo_bordeaux(){
+
+      $title = "Agence SEO à Bordeaux - Référencement Web | Lyneo";
+      $meta_description = "Lyneo est votre agence SEO à Bordeaux. Augmentez votre trafic organique en améliorant votre positionnement sur les moteurs de recherche !";
+
+      return view('website.bordeaux.agence-seo-bordeaux', compact('title', 'meta_description'));
     }
 }

@@ -34,7 +34,7 @@
                           <h4 class="text-center">Augmentez vos revenus grâce à nos solutions numériques axées sur la croissance<span class="dot">.</span></h4>
                         </div>
                           <div class="main-image image">
-                            <img src="{{ asset('images') }}/build-website.png" alt="site custom a bordeaux">
+                            <img src="{{ asset('images') }}/marketing-bordeaux.svg" alt="SEO à Bordeaux">
                           </div>
                           <div class="text-content">
                             <p>Lyneo est une agence de marketing numérique à Bordeaux, en Aquitaine, qui permet aux entreprises et aux marques d'atteindre leurs objectifs grâce à des stratégies marketing performantes.<br><span id="dots">...</span><span id="more"><br>
@@ -55,66 +55,97 @@
                   <div class="content-side col-lg-12 col-md-12 col-sm-12 pt-5">
                     <div class="sec-title">
                       <h2 class="text-center">Nos services de marketing digital à Bordeaux<span class="dot">.</span></h2>
-                      <div class="subtitle">Trouvez vos clients idéaux avec message adéquate</div>
+                      <div class="subtitle">Trouvez vos clients idéaux avec le message adéquate</div>
                     </div>
 
                     <section class="service-section">
-                      <div class="row clearfix">
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/seo-bordeaux.png" alt="SEO Bordeaux">
-                            <p class="service-title"><a href="">Search Engine Optimisation - SEO</a></p>
-                            <p class="service-para">
-                              Nos experts en marketing digital de Bordeaux sont formés pour mener des campagnes et des stratégies de référencement qui donnent des résultats.<br>
-                              Nous effectuons un audit du site et une recherche de mots-clés en rapport avec votre activité. Nous personnalisons toutes les stratégies d'optimisation des moteurs de recherche pour les aligner sur vos objectifs.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/web-dev-bordeaux.png" alt="Developpement web Bordeaux">
-                            <p class="service-title"><a href="#">Développement Web</a></p>
-                            <p class="service-para">
-                              Nous ne créons pas de sites Web ennuyeux. L'équipe très créative nos développeurs web Bordelais sait comment créer des sites web attrayants, conçus pour le trafic et la conversion.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/reseaux-sociaux-bordeaux.png" alt="Reseaux sociaux Bordeaux">
-                            <p class="service-title"><a href="#">Marketing de réseaux sociaux</a></p>
-                            <p class="service-para">
-                              Laissez-nous gérer votre marketing sur les réseaux sociaux pour que vous puissiez vous concentrer sur des choses plus importantes. Notre équipe d'experts en marketing numérique à Bordeaux assimile la voix et le message de votre marque pour créer des campagnes de médias sociaux personnalisées pour vous.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/reputation-en-ligne-bordeaux.png" alt="Reputation en ligne Bordeaux">
-                            <p class="service-title"><a href="#">Réputation en ligne</a></p>
-                            <p class="service-para">
-                              Prenez le contrôle de votre réputation en ligne grâce à notre service de gestion de la réputation en ligne. Ne laissez pas les avis négatifs faire chuter votre entreprise. Nos experts en marketing digital de Phoenix peuvent vous aider à mettre en avant vos clients satisfaits et à renforcer la réputation de votre marque.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/redaction-contenu-bordeaux.png" alt="Redaction de contenu Bordeaux">
-                            <p class="service-title"><a href="#">Rédaction de contenu</a></p>
-                            <p class="service-para">
-                              Notre équipe de rédacteurs fournit d'excellents services de rédaction de contenu pour asseoir la présence de votre entreprise en ligne. Notre société de marketing digital Bordelaise fournit un contenu engageant et convaincant qui génère des prospects et des revenus pour atteindre vos objectifs commerciaux.
-                          </p>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-12">
-                          <div class="icon-box-service">
-                            <img class="service-icon" src="{{ asset('images') }}/paiment-par-clic-bordeaux.png" alt="Paiement par clic Bordeaux">
-                            <p class="service-title"><a href="#">Paiement par clic - PPC</a></p>
-                            <p class="service-para">
-                              Atteignez rapidement votre public grâce à la publicité payante. Nos services de gestion PPC aideront votre entreprise à se développer en utilisant les meilleures tactiques de paiement par clic du secteur. Nous suivons les dernières stratégies pour AdWords et d'autres plateformes publicitaires qui génèrent des conversions pour votre entreprise.
-                            </p>
-                          </div>
-                        </div>
+                      <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="how-it-works-card text-center">
+                                <div class="how-it-works-card__inner">
+                                  <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-bordeaux.png" alt="SEO Bordeaux">
+                                    <h3 class="how-it-works-card__title">
+                                        <a href="{{ route('seo-bordeaux') }}">Search Engine Optimisation - SEO</a>
+                                    </h3><!-- /.how-it-works-card__title -->
+                                    <p class="mt-3 mx-3">
+                                      Nos experts en marketing digital Bordelais sont formés pour mener des campagnes et des stratégies de référencement efficaces.<br>
+                                      Nous effectuons un audit du site et une recherche de mots-clés en rapport avec votre activité. Nous personnalisons toutes les stratégies SEO pour les aligner sur vos objectifs.
+                                    </p><!-- /.how-it-works-card__text -->
+                                    <!-- /.how-it-works-card__link -->
+                                </div><!-- /.how-it-works-card__inner -->
+                            </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/web-dev-bordeaux.png" alt="Developpement web Bordeaux">
+                                  <h3 class="how-it-works-card__title">
+                                      <a href="#">Développement Web</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    L'équipe très créative nos développeurs web Bordelais sait comment créer des sites web attrayants, conçus pour le trafic et la conversion.<br>
+                                    Lyneo maîtrise tous les aspects de la conception, du développement et de la maintenance de vos projets web.
+                                  </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reseaux-sociaux-bordeaux.png" alt="Reseaux sociaux Bordeaux">
+                                  <h3 class="how-it-works-card__title">
+                                      <p>Marketing de réseaux sociaux</p>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Laissez-nous gérer votre marketing sur les réseaux sociaux pour que vous puissiez vous concentrer sur des choses plus importantes. Notre équipe d'experts en marketing numérique à Bordeaux assimile la voix et le message de votre marque pour créer des campagnes de médias sociaux personnalisées pour vous.
+                                  </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reputation-en-ligne-bordeaux.png" alt="Reputation en ligne Bordeaux">
+                                  <h3 class="how-it-works-card__title">
+                                      <p>Réputation en ligne</p>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Prenez le contrôle de votre réputation en ligne grâce à notre service de gestion de la réputation en ligne. Ne laissez pas les avis négatifs faire chuter votre entreprise. Nos experts en marketing digital de Phoenix peuvent vous aider à mettre en avant vos clients satisfaits et à renforcer la réputation de votre marque.
+                                  </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-bordeaux.png" alt="Redaction de contenu Bordeaux">
+                                  <h3 class="how-it-works-card__title">
+                                      <p>Rédaction de contenu</p>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Notre équipe de rédacteurs fournit d'excellents services de rédaction de contenu pour asseoir la présence de votre entreprise en ligne. Notre société de marketing digital Bordelaise fournit un contenu engageant et convaincant qui génère des prospects et des revenus pour atteindre vos objectifs commerciaux.
+                                  </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/paiment-par-clic-bordeaux.png" alt="Paiement par clic Bordeaux">
+                                  <h3 class="how-it-works-card__title">
+                                      <a href="{{ route('publicite-en-ligne') }}">Paiement par clic - PPC</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Atteignez rapidement votre public grâce à la publicité payante. Nos services de gestion PPC aideront votre entreprise à se développer en utilisant les meilleures tactiques de paiement par clic du secteur. Nous suivons les dernières stratégies pour AdWords et d'autres plateformes publicitaires qui génèrent des conversions pour votre entreprise.
+                                  </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
                       </div>
                     </section>
                     <div class="sec-title mt-5">
@@ -231,20 +262,20 @@
                               </p>                                <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
-                  </div><!-- /.col-md-12 col-lg-6 -->
-                  <div class="col-md-12 col-lg-6">
-                    <div class="how-it-works-card text-center">
+                    </div><!-- /.col-md-12 col-lg-6 -->
+                    <div class="col-md-12 col-lg-6">
+                      <div class="how-it-works-card text-center">
                         <div class="how-it-works-card__inner">
                           <img class="my-5 icon-box-2" src="{{ asset('images') }}/innovation-lyneo.png" alt="Lyneo innove en permanence">
                             <h3 class="how-it-works-card__title">
                                 <a href="#">Nous innovons en permanence</a>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
-                              Il n'y a pas de secrets lorsque vous travaillez avec nous. Nous pratiquons la transparence avec nos clients. Nous fournissons des statistiques de performance à partir de Google Analytics et créons des rapports détaillés sur le référencement. Nous fournissons également des rapports mensuels détaillés afin que les clients restent informés de toutes les mises à jour du projet.
+                              Nous croyons qu'il faut sortir des sentiers battus et adopter de nouvelles façons de faire les choses. Notre équipe Bordelaise trouve les tendances les plus efficaces en matière de marketing et les appliques dans les campagnes. Nous suivons les dernières tendances du secteur et identifions celles qui ont un potentiel de réussite.
                             </p>                                <!-- /.how-it-works-card__link -->
                         </div><!-- /.how-it-works-card__inner -->
-                    </div><!-- /.how-it-works-card -->
-                </div><!-- /.col-md-12 col-lg-6 -->
+                      </div><!-- /.how-it-works-card -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
                 </div><!-- /.row -->
               </div><!-- /.auto-container -->
               </div>
@@ -267,20 +298,4 @@
 
 @endsection
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "En lire plus";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "En lire moins";
-    moreText.style.display = "inline";
-  }
-}
-</script>

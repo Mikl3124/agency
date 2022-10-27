@@ -105,7 +105,7 @@
           <div class="row clearfix footer-widget links-widget">
             <div class="col-md-6 col-sm-12">
                 <ul>
-                    <li><a href="{{ route('agence-bordeaux') }}">BORDEAUX</a></li>
+                    <li><a href="{{ route('marketing-bordeaux') }}">BORDEAUX</a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -126,3 +126,20 @@
 
 </div>
 <!--End pagewrapper-->
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "En lire plus";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "En lire moins";
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
