@@ -41,6 +41,10 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+      if(isset($request->repeatEmail)){
+        $msg = 'Un problème est survenu';
+        return Redirect::back()->withError($msg);
+      };
       Mail::to("mickael.delpech@gmail.com")->send(new Contact($request->except('_token')));
       $msg = 'Votre message a été envoyé avec succès, <a href="'. ('/') . '"> cliquez ici  </a>  pour revenir à l\'accueil';
       //session()->flash('message', $msg);

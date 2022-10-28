@@ -114,7 +114,7 @@
                 </ul>
             </div>
         </div>
-            <div class="copyright">&copy; Copyright 2022 - Lyneo Création</div>
+            <div class="copyright">&copy; Copyright 2022 - Lyneo</div>
 
         </div>
     </div>

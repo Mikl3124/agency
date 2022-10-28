@@ -82,6 +82,7 @@
 											<div class="field-inner">
 												<input type="email" name="email" value="" placeholder="E-mail*"
 													required="">
+                          <input type="hidden" name="repeatEmail" value="" placeholder="repeat mail">
 											</div>
 										</div>
                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
