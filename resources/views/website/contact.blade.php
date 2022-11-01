@@ -35,7 +35,7 @@
           </div>
         </div>
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-4 mb-5">
 						<div class="contact-two__content">
 							<div class="sec-title">
 								<h2>Contactez-nous<span class="dot">.</span></h2>
@@ -62,45 +62,63 @@
 									<div class="row clearfix">
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="text" name="lastname" value="" placeholder="Nom*"
-													required="">
+                        <label class="placeholder" for="email">
+                          Nom
+                          <span class="text-primary">*</span>
+                        </label>
+												<input type="text" name="lastname" value="" required>
 											</div>
 										</div>
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="text" name="firstname" value="" placeholder="Prénom*"
-													required="">
+                        <label class="placeholder" for="email">
+                          Prénom
+                          <span class="text-primary">*</span>
+                        </label>
+												<input type="text" name="firstname" value="" required>
 											</div>
 										</div>
                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="text" name="phone" value="" placeholder="Téléphone"
-													required="">
+                        <label class="placeholder" for="email">
+                          Téléphone
+                        </label>
+												<input type="text" name="phone" value="">
 											</div>
 										</div>
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="email" name="email" value="" placeholder="E-mail*"
-													required="">
-                          <input type="hidden" name="repeatEmail" value="" placeholder="repeat mail">
+                        <label class="placeholder" for="email">
+                          E-mail
+                          <span class="text-primary">*</span>
+                        </label>
+												<input type="email" name="email" value="" required=>
+                        <input type="hidden" name="repeatEmail" value="" placeholder="repeat mail">
 											</div>
 										</div>
                     <div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="text" name="website" value="" placeholder="Site web"
-													required="">
+                        <label class="placeholder" for="website">
+                          Site Web
+                        </label>
+												<input type="text" name="website" value="" >
 											</div>
 										</div>
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">
-												<input type="text" name="sujet" value="" placeholder="Sujet"
-													required="">
+                        <label class="placeholder" for="email">
+                          Sujet
+                        </label>
+												<input type="text" name="sujet" value="">
 											</div>
 										</div>
 										<div class="form-group col-lg-12 col-md-12 col-sm-12">
 											<div class="field-inner">
-												<textarea name="message" placeholder="Écrivez votre message*"
-													required=""></textarea>
+                        <label class="placeholder" for="message">
+                          Message
+                          <span class="text-primary">*</span>
+                        </label>
+												<textarea name="message" required></textarea>
 											</div>
 										</div>
                     <div class="form-group col-lg-12 col-md-12 col-sm-12">

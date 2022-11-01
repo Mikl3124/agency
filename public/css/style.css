@@ -3666,6 +3666,11 @@ img.lazy-image.loaded {
   padding-left: 7px;
 }
 
+.sec-title h4 .dot {
+  color: var(--thm-base);
+  padding-left: 7px;
+}
+
 .sec-title .lower-text {
   position: relative;
   display: block;

@@ -1,5 +1,6 @@
 <?php echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     @foreach ($posts as $post)
         <url>
             <loc>{{ url('/') }}/page/{{ $post->url }}</loc>
@@ -8,4 +9,69 @@
             <priority>0.8</priority>
         </url>
     @endforeach
+    <url>
+      <loc>https://lyneo.fr/</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>1.00</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/developpement-web</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/developpement-web/site-wordpress</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/developpement-web/site-sur-mesure</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/developpement-web/site-ecommerce</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/marketing-digital</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/marketing-digital/seo</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/marketing-digital/seo-local</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/marketing-digital/seo-technique</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/marketing-digital/publicite-en-ligne</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/contact</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/agence-marketing-digital-bordeaux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/agence-seo-bordeaux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.64</priority>
+    </url>
 </urlset>

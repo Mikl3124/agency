@@ -147,7 +147,7 @@ class FrontEndController extends Controller
       $title = "Agence marketing numérique à Bordeaux | SEA, PPC, SEO | Lyneo Bordeaux";
       $meta_description = "Lyneo, agence marketing Web à Bordeaux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
 
-      return view('website.bordeaux.marketing-digital', compact('title', 'meta_description'));
+      return view('website.bordeaux.marketing', compact('title', 'meta_description'));
     }
 
     public function seo_bordeaux(){
@@ -155,6 +155,14 @@ class FrontEndController extends Controller
       $title = "Agence SEO à Bordeaux - Référencement Web | Lyneo";
       $meta_description = "Lyneo est votre agence SEO à Bordeaux. Augmentez votre trafic organique en améliorant votre positionnement sur les moteurs de recherche !";
 
-      return view('website.bordeaux.agence-seo-bordeaux', compact('title', 'meta_description'));
+      return view('website.bordeaux.seo', compact('title', 'meta_description'));
+    }
+
+    public function web_bordeaux(){
+
+      $title = "Bordeaux création de site web | Développement de site internet";
+      $meta_description = "Vous envisagez une conception de site web? Notre agence de développement web à Bordeaux est à votre service.";
+
+      return view('website.bordeaux.web', compact('title', 'meta_description'));
     }
 }

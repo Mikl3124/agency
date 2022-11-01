@@ -20,6 +20,7 @@ Route::get('/contact', 'FrontEndController@contact')->name('contact');
 //Bordeaux
 Route::get('/agence-marketing-digital-bordeaux', 'FrontEndController@marketing_digital_bordeaux')->name('marketing-bordeaux');
 Route::get('/agence-seo-bordeaux', 'FrontEndController@seo_bordeaux')->name('seo-bordeaux');
+Route::get('/agence-web-bordeaux', 'FrontEndController@web_bordeaux')->name('web-bordeaux');
 
 Route::post('/contact-form', 'ContactController@store')->name('contact-mail');
 Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
