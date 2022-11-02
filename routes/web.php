@@ -10,8 +10,20 @@ Route::get('/hebergement', function () {
   return redirect('/',301);
 });
 
+Route::get('services/hebergement', function () {
+  return redirect('/',301);
+});
+
 Route::get('/e-commerce', function () {
   return redirect('/developpement-web/site-ecommerce',301);
+});
+
+Route::get('/services/developpement-web/e-commerce/', function () {
+  return redirect('/developpement-web/site-ecommerce',301);
+});
+
+Route::get('/services/developpement-web/site-vitrine/', function () {
+  return redirect('/developpement-web/site-wordpress',301);
 });
 
 Route::get('/services', function () {
@@ -26,8 +38,21 @@ Route::get('/design', function () {
   return redirect('/developpement-web/site-sur-mesure',301);
 });
 
+Route::get('/services/design', function () {
+  return redirect('/developpement-web/site-sur-mesure',301);
+});
+
 Route::get('/referencement-naturel', function () {
   return redirect('/marketing-digital/seo',301);
+});
+
+
+Route::get('/referencement-naturel', function () {
+  return redirect('/marketing-digital/seo',301);
+});
+
+Route::get('/services/developpement-web/', function () {
+  return redirect('/developpement-web',301);
 });
 
 Route::get('/demande-de-devis', function () {

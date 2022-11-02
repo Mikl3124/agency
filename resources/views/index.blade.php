@@ -74,4 +74,9 @@
       <lastmod>2022-11-01T04:01:00+00:00</lastmod>
       <priority>0.64</priority>
     </url>
+    <url>
+      <loc>https://lyneo.fr/agence-web-bordeaux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.64</priority>
+    </url>
 </urlset>
