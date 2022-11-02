@@ -4,6 +4,44 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
+//Redirections Migration
+
+Route::get('/hebergement', function () {
+  return redirect('/',301);
+});
+
+Route::get('/e-commerce', function () {
+  return redirect('/developpement-web/site-ecommerce',301);
+});
+
+Route::get('/services', function () {
+  return redirect('/',301);
+});
+
+Route::get('/notre-agence/demande-de-devis', function () {
+  return redirect('/contact',301);
+});
+
+Route::get('/design', function () {
+  return redirect('/developpement-web/site-sur-mesure',301);
+});
+
+Route::get('/referencement-naturel', function () {
+  return redirect('/marketing-digital/seo',301);
+});
+
+Route::get('/demande-de-devis', function () {
+  return redirect('/contact',301);
+});
+
+Route::get('/notre-agence', function () {
+  return redirect('/',301);
+});
+
+Route::get('/services/e-commerce', function () {
+  return redirect('/developpement-web/site-ecommerce',301);
+});
+
 // Front End Routes
 Route::get('/', 'FrontEndController@home')->name('home');
 Route::get('/developpement-web/', 'FrontEndController@developpement')->name('developpement');
