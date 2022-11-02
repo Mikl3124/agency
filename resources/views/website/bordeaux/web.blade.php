@@ -62,12 +62,26 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/recherche-mots-cle-bordeaux.svg" alt="Recherche mots clé bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-offpage.svg" alt="SEO bordeaux">
                                 <h3 class="how-it-works-card__title">
-                                      <a href="#">Recherche et stratégie de mots clés</a>
+                                      <a href="{{ route('seo-bordeaux') }}">Optimisation pour les moteurs de recherche - SEO</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Trouver des mots-clés pour votre site web est une tâche essentielle et nous pouvons le faire pour vous. Nos experts en référencement chez Lyneo vous aident à mettre votre contenu en face de personnes pertinentes avec la bonne recherche de mots-clés et la bonne stratégie.
+                                    Nos sites Web sont aussi stratégiques qu'attrayants. Nos services de création de sites Web à Bordeaux comprennent des stratégies d'optimisation pour les moteurs de recherche <a href="{{ route('seo-bordeaux') }}">(SEO)</a> afin de vous garantir que vos clients trouvent votre site Web. Nos experts à conception de sites internet à Bordeaux trouvent les bons mots clés et optimisent votre site web pour qu'il soit classé dans les résultats de recherche.
+                                </p><!-- /.how-it-works-card__text -->
+                                  <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/responsive-web.png" alt="Web Responsive Bordeaux">
+                                <h3 class="how-it-works-card__title">
+                                      <a href="#">Conception adaptée aux mobiles</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Nos développeurs web de Bordeaux vous aideront à créer un site web qui sera attractif sur n'importe quel appareil grâce au responsive web design. Le responsive web design est essentiel pour que les visiteurs restent plus longtemps en contact avec votre contenu. Vous avez également de meilleures chances de vous classer sur les pages de résultats des moteurs de recherche si votre site est adapté aux mobiles, car vous restez en phase avec les dernières mises à jour des algorithmes de Google.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -76,14 +90,27 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/link-building-bordeaux.svg" alt="Recherche mots clé bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/web-developpement-2.png" alt="Developpement Web">
                                 <h3 class="how-it-works-card__title">
-                                      <a href="#">Création de liens</a>
+                                      <a href="#">Développement de sites WEB</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Faites de votre entreprise une autorité dans votre secteur grâce à des méthodes de création de liens de qualité. Nos spécialistes den link-building mettent en œuvre des stratégies personnalisées pour obtenir des liens retour vers votre site, afin qu'il gagne en autorité au fil du temps.
+                                    Lorsqu'il s'agit de conception et de développement de sites web, nous veillons à trouver un équilibre délicat entre design et fonctionnalité. Nous nous concentrons sur la création de sites Web réactifs, conviviaux et à fort taux de conversion.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/wordpress-logo.png" alt="Experts Wordpress à Bordeaux">
+                                <h3 class="how-it-works-card__title">
+                                      <a href="{{ route('wordpress') }}">Experts Wordpress</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Nos experts en création de sites web à Bordeaux utilisent WordPress pour de nombreux projets, nous connaissons donc exceptionnellement bien cette plateforme. Nous pouvons vous aider avec une refonte de site WordPress, la mise en œuvre du référencement et d'autres configurations techniques. Nous nous assurons également que tous vos plugins et les versions de WordPress sont à jour.                                  <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
                         </div><!-- /.col-md-12 col-lg-6 -->
@@ -95,34 +122,8 @@
                                       <a href="#">Rédaction de contenu</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Toute entreprise peut tirer profit d'une rédaction de contenu qui engage, informe et responsabilise les lecteurs. Notre équipe de spécialistes du contenu est experte dans la création de contenus uniques et pertinents pour votre public.
-                                  </p><!-- /.how-it-works-card__text -->
-                                  <!-- /.how-it-works-card__link -->
-                              </div><!-- /.how-it-works-card__inner -->
-                          </div><!-- /.how-it-works-card -->
-                        </div><!-- /.col-md-12 col-lg-6 -->
-                        <div class="col-md-12 col-lg-6">
-                          <div class="how-it-works-card text-center">
-                              <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/on-page-seo.svg" alt="SEO one page à Bordeaux">
-                                <h3 class="how-it-works-card__title">
-                                      <a href="{{ route('seo') }}">Référencement en ligne</a>
-                                  </h3><!-- /.how-it-works-card__title -->
-                                  <p class="mt-3 mx-3">
-                                    Faites en sorte que chaque page de votre site web vous ramène des prospects ou des clients. Nos experts en référencement à Bordeaux ont des années d'expérience dans la création de pages web optimisées SEO, pour booster votre classement sur le moteurs de recherche. Avec une bonne stratégie SEO, vous êtes sûr d'attirer plus de trafic, et donc plus de clients.                                  </p><!-- /.how-it-works-card__text -->
-                                  <!-- /.how-it-works-card__link -->
-                              </div><!-- /.how-it-works-card__inner -->
-                          </div><!-- /.how-it-works-card -->
-                        </div><!-- /.col-md-12 col-lg-6 -->
-                        <div class="col-md-12 col-lg-6">
-                          <div class="how-it-works-card text-center">
-                              <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-local-bordeaux.svg" alt="SEO local à Bordeaux">
-                                <h3 class="how-it-works-card__title">
-                                      <a href="{{ route('seo-local') }}">SEO Local</a>
-                                  </h3><!-- /.how-it-works-card__title -->
-                                  <p class="mt-3 mx-3">
-                                    Les clients qui habitent près de votre entreprise peuvent vous trouver plus rapidement lorsque vous optimisez votre site Web pour le référencement local. Notre service de référencement local comprend la création de votre profil Google My Business et son optimisation pour qu'il apparaisse dans les résultats de recherche du pack local.
+                                    Notre équipe dédiée de spécialistes en rédaction de contenu au sein de notre société de conception de sites Web à Bordeaux est constamment informée des dernières modifications apportées aux algorithmes de recherche de Google. Nous nous engageons à fournir un contenu unique et de qualité qui est conçu pour le public ciblé.
+                                  </p>
                                     <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
@@ -130,13 +131,39 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-ecommerce-bordeaux.svg" alt="SEO e-commerce à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/hebergement-web.png" alt="hebergement web à Bordeaux">
                                 <h3 class="how-it-works-card__title">
-                                      <a href="#">SEO e-commerce</a>
+                                      <a href="#">Hébergement WEB</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Développez votre site e-commerce grâce à des stratégies d'optimisation pour les moteurs de recherche conçues spécifiquement pour les boutiques en ligne. Nos spécialistes du SEO pour e-commerce à Bordeaux créent des listes de produits à fort taux de conversion et des pages de produits à chargement rapide.
-                                    <!-- /.how-it-works-card__link -->
+                                    Les forfaits de conception et de développement web de Lyneo incluent un hébergement web rapide et fiable. Nos experts en conception de sites Web à Bordeaux utilisent essentiellement <a href="{{ route('wordpress') }}">WordPress </a>pour créer des sites Web qui sont optimisés pour la vitesse et l'expérience utilisateur. Héberger votre site web avec nous signifie moins de tâches techniques pour vous et plus de temps pour votre entreprise.                                    <!-- /.how-it-works-card__link -->
+                                  </p>
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/site-web-sur-mesure.png" alt="site web sur-mesure à Bordeaux">
+                                <h3 class="how-it-works-card__title">
+                                      <a href="#">Création de site web sur-mesure</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Votre entreprise ne ressemble à aucune autre, votre site Web doit donc être unique. Nous sommes à votre disposition pour  créer le site web de vos rêves dans le cadre de nos services de création de site internet à Bordeaux. Nos designers web créatifs Bordelais sont prêts à collaborer avec vous et à fournir un design web personnalisé qui répond aux besoins de votre entreprise.
+                                  </p>
+                              </div><!-- /.how-it-works-card__inner -->
+                          </div><!-- /.how-it-works-card -->
+                        </div><!-- /.col-md-12 col-lg-6 -->
+                        <div class="col-md-12 col-lg-6">
+                          <div class="how-it-works-card text-center">
+                              <div class="how-it-works-card__inner">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/developpement-ecommerce-2.png" alt="hebergement web à Bordeaux">
+                                <h3 class="how-it-works-card__title">
+                                      <a href="#">Création de sites e-commerce</a>
+                                  </h3><!-- /.how-it-works-card__title -->
+                                  <p class="mt-3 mx-3">
+                                    Vous avez besoin de créer votre site de e-commerce sans utiliser les plateformes populaires ? L'équipe d'experts en création de sites internet de notre agence de Bordeaux peut créer votre boutique en ligne personnalisée, belle et optimisée. Nos développeurs web collaboreront avec vous pour obtenir le site e-commerce parfait que vous souhaitez.
+                                  </p>
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
                         </div><!-- /.col-md-12 col-lg-6 -->
@@ -144,8 +171,8 @@
                       </div>
                     </section>
                     <div class="sec-title mt-5">
-                      <h2 class="text-center">Pourquoi choisir Lyneo pour votre SEO à Bordeaux<span class="dot">?</span></h2>
-                      <div class="subtitle">Des stratégies de marketing basées la data, au service de vos ventes</div>
+                      <h2 class="text-center">Pourquoi choisir Lyneo pour votre site WEB à Bordeaux<span class="dot">?</span></h2>
+                      <div class="subtitle">Une création de site web stratégique et innovante qui convient à votre entreprise</div>
                     </div>
                   </div>
                 </div>
@@ -175,9 +202,11 @@
                             </a>
                           </div>
                           <div class="inner mt-5">
-                            <p>L'optimisation pour les moteurs de recherche est un élément essentiel d'une campagne de marketing réussie. Le référencement est le facteur qui rend votre contenu pertinent pour votre public. Sans le référencement, toute autre initiative marketing est vouée à l'échec.<br>
-                              Notre agence de référencement à Bordeaux aide les entreprises à accroître leur clientèle et à atteindre leurs objectifs de revenus grâce à des tactiques de référencement fondées sur les données. Nos spécialistes SEO de Bordeaux utilisent les derniers outils et techniques pour mettre en œuvre des campagnes SEO largement réussies.<br>
-                              Voici d'autres raisons pour lesquelles vous devriez travailler avec nous :
+                            <p>Les sites web peuvent être une excellente plateforme pour générer plus de revenus pour votre entreprise. Avec un plan de marketing numérique approprié, le site Web de votre entreprise peut vous aider à trouver de nouveaux clients et à stimuler les ventes.
+                              <br>
+                              L'agence de création de sites Web Lyneo à Bordeaux peut vous aider à créer un site Web qui se classe dans Google. Notre équipe de conception web de Bordeaux peut également travailler avec vous pour s'assurer que votre site web reflète parfaitement votre image de marque.
+                              <br>
+                              Lorsque vous travaillez avec Lyneo, vous avez la garantie de recevoir le meilleur service de <a href="{{ route('marketing-bordeaux') }}">marketing digital</a> :
                             </p>
                           </div>
                         </div>
@@ -195,7 +224,7 @@
                                       <p>Les clients d'abord</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nous croyons aux objectifs commerciaux de nos clients, c'est pourquoi nous adoptons une approche centrée sur le client dans tous les projets. Nos clients ne sont pas des spectateurs mais des collaborateurs dans le parcours marketing.
+                                    Chez Lyneo, nous sommes extrêmement concentrés sur la satisfaction des besoins de nos clients. Nous prenons le temps d'écouter les préoccupations et les idées de nos clients, afin que nos plans d'action soient alignés sur un objectif unifié.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -206,10 +235,10 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box-2" src="{{ asset('images') }}/resultats-en-hausse.png" alt="resultats marketing digital">
                                   <h3 class="how-it-works-card__title">
-                                      <p>Nous avons des résultats</p>
+                                      <p>Une tradition d'excellence</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nous pensons que nous sommes l'une des meilleures agence de référencement à Bordeaux parce que nous obtenons des résultats positifs avec chaque campagne que nous gérons. Avec notre connaissance de l'industrie et des méthodes de marketing éprouvées, nous pouvons garantir un retour sur investissement significatif.
+                                    Nos réalisations et nos anciens clients parlent d'eux-mêmes. Lyneo a gagné sa place parmi les meilleures agences de création de sites web à Bordeaux parce que nous sommes excellents dans la conduite de campagnes de marketing numérique réussies.
                                   </p><!-- /.how-it-works-card__text -->
 
                                   <!-- /.how-it-works-card__link -->
@@ -221,12 +250,12 @@
                     <div class="col-md-12 col-lg-6">
                         <div class="how-it-works-card text-center">
                             <div class="how-it-works-card__inner">
-                              <img class="my-5 icon-box-2" src="{{ asset('images') }}/recherche-excellence.png" alt="collaboration client">
+                              <img class="my-5 icon-box-2" src="{{ asset('images') }}/developpement-web-2.png" alt="Code de qualité">
                                 <h3 class="how-it-works-card__title">
-                                    <p>Nous sommes des spécialistes du SEO</p>
+                                    <p>Un code propre et efficace</p>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
-                                  Nous sommes très sélectifs avec les membres de notre équipe. Chaque membre de notre équipe est un expert dans son domaine de référencement. Lorsque vous travaillez avec nous, vous serez affecté à un spécialiste SEO dédié qui s'aligne sur les besoins de votre entreprise.
+                                  Nos développeurs web de Bordeaux utilisent un code propre, ce qui signifie que le langage de programmation de votre site web est exempt d'erreurs et facile à comprendre. Un site Web avec un code da qualité améliore l'expérience utilisateur, augmente la vitesse du site et renforce l'autorité.
                                 </p>                                <!-- /.how-it-works-card__link -->
                             </div><!-- /.how-it-works-card__inner -->
                         </div><!-- /.how-it-works-card -->
@@ -234,27 +263,27 @@
                     <div class="col-md-12 col-lg-6">
                       <div class="how-it-works-card text-center">
                           <div class="how-it-works-card__inner">
-                            <img class="my-5 icon-box-2" src="{{ asset('images') }}/cooperation-client.png" alt="Nous croyons à l'intégrité">
+                            <img class="my-5 icon-box-2" src="{{ asset('images') }}/transparence-lyneo.png" alt="La transparence au travail">
                               <h3 class="how-it-works-card__title">
-                                  <p>Nous croyons en l'honnêteté et l'intégrité</p>
+                                  <p>La transparence au travail</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Nous ne mentons pas aux clients pour faire du profit. Chez Lyneo, nous ne proposons que des solutions de marketing numérique adaptées à votre entreprise. Nous valorisons l'honnêteté et l'intégrité, ce qui nous a permis d'établir des relations durables avec nos clients.
-                              </p><!-- /.how-it-works-card__text -->
-                              <!-- /.how-it-works-card__link -->
+                                Lyneo mène la relation commerciale avec ses clients de manière claire et transparente. Nous fournissons à nos clients un portail en ligne où ils peuvent voir l'état d'avancement de leurs projets. Il n'y a pas de secrets ou de surprises lorsque vous travaillez avec notre agence de création de site web à Bordeaux..
+                              </p>                                <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
                   </div><!-- /.col-md-12 col-lg-6 -->
                     <div class="col-md-12 col-lg-6">
                       <div class="how-it-works-card text-center">
                           <div class="how-it-works-card__inner">
-                            <img class="my-5 icon-box-2" src="{{ asset('images') }}/transparence-lyneo.png" alt="Lyneo vous tient informé">
+                            <img class="my-5 icon-box-2" src="{{ asset('images') }}/respect-delais.png" alt="Nous respectons les délais">
                               <h3 class="how-it-works-card__title">
-                                  <p>Nous vous tenons informés</p>
+                                  <p>Nous respectons les délais</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                L'agence Lyneo travaille avec ses clients en toute transparence. Les clients ont accès à des outils de suivi des performances et à des rapports réguliers, de sorte qu'ils connaissent à tout moment l'état d'avancement d'un projet.
-                              </p>                                <!-- /.how-it-works-card__link -->
+                                Nous comprenons l'importance du respect des délais. Chez Lyneo, vous n'avez jamais à vous soucier des projets et des livraisons en retard. Vous avez l'assurance que chaque tâche de création de site web est terminée à temps, et ce en permanence.
+                              </p><!-- /.how-it-works-card__text -->
+                              <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
                   </div><!-- /.col-md-12 col-lg-6 -->
@@ -263,10 +292,10 @@
                         <div class="how-it-works-card__inner">
                           <img class="my-5 icon-box-2" src="{{ asset('images') }}/innovation-lyneo.png" alt="Lyneo innove en permanence">
                             <h3 class="how-it-works-card__title">
-                                <a href="#">Nous innovons en permanence</a>
+                                <p>De beaux designs sur mesure</p>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
-                              Chez Lyneo, nous aimons essayer des méthodes de marketing modernes, y compris dans nos pratiques d'optimisation pour les  moteurs de recherche. Nos experts SEO de Bordeaux suivent les dernières tendances du secteur, de sorte qu'ils apprennent de nouvelles stratégies et les mettent en œuvre sur les projets appropriés.
+                              Lyneo est fier de créer des sites web uniques pour chaque projet. Nous nous efforçons d'être différents de la concurrence et de nous démarquer avec nos conceptions web personnalisées. Notre équipe de spécialistes dans le création de site web à Bordeaux fera toujours le maximum pour satisfaire vos besoins.
                             </p>                                <!-- /.how-it-works-card__link -->
                         </div><!-- /.how-it-works-card__inner -->
                     </div><!-- /.how-it-works-card -->
@@ -279,7 +308,7 @@
       <section class="call-to-section-two alternate">
           <div class="auto-container">
               <div class="inner clearfix">
-                  <h2>Besoin d'une stratégie SEO?<br>Vous avez des questions?</h2>
+                  <h2>Besoin d'un site Web?<br>Vous avez des questions?</h2>
                   <div class="link-box">
                       <a class="theme-btn btn-style-two" href="{{ route("website.contact") }}">
                           <i class="btn-curve"></i>

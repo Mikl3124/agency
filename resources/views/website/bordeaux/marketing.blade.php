@@ -80,7 +80,7 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box-2" src="{{ asset('images') }}/web-dev-bordeaux.png" alt="Developpement web Bordeaux">
                                   <h3 class="how-it-works-card__title">
-                                      <a href="#">Développement Web</a>
+                                      <a href="{{ route('web-bordeaux')}}">Développement Web</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
                                     L'équipe très créative nos développeurs web Bordelais sait comment créer des sites web attrayants, conçus pour le trafic et la conversion.<br>
