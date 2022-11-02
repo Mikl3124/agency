@@ -12,6 +12,7 @@
       <li><strong>Téléphone</strong> : {{ $contact['phone'] }}</li>
       <li><strong>Email</strong> : {{ $contact['email'] }}</li>
       <li><strong>Site</strong> : {{ $contact['website'] }}</li>
+      <li><strong>Sujet</strong> : {{ $contact['sujet'] }}</li>
       <li><strong>Message</strong> : {{ $contact['message'] }}</li>
     </ul>
   </body>

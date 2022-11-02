@@ -58,7 +58,7 @@
                 @endif
 								<form method="post" action="{{ route("contact-mail") }}">
                   @csrf
-                  <x-honeypot />
+                  @honeypot
 									<div class="row clearfix">
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<div class="field-inner">

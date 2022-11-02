@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 
 Auth::routes();
 
@@ -85,7 +86,7 @@ Route::get('/agence-marketing-digital-bordeaux', 'FrontEndController@marketing_d
 Route::get('/agence-seo-bordeaux', 'FrontEndController@seo_bordeaux')->name('seo-bordeaux');
 Route::get('/agence-web-bordeaux', 'FrontEndController@web_bordeaux')->name('web-bordeaux');
 
-Route::post('/contact-form', 'ContactController@store')->name('contact-mail');
+Route::post('/contact-form', 'ContactController@store')->name('contact-mail')->middleware(ProtectAgainstSpam::class);
 Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
 
 Route::get('/blog', 'FrontEndController@blog')->name('website.blog');
