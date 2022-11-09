@@ -174,7 +174,7 @@
                           <div class="text">49 millions de Français, soit 92% des internautes en France ont acheté sur internet cette année </div>
                       </div>
                       <div class="progress-box">
-                          <div class="bar-title">Internautes ayant acheter sur internet cette année</div>
+                          <div class="bar-title">Internautes ayant achetés sur internet cette année</div>
                           <div class="bar">
                               <div class="bar-inner count-bar" data-percent="92%">
                                   <div class="count-box">
