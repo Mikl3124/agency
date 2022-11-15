@@ -278,7 +278,45 @@
                   </div><!-- /.col-md-12 col-lg-6 -->
                 </div><!-- /.row -->
               </div><!-- /.auto-container -->
+
+                <!--FAQ section-->
+                <section class="faqs-section mb-5">
+                  <div class="sec-title centered">
+                    <h2>F.A.Q<span class="dot">.</span></h2>
+                  </div>
+                  <div class="text-center mb-5">
+                  </div>
+
+                  <div class="auto-container">
+                    <div class="row clearfix">
+                      <div class="faq-block col-lg-12 col-md-12 col-sm-12">
+                        <ul class="accordion-box clearfix">
+                          <!--Block-->
+                          <li class="accordion block">
+                            <div class="acc-btn"><span class="count">1.</span> Comment définir une bonne stratégie digitale ?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Une bonne stratégie numérique doit être fondée sur les buts et objectifs commerciaux de l'entreprise. Elle doit également tenir compte du public cible, du budget et des ressources de l'entreprise. En outre, une bonne stratégie numérique doit être flexible et s'adapter aux changements du marché ou du secteur.</div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="accordion block">
+                            <div class="acc-btn"><span class="count">2.</span> Pourquoi recourir à une agence marketing digital à Bordeaux ?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Il existe de nombreuses raisons de faire appel à une agence de marketing digital à Bordeaux. Tout d'abord, une agence de marketing numérique peut vous aider à créer une forte présence en ligne pour votre entreprise. Ils peuvent vous aider à concevoir un site Web qui est optimisé pour le classement des moteurs de recherche et les taux de conversion. En outre, une agence de marketing numérique peut vous aider à créer et à mettre en œuvre une stratégie de marketing en ligne efficace. Elle peut vous aider à cibler votre public à l'aide de mots-clés et d'un contenu pertinents, et elle peut suivre vos résultats afin que vous puissiez continuellement améliorer vos efforts de marketing en ligne.</div>
+                                </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
               </div>
+
+
 
       <!-- Call To Section -->
       <section class="call-to-section-two alternate">
