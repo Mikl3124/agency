@@ -86,6 +86,11 @@ Route::get('/agence-marketing-digital-bordeaux', 'FrontEndController@marketing_d
 Route::get('/agence-seo-bordeaux', 'FrontEndController@seo_bordeaux')->name('seo-bordeaux');
 Route::get('/agence-web-bordeaux', 'FrontEndController@web_bordeaux')->name('web-bordeaux');
 
+//Périgueux
+Route::get('/agence-marketing-digital-perigueux', 'FrontEndController@marketing_digital_perigueux')->name('marketing-perigueux');
+Route::get('/agence-seo-perigueux', 'FrontEndController@seo_perigueux')->name('seo-perigueux');
+Route::get('/agence-web-perigueux', 'FrontEndController@web_perigueux')->name('web-perigueux');
+
 Route::post('/contact-form', 'ContactController@store')->name('contact-mail')->middleware(ProtectAgainstSpam::class);
 Route::post('/newsletter-form', 'ContactController@newsletter')->name('newsletter-mail');
 

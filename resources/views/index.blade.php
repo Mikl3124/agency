@@ -79,4 +79,19 @@
       <lastmod>2022-11-01T04:01:00+00:00</lastmod>
       <priority>0.64</priority>
     </url>
+    <url>
+      <loc>https://lyneo.fr/agence-marketing-digital-perigueux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.80</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/agence-seo-perigueux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.64</priority>
+    </url>
+    <url>
+      <loc>https://lyneo.fr/agence-web-perigueux</loc>
+      <lastmod>2022-11-01T04:01:00+00:00</lastmod>
+      <priority>0.64</priority>
+    </url>
 </urlset>

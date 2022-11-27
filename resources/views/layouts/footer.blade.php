@@ -110,7 +110,7 @@
             </div>
             <div class="col-6">
                 <ul>
-                  <li><a href="#">BERGERAC</a></li>
+                  <li><a href="{{ route('marketing-perigueux') }}">PERIGUEUX</a></li>
                 </ul>
             </div>
         </div>

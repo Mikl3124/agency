@@ -4,17 +4,17 @@
 
         <!-- Banner Section -->
         <section class="page-banner">
-          <div class="image-layer" style="background-image:url({{ asset('images') }}/agence-marketing-bordeaux.webp)" ></div>
+          <div class="image-layer" style="background-image:url({{ asset('images') }}/perigueux.webp)" ></div>
           <div class="shape-1"></div>
           <div class="shape-2"></div>
           <div class="banner-inner">
               <div class="auto-container">
                   <div class="inner-container clearfix">
-                      <h1>Agence de marketing digital à <br>Bordeaux</h1>
+                      <h1>Agence de marketing digital à <br>Périgueux</h1>
                       <div class="page-nav">
                           <ul class="bread-crumb clearfix">
                               <li><a href="{{ route("home") }}">Accueil</a></li>
-                              <li class="active">Bordeaux - Agence de marketing digital</li>
+                              <li class="active">Périgueux - Agence de marketing digital</li>
                           </ul>
                       </div>
                   </div>
@@ -31,18 +31,18 @@
                   <div class="content-side col-lg-8 col-md-12 col-sm-12">
                       <div class="service-details">
                         <div class="sec-title">
-                          <h4 class="text-center">Augmentez vos revenus grâce à nos solutions numériques axées sur la croissance<span class="dot">.</span></h4>
+                          <h4 class="text-center">Créez une présence en ligne sur mesure qui donne des résultats.<span class="dot">.</span></h4>
                         </div>
                           <div class="main-image image">
-                            <img src="{{ asset('images') }}/marketing-ville.svg" alt="SEO à Bordeaux">
+                            <img src="{{ asset('images') }}/marketing-ville.svg" alt="SEO à Perigueux">
                           </div>
                           <div class="text-content">
-                            <p>Lyneo est une agence de marketing numérique à Bordeaux, en Aquitaine, qui permet aux entreprises et aux marques d'atteindre leurs objectifs grâce à des stratégies marketing performantes.<br><span id="dots">...</span><span id="more"><br>
-                            Lyneo propose des solutions de marketing numérique tout-en-un, notamment la rédaction de contenu, le marketing des réseaux sociaux, la conception et le développement de sites Web, et la gestion des campagnes de publicité en ligne.<br><br>
-                              Bordeaux est située en plein cœur du bassin Aquitain et est l'une des villes les plus peuplée de France. Les habitants ont la chance de profiter d'étés chauds et d'hivers doux, grâce à son climat océanique. Bordeaux est connu grâce à sa gastronomie, son vignoble et son art de vivre. Du fait de son passé historique très riche, la ville est également reconnue pour son patrimoine historique. Une visite dans cette ville ne serait pas complète sans aller voir le miroir d'eau, la place de la bourse et le grand théâtre.<br><br>
-                              Bordeaux accueille de très grandes entreprises sur son territoire, dont l'entreprise CDiscount, spécialisée dans la vente par correspondance. Avec une économie florissante, un climat agréable, Bordeaux est une destination idéale pour des affaires et les loisirs.<br><br>
-                              Gérer et développer une entreprise à Bordeaux est une excellente chose, mais cela peut aussi être un défi. Avec un marché très compétitif, il est difficile de se démarquer de la masse. C'est pourquoi l'entreprise de marketing numérique Lyneo à Bordeaux est là pour aider votre entreprise à réussir en se concentrant sur le bon objectif.<br><br>
-                              Si vous souhaitez réussir le marketing de votre entreprise à Bordeaux, vous avez besoin de l'équipe d'experts en marketing de Lyneo à vos côtés. Apprenez-en davantage sur notre service de marketing numérique à Bordeaux dès aujourd'hui!<br>
+                            <p>Lyneo est une agence de marketing numérique à Périgueux qui offre des services complets pour que votre entreprise puisse atteindre son plein potentiel.<br><span id="dots">...</span><span id="more"><br>Notre équipe de professionnels du marketing expérimentés sait comment développer et exécuter des stratégies adaptées à chaque entreprise spécifique, afin de générer des prospects et des conversions.<br>
+                              Nos sites Web sur mesure sont conçus dans le but d'engager les clients et d'augmenter la visibilité dans les recherches. Nous utilisons une variété de techniques de référencement telles que la recherche de mots-clés, les liens retour, l'optimisation du contenu et plus encore - tout en veillant à ce qu'ils aient un aspect professionnel et moderne en même temps.<br><br>
+                              Pour les entreprises qui cherchent à étendre leur portée encore plus loin, les campagnes PPC de Lyneo vous aident à attirer plus d'yeux sur votre marque en utilisant des plateformes populaires comme Google Ads. En outre, notre expertise en matière de médias sociaux peut vous aider à promouvoir vos produits ou services sur différents canaux.<br><br>
+                              Si vous envisagez de créer une entreprise à Périgueux, étant donné le dynamisme économique actuel de la ville, c'est certainement une bonne idée. Mais comme pour toute nouvelle entreprise, il est essentiel que vous ayez quelques stratégies innovantes dans votre manche - et il n'y a pas de moyen plus efficace de rendre votre marque visible que par le biais du marketing numérique. Cela dit, assurez-vous de choisir une agence réputée à Périgueux qui vous mettra sur la voie du succès.<br><br>
+                              Lyneo est la meilleure agence de marketing digital à Périgueux grâce à notre équipe expérimentée et innovante.Notre compréhension profonde du marketing internet Lyneo est née d'une passion pour voir les entreprises réussir grâce à des campagnes digitales de pointe.Nous ne sommes pas juste une autre tête parlante - notre expérience prouve que nous savons comment obtenir des résultats réels pour nos clients.<br>
+                              De la conception et du développement de sites Web à l'optimisation des moteurs de recherche en passant par le marketing des médias sociaux, nos solutions de marketing numérique mettront votre marque sur la carte.
                             </span>
                             <button onclick="myFunction()" id="myBtn">En lire plus</button>
                           </div>
@@ -54,8 +54,8 @@
                   <!--Content Side-->
                   <div class="content-side col-lg-12 col-md-12 col-sm-12 pt-5">
                     <div class="sec-title">
-                      <h2 class="text-center">Nos services de marketing digital à Bordeaux<span class="dot">.</span></h2>
-                      <div class="subtitle">Trouvez vos clients idéaux avec le message adéquate</div>
+                      <h2 class="text-center">Nos services de marketing digital à Périgueux<span class="dot">.</span></h2>
+                      <div class="subtitle">Trouvez votre marché cible avec précision en utilisant le message idéal</div>
                     </div>
 
                     <section class="service-section">
@@ -63,13 +63,13 @@
                         <div class="col-md-12 col-lg-6">
                             <div class="how-it-works-card text-center">
                                 <div class="how-it-works-card__inner">
-                                  <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-ville.png" alt="SEO Bordeaux">
+                                  <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-ville.png" alt="SEO Périgeux">
                                     <h3 class="how-it-works-card__title">
-                                        <a href="{{ route('seo-bordeaux') }}">Search Engine Optimisation - SEO</a>
+                                        <a href="{{ route('seo-perigueux')}}">Search Engine Optimisation - SEO</a>
                                     </h3><!-- /.how-it-works-card__title -->
                                     <p class="mt-3 mx-3">
-                                      Nos experts en marketing digital Bordelais sont formés pour mener des campagnes et des stratégies de référencement efficaces.<br>
-                                      Nous effectuons un audit du site et une recherche de mots-clés en rapport avec votre activité. Nous personnalisons toutes les stratégies SEO pour les aligner sur vos objectifs.
+                                      Nos experts en marketing numérique à Périgueux sont formés pour créer et superviser des campagnes de référencement efficaces.<br>
+                                      Nous commençons par auditer votre site web et rechercher des mots-clés pertinents pour votre activité. À partir de là, nous personnalisons toutes nos stratégies pour les aligner sur vos objectifs.
                                     </p><!-- /.how-it-works-card__text -->
                                     <!-- /.how-it-works-card__link -->
                                 </div><!-- /.how-it-works-card__inner -->
@@ -78,13 +78,14 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/web-dev-ville.png" alt="Developpement web Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/web-dev-ville.png" alt="Developpement web Perigueux">
                                   <h3 class="how-it-works-card__title">
-                                      <a href="{{ route('web-bordeaux')}}">Développement Web</a>
+                                      <a href="{{ route('web-perigueux')}}">Développement Web</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    L'équipe de développement web de Lyneo, située à Bordeaux, se consacre à la création de sites web qui sont non seulement attrayants mais qui génèrent également un trafic qui convertit.<br>
-                                    Nous offrons un soutien complet pour vos projets web, de la conception et du développement jusqu'à la maintenance.
+                                    Chez Lyneo, nous disposons d'une équipe de développeurs web innovants située à Périgueux.
+                                    Ils excellent dans la conception de sites qui sont attrayants et génèrent un trafic qui convertit.
+                                    Nous offrons un service complet pour vos projets web, y compris la conception, le développement et la maintenance.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -93,12 +94,13 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reseaux-sociaux-ville.png" alt="Reseaux sociaux Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reseaux-sociaux-ville.png" alt="Reseaux sociaux Périgueux">
                                   <h3 class="how-it-works-card__title">
                                       <p>Marketing de réseaux sociaux</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Laissez-nous gérer votre marketing sur les réseaux sociaux pour que vous puissiez vous concentrer sur des choses plus importantes. Notre équipe d'experts en marketing numérique à Bordeaux assimile la voix et le message de votre marque pour créer des campagnes de médias sociaux personnalisées pour vous.
+                                    Laissez-nous vous soulager du poids du marketing des médias sociaux pour que vous puissiez vous concentrer sur des questions plus urgentes.<br>
+                                    Notre équipe de professionnels du marketing numérique à Périgueux apprendra à connaître la voix et le message de votre marque pour créer des campagnes de médias sociaux sur mesure mettant en valeur ce qui vous rend unique.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -107,12 +109,13 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reputation-en-ligne-ville.png" alt="Reputation en ligne Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/reputation-en-ligne-ville.png" alt="Reputation en ligne Périgueux">
                                   <h3 class="how-it-works-card__title">
                                       <p>Réputation en ligne</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Prenez le contrôle de votre réputation en ligne grâce à notre service de gestion de la réputation en ligne. Ne laissez pas les avis négatifs faire chuter votre entreprise. Nos experts en marketing digital de Bordeaux peuvent vous aider à mettre en avant vos clients satisfaits et à renforcer la réputation de votre marque.
+                                    Notre service de gestion de la réputation peut vous aider à prendre le contrôle de votre présence en ligne.<br>
+                                    Ne laissez pas les avis négatifs tirer votre entreprise vers le bas - nos experts en marketing numérique à Périgueux peuvent vous aider à mettre en avant des clients satisfaits et à construire une identité de marque forte.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -121,12 +124,13 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-ville.png" alt="Redaction de contenu Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-ville.png" alt="Redaction de contenu Périgueux">
                                   <h3 class="how-it-works-card__title">
                                       <p>Rédaction de contenu</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Notre équipe de rédacteurs fournit d'excellents services de rédaction de contenu pour asseoir la présence de votre entreprise en ligne. Notre société de marketing digital Bordelaise fournit un contenu engageant et convaincant qui génère des prospects et des revenus pour atteindre vos objectifs commerciaux.
+                                    Nous proposons des services de rédaction de contenu exceptionnels pour améliorer la présence en ligne de votre entreprise.<br>
+                                    Que vous cherchiez à attirer de nouveaux prospects ou à augmenter votre chiffre d'affaires, notre équipe de marketing numérique Périgourdine rédigera un contenu attrayant et convaincant, adapté à vos besoins.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -135,12 +139,13 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/paiment-par-clic-ville.png" alt="Paiement par clic Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/paiment-par-clic-ville.png" alt="Paiement par clic Périgueux">
                                   <h3 class="how-it-works-card__title">
                                       <a href="{{ route('publicite-en-ligne') }}">Paiement par clic - PPC</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Atteignez rapidement votre public grâce à la publicité payante. Nos services de gestion PPC aideront votre entreprise à se développer en utilisant les meilleures tactiques de paiement par clic du secteur. Nous suivons les dernières stratégies pour AdWords et d'autres plateformes publicitaires qui génèrent des conversions pour votre entreprise.
+                                    Grâce à nos services de gestion PPC, vous pouvez rapidement vous connecter à votre public cible et obtenir des résultats grâce à des tactiques efficaces de paiement par clic.<br>
+                                    Nous restons à jour sur les dernières stratégies AdWords et autres plateformes publicitaires afin de générer des conversions pour votre entreprise.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -148,29 +153,29 @@
                         </div><!-- /.col-md-12 col-lg-6 -->
                       </div>
                     </section>
-                    <div class="sec-title mt-5">
-                      <h2 class="text-center">Pourquoi choisir Lyneo pour votre marketing digital à Bordeaux<span class="dot">?</span></h2>
-                      <div class="subtitle">Atteignez vos objectifs commerciaux grâce à des solutions de marketing puissantes</div>
-                    </div>
                   </div>
                 </div>
 
                 <!--Content Side-->
                 <div class="content-side col-lg-12 col-md-12 col-sm-12">
+                  <div class="sec-title mt-5">
+                    <h2 class="text-center">Pourquoi choisir Lyneo pour votre marketing digital à Périgueux<span class="dot">?</span></h2>
+                    <div class="subtitle">Grâce à nos puissantes solutions de marketing, vous pouvez atteindre vos objectifs commerciaux.</div>
+                  </div>
                   <div class="service-details">
                     <div class="text-content">
                       <div class="featured">
                         <div class="row clearfix">
                           <div class="text-col col-md-7 col-sm-12">
                             <div class="inner">
-                              <p>Aujourd'hui, il ne suffit pas de travailler avec une société de marketing digital choisie au hasard. Assurez-vous de vous associer à une agence qui non seulement prendra le temps d'écouter vos objectifs et le message que vous souhaitez véhiculer, mais aussi qui vous accompagnera pour obtenir les résultats souhaités afin que votre entreprise bénéficie du meilleur retour sur investissement marketing.<br>
-                                Toutes les agences de marketing digital n'y parviennent pas.
+                              <p>Afin d'établir une relation client-entreprise fructueuse avec une agence de marketing numérique, vous devez vous associer à une agence qui s'engage à comprendre vos objectifs spécifiques.<br>
+                                L'agence idéale proposera également ses services pour vous aider à obtenir les résultats que vous souhaitez afin que votre entreprise puisse bénéficier d'un retour sur investissement maximal pour ses dépenses de marketing.
                               </p>
                             </div>
                           </div>
                           <div class="image-col col-md-4 col-sm-12">
                             <div class="image">
-                              <img src="{{ asset('images') }}/team-lyneo-ville.svg" alt="Pourquoi Lyneo à Bordeaux">
+                              <img src="{{ asset('images') }}/team-lyneo-ville.svg" alt="Pourquoi Lyneo à Périgueux">
                             </div>
                           </div>
                           <div class="link-box text-center">
@@ -180,9 +185,9 @@
                             </a>
                           </div>
                           <div class="inner mt-5">
-                            <p>Investir dans une campagne de marketing digital est toujours une démarche risquée pour les entreprises. Il n'y a aucune garantie de succès et les règles du jeu changent constamment.<br>
-                              L'agence de marketing digital Lyneo à Bordeaux possède l'expérience et l'expertise dans l'atteinte de résultats exceptionnels pour ses clients. Nous mettons en œuvre des stratégies de marketing digital éprouvées qui vous aident à atteindre vos objectifs commerciaux.<br>
-                              Voici d'autres raisons pour lesquelles vous devriez choisir Lyneo pour vos besoins en marketing digital :
+                            <p>Il y a toujours un risque lorsque les entreprises investissent dans des campagnes de marketing numérique. Comme il n'y a aucune garantie de succès et que les règles changent constamment, il est facile de comprendre pourquoi certains propriétaires d'entreprise hésitent à faire le grand saut. <br>
+                              Cependant, l'agence de marketing numérique Lyneo à Périgueux possède l'expérience et l'expertise nécessaires pour obtenir des résultats exceptionnels pour ses clients. Nous ne mettons en œuvre que des stratégies éprouvées qui ont aidé d'autres entreprises comme la vôtre à atteindre les objectifs souhaités<br>
+                              Et si vous n'êtes toujours pas convaincu, voici quelques raisons supplémentaires pour lesquelles Lyneo devrait être votre choix privilégié pour tout ce qui concerne le marketing numérique :
                             </p>
                           </div>
                         </div>
@@ -195,12 +200,13 @@
                       <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/experts-marketing-ville.png" alt="Experts marketing Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/experts-marketing-ville.png" alt="Experts marketing Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <p>Nous sommes des experts en marketing digital</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Notre équipe possède des années d'expérience et de compétences, ce qui la rend hautement qualifiée pour tous les projets de marketing digital. Nous sommes fiers de n'engager que les meilleurs du secteur et nous attendons d'eux qu'ils fournissent le meilleur pour vous.
+                                    Forte de plusieurs années d'expérience et d'un large éventail de compétences, notre équipe est plus que qualifiée pour prendre en charge vos projets de marketing numérique.<br>
+                                    Chez nous, nous n'embauchons que des personnes qui sont au sommet de leur domaine, vous pouvez donc être sûr de recevoir un service de premier ordre.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -214,7 +220,8 @@
                                       <p>Vous obtenez de véritables résultats</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nous fournissons des résultats tangibles et mesurables qui atteignent et dépassent vos objectifs commerciaux. Grâce à nos recherches fondées sur des données, nous veillons à ce que toutes les campagnes aient des chances de succès. Plus besoin de gaspiller des ressources dans des expériences et des intuitions qui ne mènent nulle part.
+                                    Notre équipe vous fournit des résultats atteignables qui atteignent toujours - et souvent dépassent - vos objectifs commerciaux.<br>
+                                    Grâce à nos recherches fondées sur des preuves, nous nous assurons que chaque projet a de bonnes chances de réussir au lieu de s'éteindre et d'être une perte de temps et d'argent.
                                   </p><!-- /.how-it-works-card__text -->
 
                                   <!-- /.how-it-works-card__link -->
@@ -231,7 +238,8 @@
                                     <p>Recherche de l'excellence</p>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
-                                  Chez Lyneo, nous ne nous arrêtons pas simplement lorsque nous atteignons les objectifs de nos clients. Nous identifions les domaines qui peuvent encore être améliorés et nous encourageons nos clients à continuer à développer des stratégies pour dépasser leurs objectifs. En mettant l'accent sur une plus grande croissance, nos clients sont assurés d'obtenir plus de résultats que prévu initialement.
+                                  Lyneo ne met pas seulement fin à ses services une fois que les objectifs du client ont été atteints.<br>
+                                  Nous aidons également nos clients à identifier les domaines potentiels d'amélioration et de développement continu afin qu'ils puissent dépasser leurs attentes. Cet accent mis sur la croissance permet à nos clients de réaliser plus que ce qu'ils pensaient initialement possible.
                                 </p><!-- /.how-it-works-card__text -->
                                 <!-- /.how-it-works-card__link -->
                             </div><!-- /.how-it-works-card__inner -->
@@ -242,10 +250,11 @@
                             <div class="how-it-works-card__inner">
                               <img class="my-5 icon-box-2" src="{{ asset('images') }}/cooperation-client.png" alt="collaboration client">
                                 <h3 class="how-it-works-card__title">
-                                    <p>Approchée axée sur le client</p>
+                                    <p>Approchée axée sur le client<p>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
-                                  Chez Lyneo nous croyons en la vision qu'ont nos clients de notre entreprise. Nous écoutons leurs objectifs commerciaux et alignons nos stratégies pour les aider à les atteindre. Tous nos services de marketing digital visent à placer les objectifs de nos clients au-dessus de tout.
+                                  Lyneo donne la priorité à ses clients. Tout ce que nous faisons est basé sur ce qui les aidera à réussir. Nous prenons le temps de comprendre les objectifs commerciaux de nos clients afin de pouvoir créer une stratégie de marketing numérique qui soutiendra ces objectifs.<br>
+                                  Nos services sont conçus avec une seule chose en tête : aider nos clients à réaliser leur vision.
                                 </p>                                <!-- /.how-it-works-card__link -->
                             </div><!-- /.how-it-works-card__inner -->
                         </div><!-- /.how-it-works-card -->
@@ -255,10 +264,11 @@
                           <div class="how-it-works-card__inner">
                             <img class="my-5 icon-box-2" src="{{ asset('images') }}/transparence-lyneo.png" alt="transparence de Lyneo">
                               <h3 class="how-it-works-card__title">
-                                  <p>Nous sommes tranparents</p>
+                                  <p>Nous sommes tranparents<p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Il n'y a pas de secrets lorsque vous travaillez avec nous. Nous pratiquons la transparence avec nos clients. Nous fournissons des statistiques de performance à partir de Google Analytics et créons des rapports détaillés sur le référencement. Nous fournissons également des rapports mensuels détaillés afin que les clients restent informés de toutes les mises à jour du projet.
+                                À notre agence, nous sommes fiers d'être ouverts et honnêtes avec tous nos clients. Nous fournissons des rapports mensuels complets qui comprennent des statistiques de performance issues de Google Analytics ainsi que des rapports détaillés sur le référencement.<br>
+                                De cette façon, nos clients sont toujours tenus au courant de tout changement ou mise à jour de leur projet.
                               </p>                                <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
@@ -271,7 +281,8 @@
                                 <p>Nous innovons en permanence</p>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
-                              Nous croyons qu'il faut sortir des sentiers battus et adopter de nouvelles façons de faire les choses. Notre équipe Bordelaise trouve les tendances les plus efficaces en matière de marketing et les appliques dans les campagnes. Nous suivons les dernières tendances du secteur et identifions celles qui ont un potentiel de réussite.
+                              Nous ne croyons pas à la pensée ou aux méthodes conventionnelles. Les membres de notre équipe à Périgueux sont toujours à la recherche d'idées marketing nouvelles et créatives à appliquer à nos campagnes.<br>
+                              Nous nous tenons au courant des dernières tendances du secteur et identifions celles qui ont le plus de chances de réussir.
                             </p>                                <!-- /.how-it-works-card__link -->
                         </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
@@ -281,7 +292,7 @@
 
               <div class="content-side col-lg-12 col-md-12 col-sm-12">
                 <div class="sec-title mt-5">
-                  <h2 class="text-center">Lyneo: Agence de marketing digital à Bordeaux<span class="dot">.</span></h2>
+                  <h2 class="text-center">Lyneo: Agence de marketing digital à Périgueux<span class="dot">.</span></h2>
                 </div>
                 <div class="service-details">
                   <div class="text-content">
@@ -290,19 +301,19 @@
                         <div class="text-col col-md-7 col-sm-12">
                           <div class="inner">
                             <p>
-                              Lyneo est une agence de marketing numérique expérimentée qui peut aider toute entreprise, marque, association ou institution à créer une campagne de marketing numérique réussie. Basés à Bordeaux, nous servons des clients de toute la région.
+                              Lyneo est une agence de marketing numérique expérimentée qui peut aider toute entreprise, marque, association ou institution à créer une campagne de marketing numérique réussie. Basés à Périgueux, nous servons des clients de toute la région.
                             </p>
                             <p>
-                              Dans notre agence, nous restons à la pointe de la technologie afin d'offrir à nos clients des avantages concurrentiels. Le fait d'être certifié Google Partner Adwords et Analytics témoigne de notre volonté d'être les meilleurs dans ce que nous faisons.
+                              Nous utilisons une technologie de pointe pour aider nos clients à gagner en visibilité, à construire leur image et à commercialiser leurs produits ou services. Notre engagement envers l'excellence nous a valu la certification Google Partner Adwords et Analytics.
                             </p>
                             <p>
-                              Nos professionnels qualifiés et passionnés travaillent ensemble pour offrir une gamme complète de services de communication numérique.
+                              Notre équipe de professionnels passionnés aux compétences diverses nous permet d'offrir une gamme complète de services de communication numérique.
                             </p>
                           </div>
                         </div>
                         <div class="image-col col-md-4 col-sm-12">
                           <div class="image">
-                            <img src="{{ asset('images') }}/localisation.svg" alt="Lyneo agence de marketing digital à Bordeaux">
+                            <img src="{{ asset('images') }}/localisation.svg" alt="Lyneo agence de marketing digital à Périgueux">
                           </div>
                         </div>
                       </div>
@@ -312,7 +323,7 @@
               </div>
               <div class="content-side col-lg-12 col-md-12 col-sm-12">
                 <div class="sec-title mt-5">
-                  <h2 class="text-center">Pourquoi est-il nécessaire de faire du marketing digital à Bordeaux<span class="dot">?</span></h2>
+                  <h2 class="text-center">Pourquoi est-il nécessaire de faire du marketing digital à Périgueux<span class="dot">?</span></h2>
                 </div>
                 <div class="service-details">
                   <div class="text-content">
@@ -320,16 +331,16 @@
                       <div class="row clearfix">
                         <div class="image-col col-md-4 col-sm-12">
                           <div class="image">
-                            <img src="{{ asset('images') }}/pourquoi-marketing.svg" alt="Pourquoi est-il nécessaire de faire du marketing digital à Bordeaux">
+                            <img src="{{ asset('images') }}/pourquoi-marketing.svg" alt="Pourquoi est-il nécessaire de faire du marketing digital à Périgueux">
                           </div>
                         </div>
                         <div class="text-col col-md-7 col-sm-12">
                           <div class="inner">
                             <p>
-                              La majorité des acheteurs faisant désormais leurs achats en ligne, si votre entreprise n'est pas présente sur le Web, vous prenez du retard. De plus, ces entreprises doivent engager leurs clients potentiels par le biais du marketing numérique afin de trouver des moyens de les atteindre là où ils passent déjà du temps - c'est pourquoi le marketing Web est si important.
+                            Parce que de nombreux acheteurs font désormais leurs achats en ligne, il est essentiel pour toute entreprise d'avoir une présence sur le Web. En outre, ces entreprises doivent trouver des moyens d'atteindre et d'engager leurs clients potentiels grâce au marketing numérique. C'est le cœur du webmarketing.
                             </p>
                             <p>
-                              Lyneo, une agence basée à Bordeaux, s'efforce de vous fournir les solutions les plus modernes et les plus efficaces possibles pour garantir votre succès. Notre objectif est d'accroître votre visibilité puis, grâce à nos différents services de webmarketing, d'empêcher que de très bons prospects passent entre les mailles du filet afin qu'ils se transforment en clients payants.
+                            Disposer des bons outils de marketing numérique est essentiel à votre réussite. Lyneo, une agence basée en Périgord, peut vous fournir les solutions les plus modernes et les plus efficaces pour vous aider à développer votre entreprise. Notre objectif est d'augmenter votre visibilité, puis de la convertir en clients grâce à nos différents services de webmarketing.
                             </p>
                           </div>
                         </div>
@@ -345,28 +356,28 @@
                       <div class="row clearfix">
                         <div class="text-col col-md-7 col-sm-12">
                           <div class="inner">
-                            <h4>L'objectif et la philosophie de notre agence de marketing numérique basée à Bordeaux.</h4>
+                            <h4>Les objectifs et la pensée derrière notre agence de marketing numérique à Périgueux.</h4>
                             <p>
-                              Lyneo améliore d'abord la visibilité de votre entreprise, puis la transforme ensuite en opportunités potentielles - à court et à long terme.
+                              L'objectif de Lyneo est de vous aider à développer votre entreprise. Pour ce faire, nous commençons par accroître votre visibilité, puis nous la convertissons en opportunités potentielles à court, moyen et long terme.
                             </p>
                             <p>
-                              Si vous cherchez à faire passer votre entreprise au niveau supérieur, notre équipe de professionnels qualifiés peut vous aider à atteindre vos objectifs de performance. Nous pensons que l'investissement dans la communication numérique est crucial pour toute entreprise désireuse de réussir.
+                              Avec notre équipe de professionnels compétents, nous vous aiderons à atteindre les objectifs de performance que vous souhaitez. Nous pensons qu'investir dans la communication numérique est crucial pour toute entreprise désireuse de réussir.
                             </p>
                             <h4>
                               Développer des stratégies numériques
                             </h4>
                             <p>
-                              Sans un plan numérique concret, il est facile de prendre du retard sur les opportunités potentielles sur le Web. Toutes vos actions en ligne doivent fonctionner ensemble pour atteindre vos objectifs web.
+                              Sans stratégie numérique, il est difficile de tirer le meilleur parti des opportunités du web. Vos actions numériques doivent avoir un but et être cohérentes avec vos objectifs web.
                             </p>
                             <p>
-                              Lyneo est une agence de marketing numérique qui répond à vos besoins. Nous concevons une stratégie numérique personnalisée après avoir discuté de vos objectifs, de votre résultat idéal et de votre budget afin que vous puissiez améliorer votre visibilité de la manière la plus efficace possible.
+                              Lyneo est une agence de marketing numérique qui s'efforce de fournir à ses clients les meilleurs outils pour réussir. Nous tenons compte de vos objectifs, de vos cibles et de votre budget lorsque nous concevons une stratégie numérique afin d'améliorer votre visibilité de la manière la plus efficace possible.
                             </p>
 
                           </div>
                         </div>
                         <div class="image-col col-md-4 col-sm-12">
                           <div class="image">
-                            <img src="{{ asset('images') }}/objectif.svg" alt="Objectif et philosophie agence marketing digital à Bordeaux ">
+                            <img src="{{ asset('images') }}/objectif.svg" alt="Objectif et philosophie agence marketing digital à Périgueux">
                           </div>
                         </div>
                       </div>
@@ -374,6 +385,8 @@
                   </div>
                 </div>
               </div>
+
+
 
                 <!--FAQ section-->
                 <section class="faqs-section mb-5">
@@ -392,15 +405,20 @@
                             <div class="acc-btn"><span class="count">1.</span> Comment définir une bonne stratégie digitale ?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Une bonne stratégie numérique doit être fondée sur les buts et objectifs commerciaux de l'entreprise. Elle doit également tenir compte du public cible, du budget et des ressources de l'entreprise. En outre, une bonne stratégie numérique doit être flexible et s'adapter aux changements du marché ou du secteur.</div>
+                                    <div class="text">
+                                      Votre stratégie numérique doit s'articuler autour de vos buts et objectifs commerciaux. Gardez à l'esprit votre public cible, votre budget et vos ressources lorsque vous la planifiez. Enfin, veillez à faire preuve de souplesse afin de pouvoir modifier les choses si le marché ou le secteur évolue au fil du temps.
+                                    </div>
                                 </div>
                             </div>
                           </li>
                           <li class="accordion block">
-                            <div class="acc-btn"><span class="count">2.</span> Pourquoi recourir à une agence marketing digital à Bordeaux ?</div>
+                            <div class="acc-btn"><span class="count">2.</span> Pourquoi recourir à une agence marketing digital à Périgueux ?</div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Il existe de nombreuses raisons de faire appel à une agence de marketing digital à Bordeaux. Tout d'abord, une agence de marketing numérique peut vous aider à créer une forte présence en ligne pour votre entreprise. Ils peuvent vous aider à concevoir un site Web qui est optimisé pour le classement des moteurs de recherche et les taux de conversion. En outre, une agence de marketing numérique peut vous aider à créer et à mettre en œuvre une stratégie de marketing en ligne efficace. Elle peut vous aider à cibler votre public à l'aide de mots-clés et d'un contenu pertinents, et elle peut suivre vos résultats afin que vous puissiez continuellement améliorer vos efforts de marketing en ligne.</div>
+                                    <div class="text">
+                                      Il existe de nombreuses raisons d'engager une agence de marketing numérique à Périgueux. En créant une forte présence en ligne pour votre entreprise, vous pouvez augmenter le trafic sur votre site Web et les taux de conversion.<br>
+                                      De plus, une agence de marketing numérique peut vous aider à optimiser votre site Web pour le classement dans les moteurs de recherche afin que les clients potentiels puissent vous trouver facilement en ligne. Une agence de marketing numérique peut vous aider à atteindre votre marché cible en utilisant les bons mots-clés et le bon contenu. En outre, elle mesure votre succès afin que vous sachiez toujours comment améliorer votre stratégie de marketing en ligne.
+                                    </div>
                                 </div>
                             </div>
                           </li>

@@ -55,11 +55,13 @@ class FrontEndController extends Controller
     public function post($category, $slug){
 
       $post = Post::where('slug', $slug)->first();
+      $title = $post->title;
+      $meta_description = $post->meta;
       $random_3_posts = Post::all()->random(3);
       $random_2_posts = Post::all()->random(2);
       $categories = Category::all();
 
-      return view('website.post', compact('random_3_posts', 'random_2_posts', 'categories', 'post'));
+      return view('website.post', compact('random_3_posts', 'random_2_posts', 'categories', 'post', 'title','meta_description'));
     }
 
     public function send_message(Request $request)
@@ -164,5 +166,31 @@ class FrontEndController extends Controller
       $meta_description = "Vous envisagez une conception de site web? Notre agence de développement web à Bordeaux est à votre service.";
 
       return view('website.bordeaux.web', compact('title', 'meta_description'));
+    }
+
+    // PERIGUEUX
+
+    public function marketing_digital_perigueux(){
+
+      $title = "Agence marketing numérique à Périgueux | SEA, PPC, SEO | Lyneo Périgueux";
+      $meta_description = "Lyneo, agence marketing Web à Périgueux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
+
+      return view('website.perigueux.marketing', compact('title', 'meta_description'));
+    }
+
+    public function seo_perigueux(){
+
+      $title = "Agence SEO à Périgueux - Référencement Web | Lyneo";
+      $meta_description = "Lyneo est votre agence SEO à Périgueux. Augmentez votre trafic organique en améliorant votre positionnement sur les moteurs de recherche !";
+
+      return view('website.perigueux.seo', compact('title', 'meta_description'));
+    }
+
+    public function web_perigueux(){
+
+      $title = "Périgueux création de site web | Développement de site internet";
+      $meta_description = "Vous envisagez une conception de site web? Notre agence de développement web à Périgueux est à votre service.";
+
+      return view('website.perigueux.web', compact('title', 'meta_description'));
     }
 }

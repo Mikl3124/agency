@@ -125,11 +125,11 @@
                     <ul class="accordion-box clearfix">
                         <!--Block-->
                         <li class="accordion block active-block">
-                            <div class="acc-btn active"><span class="count">1.</span> Agence de développement web à Bordeaux - Comment la choisir?</div>
+                            <div class="acc-btn active"><span class="count">1.</span> Agence de développement web  - Comment la choisir?</div>
                             <div class="acc-content">
                                 <div class="content">
                                     <div class="text">
-                                      <h5>Lorsque vous choisissez une société de conception de sites Web à Bordeaux, nous vous conseillons de prêter aux 8 éléments suivants : </h5>
+                                      <h5>Lorsque vous choisissez une société de conception de sites Web , nous vous conseillons de prêter aux 8 éléments suivants : </h5>
                                       <ol>
                                         <li>1- Le nombre d'années d'existence de l'entreprise sur le marché</li>
                                         <li>2- Aux types de projets sur lesquels la société de conception de sites Web a travaillé</li>
@@ -147,7 +147,7 @@
 
                         <!--Block-->
                         <li class="accordion block">
-                            <div class="acc-btn"><span class="count">2.</span> Développeurs de sites web à Bordeaux - Que font-ils ?</div>
+                            <div class="acc-btn"><span class="count">2.</span> Développeurs de sites web à - Que font-ils ?</div>
                             <div class="acc-content">
                                 <div class="content">
                                     <div class="text">
@@ -184,7 +184,7 @@
                             <div class="acc-content">
                                 <div class="content">
                                     <div class="text">
-                                      <p>Notre service de développement de site web à Bordeaux inclus:</p>
+                                      <p>Notre service de développement de site web inclus:</p>
                                       <ul>
                                         <li>- Le briefing client</li>
                                         <li>- La présentation d'un prototype</li>
@@ -200,11 +200,11 @@
 
                         <!--Block-->
                         <li class="accordion block">
-                            <div class="acc-btn"><span class="count">4.</span> Conception d'un site Web à Bordeaux - Quel est le prix ?</div>
+                            <div class="acc-btn"><span class="count">4.</span> Conception d'un site Web - Quel est le prix ?</div>
                             <div class="acc-content">
                                 <div class="content">
                                     <div class="text">
-                                      <h5>Combien coûte la création d'un site web à Bordeaux?</h5>
+                                      <h5>Combien coûte la création d'un site web ?</h5>
                                       <p>Il n'est pas facile de répondre de façon précise à cette question. En effet, le prix de la conception d'un site Web dépend des qualifications du concepteur, de la taille du site (nombre de pages à créer et temps nécessaire).
                                     </div>
                                 </div>

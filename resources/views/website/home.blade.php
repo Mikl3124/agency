@@ -658,7 +658,7 @@
   </section>
 
   <!-- News Section -->
-  <section class="news-section news-section__dark">
+  {{-- <section class="news-section news-section__dark">
       <div class="auto-container">
           <div class="sec-title centered">
               <h2>Derniers Articles<span class="dot">.</span></h2>
@@ -689,7 +689,7 @@
             @endforeach
           </div>
       </div>
-  </section>
+  </section> --}}
 
   <!-- Call To Section -->
   <section class="call-to-section">
