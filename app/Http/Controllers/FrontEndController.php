@@ -21,11 +21,14 @@ class FrontEndController extends Controller
 
     public function blog(){
 
+      $title = "Le blog de l'actualité digitale - Lyneo";
+      $meta_description = "Venez suivre toute l'actualité digitale sur le blog de notre agence. Toutes les informations sur l’univers du SEO, des réseaux sociaux, WordPress et de la création de sites web.";
+
       $posts = Post::orderBy('created_at', 'DESC')->paginate(3);
       $random_3_posts = Post::all()->random(3);
       $categories = Category::all();
 
-      return view('website.blog', compact('posts','categories','random_3_posts'));
+      return view('website.blog', compact('posts','categories','random_3_posts', 'title', 'meta_description'));
   }
 
     public function about(){
