@@ -39,11 +39,16 @@ class FrontEndController extends Controller
 
     public function category($slug){
 
+
         $category = Category::where('slug', $slug)->first();
         if($category){
+
+          $title = "Le blog de l'actualité digitale - Lyneo";
+          $meta_description = "Venez suivre toute l'actualité digitale sur le blog de notre agence. Toutes les informations sur l’univers du SEO, des réseaux sociaux, WordPress et de la création de sites web.";
+
             $posts = Post::where('category_id', $category->id)->paginate(9);
 
-            return view('website.category', compact(['category', 'posts']));
+            return view('website.category', compact(['category', 'posts', 'title', 'meta_description']));
         }else {
             return redirect()->route('home');
         }
