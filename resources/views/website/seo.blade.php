@@ -84,7 +84,7 @@
                                                         <div class="inner">
                                                             <div class="icon"><span>“</span></div>
                                                             <div class="info">
-                                                                <div class="image"><a href="team.html"><img src="{{ asset('images') }}/pascal-cabus.jpeg" alt="Pascal Cabus"></a></div>
+                                                                <div class="image"><img src="{{ asset('images') }}/pascal-cabus.jpeg" alt="Pascal Cabus"></div>
                                                                 <div class="name">Pascal Cabus</div>
                                                                 <div class="designation">Gérant-Architecte</div>
                                                             </div>
@@ -96,7 +96,7 @@
                                                         <div class="inner">
                                                             <div class="icon"><span>“</span></div>
                                                             <div class="info">
-                                                                <div class="image"><a href="team.html"><img src="{{ asset('images') }}/leny-quercy.jpeg" alt="Leny Quercy"></a></div>
+                                                                <div class="image"><img src="{{ asset('images') }}/leny-quercy.jpeg" alt="Leny Quercy"></div>
                                                                 <div class="name">Leny Quercy</div>
                                                                 <div class="designation">Responsable Marketing</div>
                                                             </div>
@@ -109,7 +109,7 @@
                                                         <div class="inner">
                                                             <div class="icon"><span>“</span></div>
                                                             <div class="info">
-                                                              <div class="image"><a href="team.html"><img src="{{ asset('images') }}/melissa-blanc.jpeg" alt="Melissa Blanc"></a></div>
+                                                              <div class="image"><img src="{{ asset('images') }}/melissa-blanc.jpeg" alt="Melissa Blanc"></div>
                                                                 <div class="name">Melissa Blanc</div>
                                                                 <div class="designation">Directrice communication</div>
                                                             </div>
@@ -123,7 +123,7 @@
                                                         <div class="inner">
                                                             <div class="icon"><span>“</span></div>
                                                             <div class="info">
-                                                              <div class="image"><a href="team.html"><img src="{{ asset('images') }}/lucie-maubrac.jpeg" alt="Lucie Maubrac"></a></div>
+                                                              <div class="image"><img src="{{ asset('images') }}/lucie-maubrac.jpeg" alt="Lucie Maubrac"></div>
                                                                 <div class="name">Lucie Maubrac</div>
                                                                 <div class="designation">Coach bien-être</div>
                                                             </div>
@@ -156,7 +156,7 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box" src="{{ asset('images') }}/seo-keyboard.svg" alt="Startegie mots clés">
                                 <h3 class="how-it-works-card__title">
-                                      <a href="team.html">Recherche et stratégie de mots-clés</a>
+                                      <p>Recherche et stratégie de mots-clés</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
                                     Lyneo est une agence de référencement qui comprend votre créneau et peut améliorer votre classement pour des termes de recherche spécifiques. Votre spécialiste en référencement examinera les mots-clés pour lesquels votre site Web est actuellement classé, prendra votre liste de mots-clés souhaités et effectuera des recherches supplémentaires sur les mots-clés afin d'établir une liste qui correspond le mieux à votre site Web et au paysage concurrentiel.
@@ -187,7 +187,7 @@
                             <div class="how-it-works-card__inner">
                               <img class="my-5 icon-box" src="{{ asset('images') }}/seo-technique.svg" alt="SEO technique">
                                 <h3 class="how-it-works-card__title">
-                                    <a href="team.html">SEO technique</a>
+                                    <p>SEO technique</p>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
                                   Les classements peuvent s'améliorer grâce à des optimisations sur le back-end de votre site Web, comme l'amélioration de la vitesse des pages. En corrigeant ces erreurs, vous facilitez la tâche des moteurs de recherche lorsqu'ils explorent votre site. Et lorsque vous rendez les moteurs de recherche heureux, vos classements peuvent vous rendre encore plus heureux !
@@ -217,7 +217,7 @@
                           <div class="how-it-works-card__inner">
                             <img class="my-5 icon-box" src="{{ asset('images') }}/seo-offpage.svg" alt="SEO off-page">
                               <h3 class="how-it-works-card__title">
-                                  <a href="team.html">SEO Off-page</a>
+                                  <p>SEO Off-page</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
                                 L'optimisation hors-page est cruciale pour établir la crédibilité de la marque et augmenter l'exposition en ligne. Associez-vous à notre société de référencement et laissez-nous vous aider à démontrer votre expertise sectorielle. Nous tirons parti du marketing des médias sociaux, de la création de liens et du marketing d'influence pour générer des liens qualifiés et des évaluations positives.
@@ -247,7 +247,7 @@
                         <div class="how-it-works-card__inner">
                           <img class="my-5 icon-box" src="{{ asset('images') }}/seo-contenu.svg" alt="Rédaction de contenu SEO">
                             <h3 class="how-it-works-card__title">
-                                <a href="team.html">Rédaction de contenu SEO</a>
+                                <p>Rédaction de contenu SEO</p>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
                               Nous disposons d'une équipe de rédacteurs qui produisent du contenu adapté au référencement pour votre site Web, qu'il s'agisse de créer des articles de blog dignes d'être partagés ou d'optimiser les pages de services et de produits préexistantes en y ajoutant du contenu. Les moteurs de recherche aiment les sites Web qui ajoutent régulièrement du nouveau contenu. Choisissez notre société de référencement pour répondre à vos besoins en matière de contenu et renforcer votre marketing de recherche.
