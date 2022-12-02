@@ -13,9 +13,9 @@
                       <h1>Sites E-commerce</h1>
                       <div class="page-nav">
                           <ul class="bread-crumb clearfix">
-                              <li><a href="index-main.html">Home</a></li>
-                              <li><a href="services.html">Services</a></li>
-                              <li class="active">Website Development</li>
+                            <li><a href="{{ route("home") }}">Accueil</a></li>
+                            <li><a href="{{ route("developpement") }}">Développement Web</a></li>
+                            <li class="active">Sites E-commerce</li>
                           </ul>
                       </div>
                     </div>

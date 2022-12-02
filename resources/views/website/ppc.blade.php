@@ -482,7 +482,7 @@
               <div class="inner clearfix">
                   <h2>Besoin d'une stratégie pour<br>votre Publicité en ligne?</h2>
                   <div class="link-box">
-                      <a class="theme-btn btn-style-two" href="about.html">
+                      <a class="theme-btn btn-style-two" href="{{ route('contact') }}">
                           <i class="btn-curve"></i>
                           <span class="btn-title">Contactez-nous</span>
                       </a>

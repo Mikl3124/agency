@@ -170,7 +170,7 @@
                               <div class="how-it-works-card__inner">
                                 <img class="my-5 icon-box" src="{{ asset('images') }}/link-building.svg" alt="Facilité d'utilisation de Wordpress">
                                   <h3 class="how-it-works-card__title">
-                                      <a href="about.html">Création de liens</a>
+                                      <p>Création de liens</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
                                     Les backlinks sont un élément essentiel pour obtenir un meilleur classement dans les résultats de recherche, mais pas n'importe quel lien ! C'est pourquoi vous devez vous associer à une société de référencement telle que Lyneo, qui dispose d'une équipe spécialisée dans la création de liens et qui est en relation avec de nombreux sites Web pertinents et de grande qualité.
@@ -201,7 +201,7 @@
                             <div class="how-it-works-card__inner">
                               <img class="my-5 icon-box" src="{{ asset('images') }}/seo-local.svg" alt="seo local">
                                 <h3 class="how-it-works-card__title">
-                                    <a href="about.html">SEO local</a>
+                                    <a href="{{ route('seo-local')}}">SEO local</a>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
                                   Les statistiques montrent que 67 % des clients recherchent des entreprises locales en ligne. Améliorez le classement de votre entreprise en matière de référencement local grâce à l'optimisation du profil Google Business ou Google My Business (GMB) et attirez les clients les plus intéressés. Nous optimisons votre profil GMB et gérons votre réputation en ligne pour développer votre clientèle locale.
@@ -231,7 +231,7 @@
                           <div class="how-it-works-card__inner">
                             <img class="my-5 icon-box" src="{{ asset('images') }}/seo-one-page.svg" alt="seo one-page">
                               <h3 class="how-it-works-card__title">
-                                  <a href="about.html">SEO On-page</a>
+                                  <p>SEO On-page</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
                                 Améliorez votre visibilité en ligne et gagnez un trafic de qualité. Chez Lyneo, nous veillons à ce que nos services de référencement soient conformes aux meilleures pratiques des moteurs de recherche afin de renforcer la fiabilité de votre site Web. Nos experts en référencement publient un contenu unique et riche en valeur, optimisent vos titres et vos balises HTML et utilisent des images en haute résolution.
@@ -261,7 +261,7 @@
                         <div class="how-it-works-card__inner">
                           <img class="my-5 icon-box" src="{{ asset('images') }}/seo-ecommerce.svg" alt="seo ecommerce">
                             <h3 class="how-it-works-card__title">
-                                <a href="about.html">SEO E-commerce</a>
+                                <a href="{{ route('commerce') }}">SEO E-commerce</a>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
                               Le référencement du commerce électronique est plus compliqué que le référencement ordinaire. Les magasins de commerce électronique ont de nombreuses pages différentes à optimiser en plus de la page d'accueil, car ils comprennent des pages de produits, des pages de catégories et de nombreux autres types de pages.<br>

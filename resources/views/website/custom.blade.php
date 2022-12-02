@@ -15,7 +15,7 @@
                           <ul class="bread-crumb clearfix">
                               <li><a href="{{ route("home") }}">Accueil</a></li>
                               <li><a href="{{ route("developpement") }}">Développement Web</a></li>
-                              <li class="active">Site Sur-mesure</li>
+                              <li class="active">Sites Sur-mesure</li>
                           </ul>
                       </div>
                   </div>

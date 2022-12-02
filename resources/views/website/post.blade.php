@@ -34,7 +34,7 @@
                   <div class="post-details">
                       <div class="inner-box">
                           <div class="image-box">
-                              <a href="blog-single.html"><img src="{{ $post->image }}" alt="{{ $post->title }}"></a>
+                              <a href="{{ route('website.post',[$post->category->slug, $post->slug])}}">><img src="{{ $post->image }}" alt="{{ $post->title }}"></a>
                           </div>
                           <div class="lower-box">
                               <div class="post-meta">
