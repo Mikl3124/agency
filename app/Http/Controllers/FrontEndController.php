@@ -42,8 +42,7 @@ class FrontEndController extends Controller
 
         $category = Category::where('slug', $slug)->first();
         if($category){
-
-          $title = "Le blog de l'actualité digitale - Lyneo";
+          $title = "$category->name | Le blog de l'actualité digitale | Lyneo";
           $meta_description = "Venez suivre toute l'actualité digitale sur le blog de notre agence. Toutes les informations sur l’univers du SEO, des réseaux sociaux, WordPress et de la création de sites web.";
 
             $posts = Post::where('category_id', $category->id)->paginate(9);
