@@ -53,9 +53,8 @@
                               <div class="sub-title">L'agence SEO qui libère votre plein potentiel</div>
                               <h1>Agence SEO</h1>
                               <div class="link-box">
-                                  <a class="theme-btn btn-style-one" href="about.html">
-                                      <i class="btn-curve"></i>
-                                      <span class="btn-title">Nous découvrir</span>
+                                <a class="theme-btn btn-style-one" href="{{ route('website.contact') }}">                                      <i class="btn-curve"></i>
+                                      <span class="btn-title">Nous contacter</span>
                                   </a>
                               </div>
                           </div>

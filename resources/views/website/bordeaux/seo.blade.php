@@ -90,7 +90,7 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-bordeaux.svg" alt="Rédaction de contenu à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-ville.svg" alt="Rédaction de contenu à Bordeaux">
                                 <h3 class="how-it-works-card__title">
                                       <p>Rédaction de contenu<p>
                                   </h3><!-- /.how-it-works-card__title -->

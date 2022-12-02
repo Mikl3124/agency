@@ -8,7 +8,7 @@
         <div class="inner-container clearfix">
             <!--Logo-->
             <div class="logo-box">
-                <div class="logo"><a href="/" title="Lyneo - L'agence qui libère votre plein potentiel"><img
+                <div class="logo"><a href="{{ route('home') }}" title="Lyneo - L'agence qui libère votre plein potentiel"><img
                             src="{{ asset('images') }}/logo-lyneo.png" id="thm-logo" alt="Lyneo - L'agence qui libère votre plein potentiel"
                             title="Lyneo - L'agence qui libère votre plein potentiel"></a></div>
             </div>

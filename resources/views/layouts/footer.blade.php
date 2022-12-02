@@ -11,7 +11,7 @@
                     <div class="footer-widget logo-widget">
                         <div class="widget-content">
                             <div class="logo">
-                                <a href="index.html"><img id="fLogo" src="{{ asset('images') }}/logo-lyneo.png" alt="Logo Lyneo" /></a>
+                                <a href="{{ route('home') }}"><img id="fLogo" src="{{ asset('images') }}/logo-lyneo.png" alt="Logo Lyneo" /></a>
                             </div>
                             <div class="text">L'agence Web et SEO, qui libère votre plein potentiel.</div>
                             <ul class="social-links clearfix">

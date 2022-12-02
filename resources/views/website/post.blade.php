@@ -27,7 +27,6 @@
 <div class="sidebar-page-container">
   <div class="auto-container">
       <div class="row clearfix">
-
           <!--Content Side-->
           <div class="content-side col-lg-8 col-md-12 col-sm-12">
               <div class="blog-details">
@@ -35,7 +34,7 @@
                   <div class="post-details">
                       <div class="inner-box">
                           <div class="image-box">
-                              <a href="blog-single.html"><img src="images/resource/news-7.jpg" alt=""></a>
+                              <a href="blog-single.html"><img src="{{ $post->image }}" alt="{{ $post->title }}"></a>
                           </div>
                           <div class="lower-box">
                               <div class="post-meta">
