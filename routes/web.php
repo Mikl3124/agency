@@ -80,6 +80,10 @@ Route::get('/marketing-digital/seo-local', 'FrontEndController@seo_local')->name
 Route::get('/marketing-digital/seo-technique', 'FrontEndController@seo_technique')->name('seo-technique');
 Route::get('/marketing-digital/publicite-en-ligne', 'FrontEndController@ppc')->name('publicite-en-ligne');
 Route::get('/contact', 'FrontEndController@contact')->name('contact');
+Route::get('/mentions-legales', 'FrontEndController@mentions')->name('mentions');
+Route::get('/politique-de-confidentialite', 'FrontEndController@confidentialite')->name('confidentialite');
+
+
 
 //Bordeaux
 Route::get('/agence-marketing-digital-bordeaux', 'FrontEndController@marketing_digital_bordeaux')->name('marketing-bordeaux');

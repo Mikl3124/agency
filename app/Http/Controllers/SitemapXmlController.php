@@ -8,10 +8,8 @@ use Illuminate\Http\Request;
 class SitemapXmlController extends Controller
 {
   public function index() {
-    $posts = Post::all();
-    return response()->view('index', [
-        'posts' => $posts
-    ])->header('Content-Type', 'text/xml');
+
+    return response()->view('index')->header('Content-Type', 'text/xml');
   }
 
 }

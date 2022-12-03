@@ -200,4 +200,20 @@ class FrontEndController extends Controller
 
       return view('website.perigueux.web', compact('title', 'meta_description'));
     }
+
+    public function mentions(){
+
+      $title = "Agence de communication Lyneo | Mentions Légales";
+      $meta_description = "Mentions légales de l'agence de communication Lyneo";
+
+      return view('website.mentions', compact('title', 'meta_description'));
+    }
+
+    public function confidentialite(){
+
+      $title = "Agence de communication Lyneo | Politique de confidentialité";
+      $meta_description = "Politique de confidentialité de l'agence de communication Lyneo";
+
+      return view('website.confidentialite', compact('title', 'meta_description'));
+    }
 }
