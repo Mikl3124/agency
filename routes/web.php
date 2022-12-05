@@ -83,6 +83,8 @@ Route::get('/contact', 'FrontEndController@contact')->name('contact');
 Route::get('/mentions-legales', 'FrontEndController@mentions')->name('mentions');
 Route::get('/politique-de-confidentialite', 'FrontEndController@confidentialite')->name('confidentialite');
 
+//Cocon sémantique agence WEB
+//Route::get('/comment-creer-une-agence-web', 'FrontEndController@creer_agence_web')->name('creer_agence_web');
 
 
 //Bordeaux

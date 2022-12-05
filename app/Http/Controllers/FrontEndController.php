@@ -216,4 +216,15 @@ class FrontEndController extends Controller
 
       return view('website.confidentialite', compact('title', 'meta_description'));
     }
+
+    // COCON SEMANTIQUE AGENCE WEB
+
+    public function creer_agence_web(){
+
+      $title = "Comment créer une agence Web | Lyneo";
+      $meta_description = "✅ Si vous envisagez de créer une agence de conception Web, alors cet article est fait pour vous ! Nous passons en revue toutes les étapes que vous devez suivre pour créer une entreprise qui génère des revenus.";
+
+      return view('cocon-agence-web/comment-creer-agence-web', compact('title', 'meta_description'));
+    }
+
 }

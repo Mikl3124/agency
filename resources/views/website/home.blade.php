@@ -527,7 +527,7 @@
                         <div class="designation">permis-construire.com</div>
                     </div><!-- /.testimonials-four-card__content -->
                     <div class="image">
-                      <img src="images/leo-archimbault.jpeg" alt="temoignage romain catala">
+                      <img src="images/leo-archimbault.jpeg" alt="temoignage leo archimbault">
                   </div>
                 </div><!-- /.testimonials-four-card -->
             </div><!-- /.col-md-6 col-lg-4 -->
