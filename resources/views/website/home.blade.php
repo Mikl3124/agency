@@ -76,7 +76,7 @@
                   <div class="inner">
                       <div class="sec-title">
                           <h2>Faites décoller <br>Vos Ventes<span class="dot">.</span></h2>
-                          <div class="lower-text">Lyneo Création est une agence de conception de sites Web, et de référencement qui vous aide à être visible en ligne, afin d'attirer plus de clients.
+                          <div class="lower-text">Lyneo est une agence  Web, et de référencement (SEO) qui vous aide à être visible en ligne, afin d'attirer plus de clients.
                             <br>
                             Nous vous aidons à atteindre vos objectifs, grâce à notre expérience, notre savoir-faire et notre engagement, tout en respectant votre identité visuelle.</div>
                         </div>
@@ -654,7 +654,7 @@
               </div>
           </div>
       </div>
-  </section>
+
 
   <!-- News Section -->
   {{-- <section class="news-section news-section__dark">
@@ -706,5 +706,6 @@
           </div>
       </div>
   </section>
+</section>
 
 @endsection
