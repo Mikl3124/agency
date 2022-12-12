@@ -89,7 +89,7 @@
                                   <p>Création de liens</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Les méthodes de création de liens de qualité peuvent faire de votre entreprise une autorité dans son domaine en l'aidant à gagner des liens retour au fil du temps. Nos spécialistes mettront en œuvre une stratégie personnalisée adaptée à vos besoins.
+                                Les méthodes de création de liens de qualité peuvent faire de votre entreprise une autorité dans son domaine en l'aidant à gagner des liens retour au fil du temps. Nos spécialistes mettront en œuvre une stratégie de backlinks personnalisée et adaptée à vos besoins.
                               </p><!-- /.how-it-works-card__text -->
                               <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
@@ -103,7 +103,7 @@
                                       <p>Rédaction de contenu</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    La rédaction de contenu qui engage, informe et responsabilise les lecteurs est bénéfique pour les entreprises de toutes formes et tailles. Chez nous, nous avons une équipe de spécialistes du contenu qui sont experts dans la création de matériel original et significatif pour votre lecteur cible.
+                                    La rédaction de contenu qui engage, informe et responsabilise les lecteurs est indispensable pour les entreprises de toutes formes et tailles. Chez Lyneo, nous avons une équipe de rédacteurs SEO qui sont experts dans la création de contenus optimisés pour le SEO, afin d'améliorer votre positionnement.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -117,7 +117,7 @@
                                       <a href="{{ route('seo') }}">Référencement en ligne</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nos spécialistes du référencement à Périgueux ont des années d'expérience dans la création de pages optimisées pour les moteurs de recherche, ce qui contribuera à améliorer le classement de votre site Web. Une bonne stratégie de référencement peut conduire à plus de trafic et de clients pour votre entreprise.
+                                    Nous sommes des spécialistes du SEO à Périgueux depuis de nombreuses années. Nous créons des pages optimisées pour les moteurs de recherche, pour améliorer votre classement de votre site Web. Une stratégie SEO efficace vous assure plus de trafic et de clients pour votre entreprise.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -126,12 +126,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-local-bordeaux.svg" alt="SEO local à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/seo-local-bordeaux.svg" alt="SEO local à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <a href="{{ route('seo-local') }}">SEO Local</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Les clients de votre région seront en mesure de vous localiser plus rapidement lorsque votre site Web est optimisé pour le référencement local. Si vous profitez de notre service de référencement local, nous créerons pour vous un profil Google My Business et l'optimiserons pour qu'il apparaisse dans les résultats de recherche du pack local.
+                                    Les clients de votre région sont en mesure de vous localiser plus rapidement lorsque votre site Web est optimisé pour le référencement local. Grâce à notre service de SEO local, nous créerons pour vous un profil Google My Business et l'optimisons pour qu'il apparaisse dans les résultats de recherche du pack local.
                                   </p>
                                     <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -145,7 +145,7 @@
                                       <a href="#">SEO e-commerce</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Développez votre site de commerce électronique grâce à nos stratégies d'optimisation des moteurs de recherche conçues spécialement pour les boutiques en ligne. Nos spécialistes du référencement de sites d'e-commerce à Périgueux créent des listes de produits à forte conversion et des pages de produits à chargement rapide, afin que vous puissiez réaliser plus de ventes.
+                                    Développez votre boutique en ligne, grâce à nos stratégies d'optimisation des moteurs de recherche conçues spécialement pour les e-commerces. Nous sommes experts dans le SEO pour les e-commerces, nous créeons, des listes de produits à forte conversion et des pages de produits à chargement rapide, afin que vous puissiez réaliser plus de ventes.
                                   </p>
                                     <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -170,10 +170,10 @@
                           <div class="text-col col-md-7 col-sm-12">
                             <div class="inner">
                               <p>
-                                Dans le monde des affaires d'aujourd'hui, il est essentiel de ne pas faire confiance à n'importe quelle agence de marketing numérique. Vous voulez trouver un partenaire fiable qui prendra le temps d'écouter vos objectifs et vous aidera à produire le message que vous voulez que les autres voient.
+                                Dans le monde des affaires d'aujourd'hui, il est essentiel de ne pas faire confiance à n'importe quelle agence SEO. Vous voulez trouver un partenaire fiable qui prendra le temps d'écouter vos objectifs et vous aidera à produire le message que vous voulez que les autres voient.
                               </p>
                               <p>
-                                En outre, elle doit vous aider à obtenir des résultats de retour sur investissement afin que votre entreprise obtienne le meilleur rendement possible de son investissement sur le marché. Il existe cependant un certain nombre d'agences qui ne peuvent pas fournir des services aussi complets.
+                                En outre, elle doit vous aider à obtenir des résultats propants, afin que votre entreprise obtienne le meilleur retour sur investissement. Il existe cependant un certain nombre d'agences SEO qui ne peuvent pas fournir des services aussi complets.
                               </p>
                             </div>
                           </div>
@@ -190,7 +190,7 @@
                           </div>
                           <div class="inner mt-5">
                             <p>
-                              Une campagne de marketing réussie est incomplète sans l'optimisation des moteurs de recherche. Le référencement permet à votre contenu d'être vu par ceux qui comptent le plus - votre marché ou public cible. Sans cela, aucun autre effort de marketing n'aura d'importance car personne ne les verra.
+                              Une campagne de marketing réussie est incomplète sans l'optimisation pour les moteurs de recherche. Le SEO permet à votre contenu d'être vu par ceux qui comptent le plus - votre marché ou public cible. Sans cela, aucun autre effort de marketing n'aura d'importance car personne ne les verra.
                             </p>
                             <p>
                               Sur internet, le contenu est roi et la clé du succès. C'est pourquoi Lyneo offre à ses clients le meilleur des services de référencement et de rédaction de contenu pour les aider à se démarquer dans leur domaine. Notre équipe de rédacteurs web expérimentés créera un contenu original et de haute qualité pour votre site Internet ou votre blog, en se concentrant sur la recherche de mots-clés pour s'assurer qu'il est vu par les moteurs de recherche. Nous pouvons également vous fournir des informations précieuses sur les dernières tendances du secteur afin que vous gardiez une longueur d'avance sur la concurrence.
