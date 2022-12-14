@@ -42,6 +42,8 @@
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="{{ asset('js') }}/respond.js"></script><![endif]-->
 
+    <script src="{{ asset('js') }}/jquery.js"></script>
+
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'>
         <!-- Google tag (gtag.js) -->
@@ -77,7 +79,7 @@
 
     @include('layouts.footer')
 
-    <script src="{{ asset('js') }}/jquery.js"></script>
+
     <script src="{{ asset('js') }}/popper.min.js"></script>
     <script src="{{ asset('js') }}/bootstrap.min.js"></script>
     <script src="{{ asset('js') }}/TweenMax.js"></script>
