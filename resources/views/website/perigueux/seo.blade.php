@@ -36,6 +36,7 @@
                         <img src="{{ asset('images') }}/seo-ville.svg" alt="seo à bordeaux">
                       </div>
                       <div class="text-content">
+
                         <p>Lyneo est une agence SEO basée à Périgueux aquitaine offrant d'excellents services de recherche et de stratégie de mots-clés pour aider les entreprises à gagner en visibilité dans le monde numérique. <br><span id="dots">...</span><span id="more">                              Nos services comprennent la rédaction de contenu, les stratégies de référencement, la création de liens et plus encore
                           <br>
                           Périgueux est une ville de Dordogne dans la région Aquitaine du sud-ouest de la France. C'est une ville ancienne qui était autrefois un port important à l'époque romaine. La ville possède un riche patrimoine culturel, avec de nombreux monuments historiques, églises, palais et musées à explorer. En plus de son importance culturelle, Périgueux est également réputée pour sa gastronomie. Si vous cherchez l'endroit idéal pour goûter à la cuisine locale, ne cherchez pas plus loin ! Des plats traditionnels comme le cassoulet aux délicieux desserts comme le clafoutis, il y en a pour tous les goûts.

@@ -188,7 +188,7 @@ class FrontEndController extends Controller
     public function seo_perigueux(){
 
       $title = "Agence SEO à Périgueux - Référencement Web | Lyneo";
-      $meta_description = "Lyneo est votre agence SEO à Périgueux. Augmentez votre trafic organique en améliorant votre positionnement sur les moteurs de recherche !";
+      $meta_description = "✅ Lyneo est votre agence SEO à Périgueux. Augmentez votre trafic organique en améliorant votre positionnement sur les moteurs de recherche !";
 
       return view('website.perigueux.seo', compact('title', 'meta_description'));
     }
@@ -196,7 +196,7 @@ class FrontEndController extends Controller
     public function web_perigueux(){
 
       $title = "Périgueux création de site web | Développement de site internet";
-      $meta_description = "Vous envisagez une conception de site web? Notre agence de développement web à Périgueux est à votre service.";
+      $meta_description = "✅ Vous envisagez une conception de site web? Notre agence de développement web à Périgueux est à votre service.";
 
       return view('website.perigueux.web', compact('title', 'meta_description'));
     }

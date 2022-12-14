@@ -143,3 +143,63 @@
     }
   }
   </script>
+{{-- Google Reviews --}}
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews">
+</script>
+<script>
+//doublemarvellous get google reviews show stars
+function initReviews() {
+
+const stargetter = function(starso){
+if(starso === 5){
+return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+} else if (starso === 4){
+return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+} else if (starso === 3){
+return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+} else if (starso === 2){
+return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+} else if (starso === 1){
+return '&#9734'
+} else if (starso === 0){
+return '&nbsp;'
+} else {
+return
+}
+};
+const reviewbox 			= document.getElementById('reviews');
+const reviewboxtotal 		= document.getElementById('reviews_count');
+const reviews_total_count = document.getElementById('reviews_total_count');
+const map = new google.maps.Map(document.getElementById('map'), {
+center: {lat: -33.866, lng: 151.196},
+zoom: 15
+});
+//
+const request = {
+placeId: 'ChIJU01VQjCJ_0cRykQilQ5XlY4',
+fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
+};
+//
+var service = new google.maps.places.PlacesService(map);
+//
+service.getDetails(request, function(place, status) {
+
+//
+let i;
+let reviewsall = 0 ;
+for (i = 0; i < place.reviews.length; i++) {
+  //console.log(place.reviews[i].rating);
+//reviewbox.innerHTML += '<div class="column is-one-third reviewcard"><div class="reviewtext matchy">'+place.reviews[i].text + '</div><div class="stars">'+
+//stargetter(place.reviews[i].rating)
+//+'</div><div class="reviewauthor"><p class="authortitle">'+place.reviews[i].author_name + ' <a class="tag" href="'+place.reviews[i].author_url + '"><span>Read Review</span></a></p></div></div>';
+reviewsall += place.reviews[i].rating;
+}
+let total_reviews = reviewsall/place.reviews.length;
+console.log(total_reviews);
+reviewboxtotal.innerHTML += stargetter(total_reviews)
+reviews_total_count.innerHTML += total_reviews
+
+});
+}
+</script>

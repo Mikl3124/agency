@@ -33,6 +33,22 @@
                         <div class="sec-title">
                           <h4 class="text-center">Réalisez vos objectifs commerciaux avec des sites Web qui convertissent parfaitement.<span class="dot">.</span></h4>
                         </div>
+                      <!-- ////////reviews////////// -->
+                      <section class="reviews-section doublemarvellous">
+                        <div class="container">
+                          <div id="reviews" class="columns is-marginless is-multiline"></div>
+                          <div class="" style="width: 60%;margin: 0 auto;text-align: center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" style="width: 60px;"/>
+                            <div class=""><span id="reviews_total_count" style="font-family: Arial;font-weight:bold"></span>  <span id="reviews_count" class="stars"></span>   </div>
+                          </div>
+
+                          <div id="map"></div>
+
+                        </div>
+                      </section>
+
+
+
                           <div class="main-image image">
                             <img src="{{ asset('images') }}/web-ville.svg" alt="creation site web à bordeaux">
                           </div>
