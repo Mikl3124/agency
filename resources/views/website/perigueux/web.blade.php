@@ -31,100 +31,101 @@
                   <div class="content-side col-lg-8 col-md-12 col-sm-12">
                       <div class="service-details">
                         <div class="sec-title">
-                          <h4 class="text-center">Réalisez vos objectifs commerciaux avec des sites Web qui convertissent parfaitement.<span class="dot">.</span></h4>
+                          <h4 class="text-center">Réalisez vos objectifs commerciaux avec des sites Web qui convertissent parfaitement<span class="dot">.</span></h4>
                         </div>
                         <style> .reviews-section{background: #f7f6f6;}.reviewcard{} .reviewcard .reviewtext{font-size: .85em; } .reviewcard .reviewauthor{border-top: 1px solid #d8c9d8; padding-top: 1em; margin-top: 1em; } .reviewcard .reviewauthor .authortitle{font-size: 1.1em; font-weight: 600; width: 100%; } .reviewcard .reviewauthor .authortitle a{font-size: .85em; font-weight: 300; color: #d8c9d8; float: right; } .stars span{color: #ffc633; font-size: 1.5em; } </style>
-                        <!-- ////////reviews////////// -->
-                        <section class="reviews-section doublemarvellous">
-                          <div class="container">
-                            <div id="reviews" class="columns is-marginless is-multiline"></div>
-                            <div class="" style="width: 60%;margin: 0 auto;text-align: center">
-                              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" style="width: 60px;"/>
-                              <div class=""><span id="reviews_total_count" style="font-family: Arial;font-weight:bold"></span><div class="my-rating-4" id="reviews_count" data-rating="2.5"></div>     </div>
-                            </div>
+<!-- ////////reviews////////// -->
+<section class="reviews-section doublemarvellous">
+  <div class="container">
+    <div id="reviews" class="columns is-marginless is-multiline"></div>
+    <div class="" style="width: 60%;margin: 0 auto;text-align: center">
+    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" style="width: 60px;"/>
+    	<div class=""><span id="reviews_total_count" style="font-family: Arial;font-weight:bold"></span><div class="my-rating-4" id="reviews_count" data-rating="2.5"></div>     </div>
+    </div>
 
 
 
-                            <div id="map"></div>
-                            <script async defer
-                              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
-                              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-                               <script
-                              src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
-                              <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
-                             <script>
-                              //doublemarvellous get google reviews show stars
-                              function initReviews() {
+    <div id="map"></div>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+       <script
+      src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
+      <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
+     <script>
+      //doublemarvellous get google reviews show stars
+      function initReviews() {
 
-                              const stargetter = function(starso){
-                              if(starso === 5){
-                              return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-                              } else if (starso === 4){
-                              return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-                              } else if (starso === 3){
-                              return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-                              } else if (starso === 2){
-                              return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-                              } else if (starso === 1){
-                              return '&#9734'
-                              } else if (starso === 0){
-                              return '&nbsp;'
-                              } else {
-                              return
-                              }
-                              };
-                              const reviewbox 			= document.getElementById('reviews');
-                              const reviewboxtotal 		= document.getElementById('reviews_count');
-                              const reviews_total_count = document.getElementById('reviews_total_count');
-                              const map = new google.maps.Map(document.getElementById('map'), {
-                              center: {lat: -33.866, lng: 151.196},
-                              zoom: 15
-                              });
-                              //
-                              const request = {
-                              placeId: 'ChIJxThk6CeP_0cRCz_CoxsVCEE',
-                              fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
-                              };
-                              //
-                              var service = new google.maps.places.PlacesService(map);
-                              //
-                              service.getDetails(request, function(place, status) {
+      const stargetter = function(starso){
+      if(starso === 5){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 4){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 3){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 2){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 1){
+      return '&#9734'
+      } else if (starso === 0){
+      return '&nbsp;'
+      } else {
+      return
+      }
+      };
+      const reviewbox 			= document.getElementById('reviews');
+      const reviewboxtotal 		= document.getElementById('reviews_count');
+      const reviews_total_count = document.getElementById('reviews_total_count');
+      const map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -33.866, lng: 151.196},
+      zoom: 15
+      });
+      //
+      const request = {
+      placeId: 'ChIJxThk6CeP_0cRCz_CoxsVCEE',
+      fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
+      };
+      //
+      var service = new google.maps.places.PlacesService(map);
+      //
+      service.getDetails(request, function(place, status) {
 
-                              //
-                              let i;
-                              let reviewsall = 0 ;
-                              for (i = 0; i < place.reviews.length; i++) {
-                                //console.log(place.reviews[i].rating);
-                              //reviewbox.innerHTML += '<div class="column is-one-third reviewcard"><div class="reviewtext matchy">'+place.reviews[i].text + '</div><div class="stars">'+
-                              //stargetter(place.reviews[i].rating)
-                              //+'</div><div class="reviewauthor"><p class="authortitle">'+place.reviews[i].author_name + ' <a class="tag" href="'+place.reviews[i].author_url + '"><span>Read Review</span></a></p></div></div>';
-                              reviewsall += place.reviews[i].rating;
-                              }
-                              let total_reviews = reviewsall/place.reviews.length;
-                              console.log(total_reviews);
-                              $('#reviews_count').attr('data-rating',total_reviews)
-                              //reviewboxtotal.innerHTML += stargetter(total_reviews)
-                              reviews_total_count.innerHTML += total_reviews.toFixed(1)
+      //
+      let i;
+      let reviewsall = 0 ;
+      for (i = 0; i < place.reviews.length; i++) {
+      	//console.log(place.reviews[i].rating);
+      //reviewbox.innerHTML += '<div class="column is-one-third reviewcard"><div class="reviewtext matchy">'+place.reviews[i].text + '</div><div class="stars">'+
+      //stargetter(place.reviews[i].rating)
+      //+'</div><div class="reviewauthor"><p class="authortitle">'+place.reviews[i].author_name + ' <a class="tag" href="'+place.reviews[i].author_url + '"><span>Read Review</span></a></p></div></div>';
+      reviewsall += place.reviews[i].rating;
+      }
+      let total_reviews = reviewsall/place.reviews.length;
+      console.log(total_reviews);
+      $('#reviews_count').attr('data-rating',total_reviews)
+      //reviewboxtotal.innerHTML += stargetter(total_reviews)
+      reviews_total_count.innerHTML += total_reviews.toFixed(1)
 
-                               $(".my-rating-4").starRating({
-                              totalStars: 5,
-                              starShape: 'rounded',
-                              starSize: 40,
-                               readOnly: true,
-                              emptyColor: 'lightgray',
-                              hoverColor: 'salmon',
-                              activeColor: 'gold',
-                              useGradient: false
-                            });
+       $(".my-rating-4").starRating({
+		  totalStars: 5,
+		  starShape: 'rounded',
+		  starSize: 40,
+		   readOnly: true,
+		  emptyColor: 'lightgray',
+		  hoverColor: 'salmon',
+		  activeColor: 'gold',
+		  useGradient: false
+		});
 
-                              });
-                              }
+      });
+      }
 
 
 
-                            </script>
-                          </div>
-                        </section>
+    </script>
+  </div>
+</section>
+
 
 
 
