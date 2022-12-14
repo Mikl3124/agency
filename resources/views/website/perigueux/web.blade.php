@@ -47,12 +47,12 @@
 
     <div id="map"></div>
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-       <script
-      src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
-      <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
-     <script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
+     <script
+    src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
+    <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
+
+   <script type="text/javascript">
       //doublemarvellous get google reviews show stars
       function initReviews() {
 
@@ -82,7 +82,7 @@
       });
       //
       const request = {
-      placeId: 'ChIJxThk6CeP_0cRCz_CoxsVCEE',
+      placeId: 'ChIJU01VQjCJ_0cRykQilQ5XlY4',
       fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
       };
       //
