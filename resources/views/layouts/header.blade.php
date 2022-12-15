@@ -21,7 +21,7 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="dropdown {{ (request()->is('/')) ? 'active' : '' }}">
+                            <li class="{{ (request()->is('/')) ? 'active' : '' }}">
                                 <a href="{{ route('home') }}">L'agence</a>
                             </li>
                             <li class="dropdown {{ (request()->is('developpement-web/*')) || (request()->is('developpement-web')) ? 'current' : '' }}"><a href="{{ route('developpement') }}">Développement Web</a>
