@@ -1414,10 +1414,6 @@
   .main-header .nav-outer {
     order: 1;
   }
-
-  .main-header .header-upper .inner-container {
-    display: flex;
-  }
 }
 
 
