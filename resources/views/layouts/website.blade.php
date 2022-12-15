@@ -42,7 +42,8 @@
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="{{ asset('js') }}/respond.js"></script><![endif]-->
 
-    <script src="{{ asset('js') }}/jquery.js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
 
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'>
@@ -66,8 +67,6 @@
           gtag('config', 'UA-146702848-3');
         </script>
 
-
-
 </head>
 
 <body class="body">
@@ -79,7 +78,7 @@
 
     @include('layouts.footer')
 
-
+    <script src="{{ asset('js') }}/jquery.js"></script>
     <script src="{{ asset('js') }}/popper.min.js"></script>
     <script src="{{ asset('js') }}/bootstrap.min.js"></script>
     <script src="{{ asset('js') }}/TweenMax.js"></script>
@@ -100,6 +99,85 @@
     <script src="{{ asset('js') }}/lang.js"></script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="{{ asset('js') }}/color-switcher.js"></script>
+
+
+    <script type="text/javascript">
+      //doublemarvellous get google reviews show stars
+      function initReviews() {
+
+      const stargetter = function(starso){
+      if(starso === 5){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 4){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 3){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 2){
+      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
+      } else if (starso === 1){
+      return '&#9734'
+      } else if (starso === 0){
+      return '&nbsp;'
+      } else {
+      return
+      }
+      };
+      const reviewbox 			= document.getElementById('reviews');
+      const reviewboxtotal 		= document.getElementById('reviews_count');
+      const reviewcount 		= document.getElementById('reviews_count_2');
+
+      const map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -33.866, lng: 151.196},
+      zoom: 15
+      });
+      //
+      const request = {
+      placeId: 'ChIJU01VQjCJ_0cRykQilQ5XlY4',
+      fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
+      };
+      //
+      var service = new google.maps.places.PlacesService(map);
+      //
+      service.getDetails(request, function(place, status) {
+
+      //
+      let i;
+      let reviewsall = 0 ;
+      for (i = 0; i < place.reviews.length; i++) {
+        //console.log(place.reviews[i].rating);
+      //reviewbox.innerHTML += '<div class="column is-one-third reviewcard"><div class="reviewtext matchy">'+place.reviews[i].text + '</div><div class="stars">'+
+      //stargetter(place.reviews[i].rating)
+      //+'</div><div class="reviewauthor"><p class="authortitle">'+place.reviews[i].author_name + ' <a class="tag" href="'+place.reviews[i].author_url + '"><span>Read Review</span></a></p></div></div>';
+      reviewsall += place.reviews[i].rating;
+      }
+      let total_reviews = reviewsall/place.reviews.length;
+      let number_reviews = place.reviews.length;
+      console.log(place.reviews.length);
+      $('#reviews_count').attr('data-rating',total_reviews)
+      reviewcount.innerHTML = number_reviews
+      reviews_total_count.innerHTML += total_reviews.toFixed(1)
+      number_reviews.innerHTML += total_reviews.toFixed(1)
+
+       $(".my-rating-4").starRating({
+      totalStars: 5,
+      starShape: 'rounded',
+      starSize: 20,
+      readOnly: true,
+      emptyColor: 'lightgray',
+      hoverColor: 'salmon',
+      activeColor: 'gold',
+      useGradient: false
+    });
+
+      });
+      }
+    </script>
+
+    <script
+    src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
+    <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
+
+
 
 </body>
 

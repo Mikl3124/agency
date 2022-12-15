@@ -18,6 +18,7 @@
                                 <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                                 <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
@@ -143,5 +144,4 @@
     }
   }
   </script>
-
 

@@ -33,117 +33,23 @@
                         <div class="sec-title">
                           <h4 class="text-center">Réalisez vos objectifs commerciaux avec des sites Web qui convertissent parfaitement<span class="dot">.</span></h4>
                         </div>
-                        <style> .reviews-section{background: #f7f6f6;}.reviewcard{} .reviewcard .reviewtext{font-size: .85em; } .reviewcard .reviewauthor{border-top: 1px solid #d8c9d8; padding-top: 1em; margin-top: 1em; } .reviewcard .reviewauthor .authortitle{font-size: 1.1em; font-weight: 600; width: 100%; } .reviewcard .reviewauthor .authortitle a{font-size: .85em; font-weight: 300; color: #d8c9d8; float: right; } .stars span{color: #ffc633; font-size: 1.5em; } </style>
-<!-- ////////reviews////////// -->
-<section class="reviews-section doublemarvellous">
-  <div class="container">
-    <div id="reviews" class="columns is-marginless is-multiline"></div>
-    <div class="" style="width: 60%;margin: 0 auto;text-align: center">
-    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" style="width: 60px;"/>
-    	<div class=""><span id="reviews_total_count" style="font-family: Arial;font-weight:bold"></span><div class="my-rating-4" id="reviews_count" data-rating="2.5"></div>     </div>
-    </div>
 
+                        <div class="main-image image">
+                          <img src="{{ asset('images') }}/web-ville.svg" alt="creation site web à bordeaux">
+                        </div>
 
-
-    <div id="map"></div>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDZEkJ4ml_ns_kNtF_EUrrM9NOvHdl0Y8&libraries=places&callback=initReviews"></script>
-     <script
-    src="https://nashio.github.io/star-rating-svg/src/jquery.star-rating-svg.js"></script>
-    <link rel="stylesheet" href="https://nashio.github.io/star-rating-svg/src/css/star-rating-svg.css" />
-
-   <script type="text/javascript">
-      //doublemarvellous get google reviews show stars
-      function initReviews() {
-
-      const stargetter = function(starso){
-      if(starso === 5){
-      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-      } else if (starso === 4){
-      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-      } else if (starso === 3){
-      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-      } else if (starso === 2){
-      return '<span>&#9733;</span>&nbsp;<span>&#9733;</span>'
-      } else if (starso === 1){
-      return '&#9734'
-      } else if (starso === 0){
-      return '&nbsp;'
-      } else {
-      return
-      }
-      };
-      const reviewbox 			= document.getElementById('reviews');
-      const reviewboxtotal 		= document.getElementById('reviews_count');
-      const reviews_total_count = document.getElementById('reviews_total_count');
-      const map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: -33.866, lng: 151.196},
-      zoom: 15
-      });
-      //
-      const request = {
-      placeId: 'ChIJU01VQjCJ_0cRykQilQ5XlY4',
-      fields: ['name', 'formatted_address', 'place_id', 'geometry', 'reviews']
-      };
-      //
-      var service = new google.maps.places.PlacesService(map);
-      //
-      service.getDetails(request, function(place, status) {
-
-      //
-      let i;
-      let reviewsall = 0 ;
-      for (i = 0; i < place.reviews.length; i++) {
-      	//console.log(place.reviews[i].rating);
-      //reviewbox.innerHTML += '<div class="column is-one-third reviewcard"><div class="reviewtext matchy">'+place.reviews[i].text + '</div><div class="stars">'+
-      //stargetter(place.reviews[i].rating)
-      //+'</div><div class="reviewauthor"><p class="authortitle">'+place.reviews[i].author_name + ' <a class="tag" href="'+place.reviews[i].author_url + '"><span>Read Review</span></a></p></div></div>';
-      reviewsall += place.reviews[i].rating;
-      }
-      let total_reviews = reviewsall/place.reviews.length;
-      console.log(total_reviews);
-      $('#reviews_count').attr('data-rating',total_reviews)
-      //reviewboxtotal.innerHTML += stargetter(total_reviews)
-      reviews_total_count.innerHTML += total_reviews.toFixed(1)
-
-       $(".my-rating-4").starRating({
-		  totalStars: 5,
-		  starShape: 'rounded',
-		  starSize: 40,
-		   readOnly: true,
-		  emptyColor: 'lightgray',
-		  hoverColor: 'salmon',
-		  activeColor: 'gold',
-		  useGradient: false
-		});
-
-      });
-      }
-
-
-
-    </script>
-  </div>
-</section>
-
-
-
-
-                          <div class="main-image image">
-                            <img src="{{ asset('images') }}/web-ville.svg" alt="creation site web à bordeaux">
-                          </div>
-                          <div class="text-content">
-                            <p>Lyneo est un agence web à Périgueux dordogne, spécialisée dans l'optimisation de sites Web pour les petites et grandes entreprises. <br><span id="dots">...</span><span id="more">
-                              Nous comprenons l'importance d'avoir un site web qui non seulement est beau mais qui est aussi performant. C'est pourquoi nous employons des développeurs web ayant des années d'expérience - pour nous assurer que votre site atteint son plein potentiel .<br>
-                              Périgueux est une ville  d'art et d'histoire, et il est donc logique de commencer par les bases lorsqu'on parle d'optimisation de site Web. C'est pourquoi nous avons mis au point cette recette pour créer un article de blog qui fera remarquer votre site.<br>
-                              Avec avec un riche patrimoine culturel qui remonte à la période gallo-romaine. La ville de Périgueux abrite une variété d'attractions touristiques intéressantes, notamment la cathédrale de Périgueux et la basilique Saint Front. En outre, Périgueux est également réputée pour son architecture médiévale et Renaissance, que l'on peut voir dans les nombreux bâtiments et monuments historiques de la ville.<br>
-                              Nous pensons qu'il faut plus qu'une simple expertise technique pour créer un site Web réussi. Vous avez besoin de stratégies de marketing de contenu et de meilleures pratiques de référencement afin de tirer le meilleur parti de votre site Web. C'est pourquoi nous proposons des services de rédaction d'articles de blog, afin que vous puissiez vous concentrer sur la création d'un contenu attrayant et informatif pour vos visiteurs.<br>
-                              Nous sommes fiers d'avoir chez Lyneo une équipe d'experts qui utilisent leurs connaissances et leurs compétences pour aider les entreprises à lancer ou à réorganiser leurs sites Web. En optimisant votre site Web, notre équipe peut s'assurer qu'il se démarque de tous les autres et qu'il est performant - générant des prospects et des ventes.<br>
-                              L'agence Lyneo propose des services de conseil pour vous aider à lancer ou relancer votre site Web, ainsi qu'à mettre en œuvre des stratégies conçues pour générer des prospects et des ventes. Notre équipe d'experts est passionnée par le marketing numérique et la fourniture de solutions axées sur les résultats afin que vous puissiez tirer le meilleur parti de votre présence en ligne. Qu'il s'agisse de créer une boutique de commerce électronique, de créer du contenu pour un blog ou d'améliorer l'expérience des utilisateurs en modifiant le design, Lyneo possède l'expertise nécessaire pour vous aider à réussir. <br>
-                              Lyneo a pour vocation d'aider les entreprises à atteindre leur plein potentiel, dès le départ. Nous nous engageons à fournir un service de qualité avec des délais d'exécution rapides afin que vous puissiez vous concentrer sur ce qui est important : la croissance de votre entreprise. Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons faire travailler votre site Web pour vous !
-                            </span>
-                            <button onclick="myFunction()" id="myBtn">En lire plus</button>
-                          </div>
+                        <div class="text-content">
+                          <p>Lyneo est un agence web à Périgueux dordogne, spécialisée dans l'optimisation de sites Web pour les petites et grandes entreprises. <br><span id="dots">...</span><span id="more">
+                            Nous comprenons l'importance d'avoir un site web qui non seulement est beau mais qui est aussi performant. C'est pourquoi nous employons des développeurs web ayant des années d'expérience - pour nous assurer que votre site atteint son plein potentiel .<br>
+                            Périgueux est une ville  d'art et d'histoire, et il est donc logique de commencer par les bases lorsqu'on parle d'optimisation de site Web. C'est pourquoi nous avons mis au point cette recette pour créer un article de blog qui fera remarquer votre site.<br>
+                            Avec avec un riche patrimoine culturel qui remonte à la période gallo-romaine. La ville de Périgueux abrite une variété d'attractions touristiques intéressantes, notamment la cathédrale de Périgueux et la basilique Saint Front. En outre, Périgueux est également réputée pour son architecture médiévale et Renaissance, que l'on peut voir dans les nombreux bâtiments et monuments historiques de la ville.<br>
+                            Nous pensons qu'il faut plus qu'une simple expertise technique pour créer un site Web réussi. Vous avez besoin de stratégies de marketing de contenu et de meilleures pratiques de référencement afin de tirer le meilleur parti de votre site Web. C'est pourquoi nous proposons des services de rédaction d'articles de blog, afin que vous puissiez vous concentrer sur la création d'un contenu attrayant et informatif pour vos visiteurs.<br>
+                            Nous sommes fiers d'avoir chez Lyneo une équipe d'experts qui utilisent leurs connaissances et leurs compétences pour aider les entreprises à lancer ou à réorganiser leurs sites Web. En optimisant votre site Web, notre équipe peut s'assurer qu'il se démarque de tous les autres et qu'il est performant - générant des prospects et des ventes.<br>
+                            L'agence Lyneo propose des services de conseil pour vous aider à lancer ou relancer votre site Web, ainsi qu'à mettre en œuvre des stratégies conçues pour générer des prospects et des ventes. Notre équipe d'experts est passionnée par le marketing numérique et la fourniture de solutions axées sur les résultats afin que vous puissiez tirer le meilleur parti de votre présence en ligne. Qu'il s'agisse de créer une boutique de commerce électronique, de créer du contenu pour un blog ou d'améliorer l'expérience des utilisateurs en modifiant le design, Lyneo possède l'expertise nécessaire pour vous aider à réussir. <br>
+                            Lyneo a pour vocation d'aider les entreprises à atteindre leur plein potentiel, dès le départ. Nous nous engageons à fournir un service de qualité avec des délais d'exécution rapides afin que vous puissiez vous concentrer sur ce qui est important : la croissance de votre entreprise. Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons faire travailler votre site Web pour vous !
+                          </span>
+                          <button onclick="myFunction()" id="myBtn">En lire plus</button>
+                        </div>
                       </div>
                   </div>
 
@@ -536,6 +442,8 @@
             </section>
 
 
+
+
       <!-- Call To Section -->
       <section class="call-to-section-two alternate">
           <div class="auto-container">
@@ -550,5 +458,7 @@
               </div>
           </div>
       </section>
+
+
 @endsection
 
