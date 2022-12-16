@@ -10,16 +10,19 @@ class SearchController extends Controller
 
     public function simple(Request $request)
     {
-        $posts = DB::table('posts');
-        if( $request->input('search')){
-            $posts = $posts->where('title', 'LIKE', "%" . $request->search . "%");
-        }
-        $posts = $posts->paginate(3);
 
-        $random_posts = Post::all()->random(3);
+        if( $request->input('search')){
+            $posts = Post::where('title', 'LIKE', "%" . $request->search . "%")->paginate(3);
+        }
+
+        $title = "Le blog de l'agence Lyneo | Agence Web et SEO";
+        $meta_description = "Découvrez de nombreux articles thème du web et du SEO. L'agence de communication Lyneo vous dévoile tout";
+
+        $random_3_posts = Post::all()->random(3);
+        $random_2_posts = Post::all()->random(2);
         $categories = Category::all();
 
-        return view('website.blog', compact('posts','categories','random_posts'));
+        return view('website.blog', compact('posts','categories','random_3_posts','random_2_posts','title','meta_description'));
     }
 
 }

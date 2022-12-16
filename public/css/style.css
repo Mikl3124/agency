@@ -26634,6 +26634,10 @@ img.lazy-image.loaded {
   color: var(--thm-base) !important;
 }
 
+.bg-primary{
+  background-color: var(--thm-base) !important;
+}
+
 #more {display: none;}
 
 #myBtn{
