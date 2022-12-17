@@ -24,7 +24,7 @@
       <!--End Banner Section -->
 
       <div class="sidebar-page-container">
-          <div class="auto-container">
+          <div class="auto-container mb-5">
               <div class="row clearfix">
 
                   <!--Content Side-->
@@ -38,18 +38,6 @@
                           <img src="{{ asset('images') }}/web-ville.svg" alt="creation site web à bordeaux">
                         </div>
 
-                        <div class="text-content">
-                          <p>Lyneo est un agence web à Périgueux dordogne, spécialisée dans l'optimisation de sites Web pour les petites et grandes entreprises. <br><span id="dots">...</span><span id="more">
-                            Nous comprenons l'importance d'avoir un site web qui non seulement est beau mais qui est aussi performant. C'est pourquoi nous employons des développeurs web ayant des années d'expérience - pour nous assurer que votre site atteint son plein potentiel .<br>
-                            Périgueux est une ville  d'art et d'histoire, et il est donc logique de commencer par les bases lorsqu'on parle d'optimisation de site Web. C'est pourquoi nous avons mis au point cette recette pour créer un article de blog qui fera remarquer votre site.<br>
-                            Avec avec un riche patrimoine culturel qui remonte à la période gallo-romaine. La ville de Périgueux abrite une variété d'attractions touristiques intéressantes, notamment la cathédrale de Périgueux et la basilique Saint Front. En outre, Périgueux est également réputée pour son architecture médiévale et Renaissance, que l'on peut voir dans les nombreux bâtiments et monuments historiques de la ville.<br>
-                            Nous pensons qu'il faut plus qu'une simple expertise technique pour créer un site Web réussi. Vous avez besoin de stratégies de marketing de contenu et de meilleures pratiques de référencement afin de tirer le meilleur parti de votre site Web. C'est pourquoi nous proposons des services de rédaction d'articles de blog, afin que vous puissiez vous concentrer sur la création d'un contenu attrayant et informatif pour vos visiteurs.<br>
-                            Nous sommes fiers d'avoir chez Lyneo une équipe d'experts qui utilisent leurs connaissances et leurs compétences pour aider les entreprises à lancer ou à réorganiser leurs sites Web. En optimisant votre site Web, notre équipe peut s'assurer qu'il se démarque de tous les autres et qu'il est performant - générant des prospects et des ventes.<br>
-                            L'agence Lyneo propose des services de conseil pour vous aider à lancer ou relancer votre site Web, ainsi qu'à mettre en œuvre des stratégies conçues pour générer des prospects et des ventes. Notre équipe d'experts est passionnée par le marketing numérique et la fourniture de solutions axées sur les résultats afin que vous puissiez tirer le meilleur parti de votre présence en ligne. Qu'il s'agisse de créer une boutique de commerce électronique, de créer du contenu pour un blog ou d'améliorer l'expérience des utilisateurs en modifiant le design, Lyneo possède l'expertise nécessaire pour vous aider à réussir. <br>
-                            Lyneo a pour vocation d'aider les entreprises à atteindre leur plein potentiel, dès le départ. Nous nous engageons à fournir un service de qualité avec des délais d'exécution rapides afin que vous puissiez vous concentrer sur ce qui est important : la croissance de votre entreprise. Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons faire travailler votre site Web pour vous !
-                          </span>
-                          <button onclick="myFunction()" id="myBtn">En lire plus</button>
-                        </div>
                       </div>
                   </div>
 
@@ -58,7 +46,7 @@
                   <!--Content Side-->
                   <div class="content-side col-lg-12 col-md-12 col-sm-12 pt-5">
                     <div class="sec-title">
-                      <h2 class="text-center">Nos services de création de site web <br> à Périgueux<span class="dot">.</span></h2>
+                      <h2 class="text-center">Notre agence WEB de Périgueux<br>à votre service<span class="dot">.</span></h2>
                       <div class="subtitle">Boostez votre activité grâce à des sites web à fort taux de conversion</div>
                     </div>
 
@@ -72,7 +60,7 @@
                                       <a href="{{ route('seo-bordeaux') }}">Optimisation pour les moteurs de recherche - SEO</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Non seulement nos sites Web sont accrocheurs, mais ils sont également conçus dans un souci de stratégie. Nos services de conception de sites Web à Bordeaux comprennent l'optimisation des moteurs de recherche <a href="{{ route('seo-bordeaux') }}">(SEO) </a> s'assurer que vos clients cibles puissent trouver facilement votre site. Nous travaillerons avec vous pour identifier les bons mots-clés, puis nous optimiserons votre site Web en conséquence pour vous assurer une place de choix dans les résultats de recherche.
+                                    Les services Web de notre agence de Périgueux aideront votre entreprise à se démarquer de la concurrence. Nos sites internet accrocheurs sont combinés à un référencement stratégique afin de garantir que votre site Web puisse être facilement trouvé par les clients qui recherchent ce que vous offrez. Grâce à notre expertise, nous identifierons et optimiserons les mots-clés pertinents afin que vous soyez placé en bonne place dans les résultats de recherche.
                                 </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -81,12 +69,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/responsive-web.png" alt="Web Responsive Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/responsive-web.png" alt="Web Responsive Périgueux">
                                 <h3 class="how-it-works-card__title">
-                                      <p>Conception adaptée aux mobiles</p>
+                                      <p>Sites internet adaptés aux mobiles</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    En utilisant le responsive web design, nos développeurs web de Périgueux créeront un site web attrayant et facilement consultable sur tout type d'appareil. Sans compter que les visiteurs sont plus susceptibles de passer plus de temps sur votre site. Il y a également plus de chances d'être mieux classé sur les pages de résultats des moteurs de recherche si votre site est adapté aux mobiles - ce qui sera le cas si vous nous laissez le construire, car nous restons toujours au courant des derniers changements d'algorithme de Google.
+                                    Nos développeurs web de Périgueux utilisent les dernières techniques de conception responsive pour créer des sites web étonnants et captivants qui sont incroyablement accessibles sur tous les appareils. De plus, les visiteurs ont tendance à passer plus de temps sur ces sites ! En raison du nombre élevé de visiteurs et des stratégies d'optimisation de l'algorithme de Google employées par nos experts, votre site Web est sûr d'être mieux classé dans les résultats des moteurs de recherche pour un succès à long terme.
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -100,7 +88,7 @@
                                       <p>Développement de sites WEB</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nous sommes spécialisés dans la création de sites Web réactifs qui sont à la fois beaux et fonctionnels. Nous pensons que trouver un équilibre entre le design et la fonctionnalité est essentiel pour tout site Web.  Notre équipe d'experts a le souci du détail, ce qui garantit que votre site Web sera à la fois esthétique et convivial.
+                                    Notre équipe de professionnels comprend l'importance d'atteindre un équilibre parfait entre la conception et la fonctionnalité des sites web. Nous veillons à ce que votre site soit non seulement visuellement époustouflant, mais qu'il offre également une expérience utilisateur intuitive grâce à notre souci du détail. Laissez-nous créer un site Web réactif pour vous dès aujourd'hui !
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -110,12 +98,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/wordpress-logo.png" alt="Experts Wordpress à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/wordpress-logo.png" alt="Experts Wordpress à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <a href="{{ route('wordpress') }}">Experts Wordpress</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nous sommes des experts en conception de sites Web qui utilisent WordPress pour un grand nombre de nos projets, nous comprenons donc extrêmement bien cette plateforme. Si vous souhaitez une refonte de votre site Web WordPress ou si vous avez besoin d'aide pour la mise en œuvre du référencement et d'autres configurations techniques, ne cherchez pas plus loin - nous pouvons vous aider. De plus, nous garantissons que tous vos plugins et versions de WordPress seront à jour.
+                                    Vous êtes à la recherche d'une équipe de développement web expérimentée pour s'occuper de votre site web WordPress ? Ne cherchez pas plus loin ! Nos spécialistes ont une grande expérience de la plateforme, ils savent donc exactement comment mettre en œuvre le référencement et configurer les paramètres techniques. De plus, nous garantissons que tous les plugins et toutes les versions seront maintenus à jour, ce qui vous assure une totale tranquillité d'esprit.
                                   </p>
                                   </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
@@ -123,12 +111,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-ville.svg" alt="Rédaction de contenu à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/redaction-contenu-ville.svg" alt="Rédaction de contenu à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <p>Rédaction de contenu</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Notre équipe de rédacteurs de contenu basée à Périgueux est toujours au courant des dernières modifications des algorithmes de recherche de Google. Nous ne fournissons que du contenu de qualité, original et adapté à votre public spécifique.  Nous pouvons développer des articles de blog, des communiqués de presse et d'autres types de contenu Web pour aider votre site Web à être mieux classé dans les résultats des moteurs de recherche.
+                                    Notre équipe d'experts web de Périgueux est toujours à la pointe de la technologie en matière de référencement, et se tient au courant de toutes les mises à jour des algorithmes de recherche de Google dès qu'elles sont publiées. Notre engagement inébranlable envers l'excellence vous garantit un contenu de qualité conçu pour les besoins spécifiques de votre public. Nous sommes spécialisés dans la rédaction d'articles de blog, de communiqués de presse et d'autres types de documents Web originaux, qui donneront à votre site Web un coup de pouce essentiel dans les SERPs !
                                   </p>
                                     <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -137,12 +125,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/hebergement-web.png" alt="hebergement web à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/hebergement-web.png" alt="hebergement web à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <p>Hébergement WEB</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Chez Lyneo, nous comprenons que votre site Web est un élément essentiel de votre entreprise. C'est pourquoi nos forfaits de conception et de développement de sites Web incluent toujours un hébergement Web rapide et fiable. Notre équipe de concepteurs experts à Périgueux crée des sites Web à l'aide de <a href="{{ route('wordpress') }}">WordPress </a>, ce qui garantit que votre site sera optimisé pour la vitesse et l'expérience utilisateur. En nous confiant l'hébergement de votre site web, vous pouvez libérer du temps pour vous concentrer sur la gestion de votre entreprise.
+                                    Chez Lyneo, nous savons combien votre site web est important pour réussir dans le monde numérique d'aujourd'hui. C'est pourquoi nos forfaits de développement web sont entièrement équipés de services d'hébergement fiables. Notre équipe d'experts de Périgueux est très expérimentée et crée des sites Web à l'aide de <a href="{{ route('wordpress') }}">WordPress </a> pour garantir une vitesse, une efficacité et une satisfaction des utilisateurs maximales - vous laissant ainsi du temps libre pour vous concentrer sur les besoins de votre entreprise !
                                   </p>
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
@@ -150,12 +138,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/site-web-sur-mesure.png" alt="site web sur-mesure à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/site-web-sur-mesure.png" alt="site web sur-mesure à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <a href="{{ route('custom') }}">Création de site web sur-mesure</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Aucune entreprise n'est identique à une autre, alors votre site Web ne doit pas l'être non plus. Notre équipe de concepteurs web à Périgueux travaillera avec vous pour créer un design de site web personnalisé, adapté aux besoins de votre entreprise. Nous sommes fiers de fournir des conceptions web créatives et de haute qualité qui vous aideront à vous démarquer de la concurrence.
+                                    Nos développeurs web à Périgueux comprennent que chaque entreprise est unique et notre objectif est de créer un design de site web conçu spécifiquement pour les besoins de votre organisation. En mettant l'accent sur la créativité, la qualité et l'attention aux détails, nous nous efforçons de faire en sorte que vous vous démarquiez de la concurrence avec une présence en ligne vraiment personnalisée.
                                   </p>
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
@@ -163,12 +151,12 @@
                         <div class="col-md-12 col-lg-6">
                           <div class="how-it-works-card text-center">
                               <div class="how-it-works-card__inner">
-                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/developpement-ecommerce-2.png" alt="hebergement web à Bordeaux">
+                                <img class="my-5 icon-box-2" src="{{ asset('images') }}/developpement-ecommerce-2.png" alt="hebergement web à Périgueux">
                                 <h3 class="how-it-works-card__title">
                                       <a href="{{ route('commerce') }}">Création de sites e-commerce</a>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Si vous avez besoin d'un site de commerce électronique original et époustouflant, adapté à vos besoins spécifiques, les experts en conception web de notre agence de Périgueux peuvent vous aider. Nos développeurs travailleront avec vous en tête-à-tête pour créer la boutique en ligne parfaite pour votre entreprise.
+                                    Libérez le potentiel de votre entreprise avec une solution de commerce électronique adaptée à vos besoins uniques. Nos développeurs expérimentés à Périgueux fournissent un soutien complet, offrant une boutique en ligne personnalisée qui vous emmènera, vous et vos clients, dans un voyage d'achat inoubliable.
                                   </p>
                               </div><!-- /.how-it-works-card__inner -->
                           </div><!-- /.how-it-works-card -->
@@ -191,13 +179,14 @@
                         <div class="row clearfix">
                           <div class="text-col col-md-7 col-sm-12">
                             <div class="inner">
-                              <p>De nos jours, il est essentiel que vous ne vous associiez pas à n'importe quelle vieille agence de marketing numérique. Vous devez vous assurer de trouver une agence qui non seulement sera à l'écoute de vos objectifs et du message que vous souhaitez faire passer, mais qui vous guidera également afin que votre entreprise obtienne le meilleur retour possible sur son investissement en marketing. Toutes les agences de marketing numérique n'ont pas ce niveau de dévouement.
+                              <p>
+                                Alors que les entreprises se battent pour réussir dans le paysage numérique actuel, le bon partenaire marketing peut faire toute la différence. Pour que votre entreprise tire le meilleur parti de son investissement, il est essentiel de choisir une agence spécialisée qui écoutera et comprendra à la fois vos objectifs et votre message avant d'élaborer un plan d'action efficace pour vous.
                               </p>
                             </div>
                           </div>
                           <div class="image-col col-md-4 col-sm-12">
                             <div class="image">
-                              <img src="{{ asset('images') }}/team-lyneo-ville.svg" alt="Pourquoi Lyneo à Bordeaux">
+                              <img src="{{ asset('images') }}/team-lyneo-ville.svg" alt="Pourquoi Lyneo à Périgueux">
                             </div>
                           </div>
                           <div class="link-box text-center">
@@ -208,13 +197,7 @@
                           </div>
                           <div class="inner mt-5">
                             <p>
-                              Le site Web de votre entreprise peut être un outil puissant pour vous aider à trouver de nouveaux clients et à augmenter vos ventes. En créant un plan de marketing numérique détaillé, vous pouvez vous assurer que votre site Web génère davantage de revenus pour votre entreprise.
-                            </p>
-                            <p>
-                              L'agence de communication Lyneo à Périgueux peut vous aider à créer un site web qui se classe bien sur Google. Notre équipe de concepteurs expérimentés travaillera en étroite collaboration avec vous pour s'assurer que votre site web reflète parfaitement votre image de marque.
-                            </p>
-                            <p>
-                              En outre, lorsque vous travaillez avec Lyneo, nous vous garantissons que notre service de <a href="{{ route('marketing-bordeaux') }}">marketing digital</a> sera inégalé :
+                              L'agence web Lyneo de Périgueux est le partenaire idéal pour votre entreprise. Nos concepteurs expérimentés vous aideront à créer un site web qui amplifie votre image de marque et offre aux utilisateurs une expérience inoubliable - de plus, nos puissants services de marketing numérique garantissent des résultats. Avec Lyneo à bord, vous verrez votre site Web attirer de nouveaux clients et augmenter vos revenus !
                             </p>
                           </div>
                         </div>
@@ -232,7 +215,7 @@
                                       <p>Priorité au client</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Lyneo se consacre à la satisfaction de ses clients. Nous prenons soin d'écouter les suggestions de nos clients et d'utiliser leurs commentaires lors de la formulation de plans afin de mieux répondre à leurs besoins.
+                                    Chez Lyneo, nous comprenons l'importance de la satisfaction des clients et nous accordons la priorité à leurs commentaires pour garantir une expérience utilisateur de haute qualité. Notre équipe se consacre à l'élaboration de solutions innovantes qui prennent en compte les idées de nos clients !
                                   </p><!-- /.how-it-works-card__text -->
                                   <!-- /.how-it-works-card__link -->
                               </div><!-- /.how-it-works-card__inner -->
@@ -246,7 +229,7 @@
                                       <p>Une tradition d'excellence</p>
                                   </h3><!-- /.how-it-works-card__title -->
                                   <p class="mt-3 mx-3">
-                                    Nos succès passés et nos clients satisfaits suffisent à prouver notre crédibilité : Lyneo est l'une des meilleures agences de création de sites Web à Périgueux. Nous sommes des experts dans l'organisation de campagnes de marketing numérique efficaces.
+                                    Lyneo s'est imposé comme un leader de la conception web et du marketing numérique à Périgueux, ce qui fait de nous le premier choix des entreprises qui cherchent à atteindre leurs objectifs. Notre portefeuille de clients satisfaits est la preuve que nous avons ce qu'il faut pour donner vie à votre vision !
                                   </p><!-- /.how-it-works-card__text -->
 
                                   <!-- /.how-it-works-card__link -->
@@ -263,7 +246,7 @@
                                     <p>Un code propre et efficace</p>
                                 </h3><!-- /.how-it-works-card__title -->
                                 <p class="mt-3 mx-3">
-                                  Nos développeurs à Périgueux utilisent toujours un code clair pour améliorer l'expérience de l'utilisateur web, la vitesse du site et l'autorité. Cela signifie que le langage de programmation derrière votre site web est facile à comprendre et sans erreur.
+                                  Nos développeurs de Périgueux ont le souci du détail et créent un code qui optimise l'expérience de l'utilisateur et la vitesse du site. Nous accordons la plus grande importance à l'écriture d'un langage de programmation propre afin de garantir le bon fonctionnement de votre site web sans aucun accroc.
                                 </p>                                <!-- /.how-it-works-card__link -->
                             </div><!-- /.how-it-works-card__inner -->
                         </div><!-- /.how-it-works-card -->
@@ -276,7 +259,7 @@
                                   <p>La transparence au travail</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Chez Lyneo, nous sommes fiers d'être une agence de conception web ouverte et honnête. Nous tenons nos clients informés de l'état d'avancement de leurs projets grâce à notre portail en ligne, afin qu'ils soient toujours dans la boucle. Travailler avec nous est facile et transparent - il n'y a pas de secrets ou de surprises.
+                                Avec Lyneo, la transparence est essentielle. Nos clients ne se demandent jamais ce qui se passe - nous fournissons des mises à jour claires et constantes via notre portail en ligne afin que les projets restent correctement gérés du début à la fin. Nous veillons à ce que vous disposiez de toutes les informations nécessaires à la réussite de votre projet, sans aucune surprise cachée en cours de route !
                               </p>                                <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->
@@ -289,7 +272,7 @@
                                   <p>Nous respectons les délais</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Nous savons combien il est important de respecter les délais. C'est pourquoi nous garantissons que tous nos projets de conception web seront livrés à temps, à chaque fois. Vous pouvez ainsi vous concentrer sur ce qui est vraiment important : la gestion de votre entreprise.
+                                Le respect des délais est une priorité absolue pour nous ; nous comprenons combien il est essentiel de respecter les échéances et de gérer votre entreprise. Soyez assuré qu'avec nous, vous recevrez toujours vos projets dans les temps - alors commençons !
                               </p><!-- /.how-it-works-card__text -->
                               <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
@@ -303,7 +286,7 @@
                                 <p>De beaux designs sur mesure</p>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
-                              Lyneo est fier de présenter des sites Web uniques pour chaque projet. Contrairement à d'autres entreprises, nous ne croyons pas au modèle de la taille unique. Nos conceptions web personnalisées permettent à votre personnalité et à votre marque de transparaître, ce qui vous aide à vous démarquer des autres. De plus, notre équipe d'experts en conception de sites Web est basée à Périgueux et est toujours disponible pour répondre à toutes vos questions ou préoccupations.
+                              Lyneo se distingue de la concurrence par la création de sites web personnalisés. Nous nous attachons à donner vie à la personnalité de votre marque et mettons un point d'honneur à ce que chaque projet soit unique - pas de solutions génériques ici ! Notre équipe de développement web à Périgueux fournit une assistance constante, de sorte que vous pouvez toujours être sûr que toute question ou préoccupation sera prise au sérieux.
                             </p>                                <!-- /.how-it-works-card__link -->
                         </div><!-- /.how-it-works-card__inner -->
                     </div><!-- /.how-it-works-card -->
@@ -311,6 +294,90 @@
                 </div><!-- /.row -->
               </div><!-- /.auto-container -->
             </div>
+
+
+        <section class="process-one mt-5">
+          <div class="auto-container">
+              <div class="row">
+                  <div class="col-md-12 col-lg-6 process-one__image__column">
+                      <div class="process-one__image wow fadeInRight" data-wow-duration="1500ms">
+                          <img src="{{ asset('images') }}/strategy.svg" alt="Startegie Web">
+                      </div><!-- /.process-one__image -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+                  <div class="col-md-12 col-lg-6">
+                      <div class="process-one__content">
+                          <div class="sec-title">
+                              <h2>Strategie <span class="dot">.</span><!-- /.dot -->
+                              </h2>
+                          </div><!-- /.sec-title -->
+                          <p class="process-one__summery">
+                            Augmentez vos revenus avec plus de devis et entretenez une relation durable avec vos clients existants. Notre agence web résout rapidement les problèmes sans rhétorique inutile, laissant les résultats parler d'eux-mêmes ! Nous sommes spécialisés dans l'apport d'un trafic accru grâce à des stratégies de référencement organique ou payant sans faille, ainsi que des programmes de fidélisation qui assurent d'excellents taux de rétention des clients.
+                            </p><!-- /.process-one__summery -->
+
+                      </div><!-- /.process-one__content -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+              </div><!-- /.row -->
+              <div class="row">
+                  <div class="col-md-12 col-lg-6 process-one__image__column">
+                      <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
+                        <img src="{{ asset('images') }}/application.svg" alt="Développement Web">
+                      </div><!-- /.process-one__image -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+                  <div class="col-md-12 col-lg-6">
+                      <div class="process-one__content">
+                          <div class="sec-title">
+                              <h2>Développement <span class="dot">.</span><!-- /.dot -->
+                              </h2>
+                          </div><!-- /.sec-title -->
+                          <p class="process-one__summery">
+                            Notre agence web à Périgueux vous aide à rester compétitif grâce aux dernières technologies en matière de sites web et de commerce électronique. Nous concevons des solutions qui sont à la fois visuellement attrayantes et optimisées pour le classement des moteurs de recherche, vous donnant une présence en ligne de pointe.
+                            </p><!-- /.process-one__summery -->
+
+                      </div><!-- /.process-one__content -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+              </div><!-- /.row -->
+              <div class="row">
+                <div class="col-md-12 col-lg-6 process-one__image__column">
+                    <div class="process-one__image wow fadeInRight" data-wow-duration="1500ms">
+                        <img src="{{ asset('images') }}/ui-ux.svg" alt="UI-UX Web">
+                    </div><!-- /.process-one__image -->
+                </div><!-- /.col-md-12 col-lg-6 -->
+                <div class="col-md-12 col-lg-6">
+                    <div class="process-one__content">
+                        <div class="sec-title">
+                            <h2>UI & UX <span class="dot">.</span><!-- /.dot -->
+                            </h2>
+                        </div><!-- /.sec-title -->
+                        <p class="process-one__summery">
+                          Nos spécialistes de la création créent des identités de marque et des graphiques uniques pour rester à la pointe des dernières tendances du web. Notre expertise en matière de design d'expérience, de design web et de convivialité, ainsi que notre approche innovante nous permettent de vous fournir des expériences avant-gardistes qui en disent long sur votre entreprise.
+                        </p><!-- /.process-one__summery -->
+
+                    </div><!-- /.process-one__content -->
+                </div><!-- /.col-md-12 col-lg-6 -->
+            </div><!-- /.row -->
+              <div class="row">
+                  <div class="col-md-12 col-lg-6 process-one__image__column">
+                    <div class="process-one__image wow fadeInLeft" data-wow-duration="1500ms">
+                        <img src="{{ asset('images') }}/referencement.svg" alt="Référencement Web">
+                      </div><!-- /.process-one__image -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+                  <div class="col-md-12 col-lg-6">
+                      <div class="process-one__content">
+                          <div class="sec-title">
+                              <h2>Référencement <span class="dot">.</span><!-- /.dot -->
+                              </h2>
+                          </div><!-- /.sec-title -->
+                          <p class="process-one__summery">
+                            Faites passer votre visibilité au niveau supérieur avec une stratégie SEO ou Google Adwords axée sur les résultats, proposée par notre agence web de confiance. Concentrez-vous sur l'augmentation du trafic, l'élévation de la visibilité et l'amélioration du chiffre d'affaires rapidement et efficacement - tout cela est disponible dans un paquet personnalisé !
+                          </p><!-- /.process-one__summery -->
+                      </div><!-- /.process-one__content -->
+                  </div><!-- /.col-md-12 col-lg-6 -->
+              </div><!-- /.row -->
+
+          </div><!-- /.auto-container -->
+      </section><!-- /.process-one -->
+
+
 
             <!--FAQ section-->
             <section class="faqs-section mb-5">
@@ -330,24 +397,13 @@
                         <div class="acc-content">
                             <div class="content">
                                 <div class="text">
-                                  <p>
-                                    Une agence web est spécialisée dans la création de sites web professionnels, y compris les aspects de conception et de développement. Souvent, elles donnent également des conseils sur d'autres étapes nécessaires au lancement d'un site Web réussi, comme un audit Web initial ou une analyse des sites concurrents.
-                                  </p>
-                                  <p>
-                                    En tant que concepteur de sites Web, il est important de tenir compte de l'expérience des utilisateurs lors de la conception de sites Web. Cela implique de considérer des aspects tels que la navigation, l'ergonomie et la conception graphique.
-                                 </p>
-                                 <p>
-                                  En tant que développeur web, il est important de choisir le développement qui convient au projet. Par exemple, en considérant les technologies et les outils de gestion de contenu. Et tout en faisant cela, il faut s'assurer que le code est propre et efficace.
-                                 </p>
-                                 <p>
-                                  En outre, une agence web doit soutenir ses clients dans la mise à jour de leurs sites web (par exemple, la maintenance et la mise à niveau des sites web). De nos jours, les agences web généralistes peuvent également proposer des services de marketing numérique tels que le référencement naturel (SEO), la gestion des campagnes Google Ads et la gestion des comptes de médias sociaux.
-                                 </p>
-                                 <p>
-                                  Si vous voulez déléguer tout le travail, cherchez une agence web qui offre tout ce dont vous avez besoin. Si vous voulez seulement que quelqu'un conçoive votre site Web, trouvez une agence spécialisée dans l'UX et la création de contenu, puis associez-vous à des agences dédiées au SEO, au SEA et au marketing des médias sociaux.
-                                 </p>
-                                <p>
-                                  Une agence web réussit à atteindre vos objectifs et à créer un site web de qualité lorsqu'elle dispose de consultants, de chefs de projet, de concepteurs web et de développeurs compétents travaillant ensemble de manière efficace. Les meilleures agences vous fourniront également des experts en UX, en SEO, en médias sociaux et en contenu pour exécuter votre vision de manière irréprochable.
-                                </p>
+                                  <p>Une agence web est une entrepri qui se sp&eacute;cialise dans le d&eacute;veloppement de sites web, d&#39;applications web et d&#39;autres services li&eacute;s au commerce &eacute;lectronique. Les agences Web fournissent un large &eacute;ventail de services, tels que la conception de sites Web, la conception de l&#39;exp&eacute;rience utilisateur (UX), l&#39;optimisation des moteurs de recherche (SEO), le marketing de contenu, les analyses Web, etc. L&#39;objectif d&#39;une agence web est d&#39;aider les entreprises &agrave; cr&eacute;er et &agrave; maintenir des sites web efficaces qui augmenteront leur pr&eacute;sence sur Internet</p>
+
+                                  <p>Les agences Web sont compos&eacute;es de professionnels exp&eacute;riment&eacute;s qui comprennent comment maximiser les performances des sites Web gr&acirc;ce &agrave; diverses techniques. Une bonne agence web aura des connaissances sur les technologies modernes telles que HTML5, CSS3, JavaScript et JQuery ; les outils de conception de l&#39;exp&eacute;rience utilisateur tels que Adobe Photoshop et Illustrator ; les strat&eacute;gies d&#39;optimisation du r&eacute;f&eacute;rencement ; et bien plus encore. En outre, de nombreuses agences Web proposent des services suppl&eacute;mentaires tels que des services d&#39;h&eacute;bergement, l&#39;enregistrement de domaines, la configuration et la gestion de comptes de messagerie, entre autres</p>
+
+                                  <p>Un aspect important de la collaboration avec une agence web est de pouvoir lui faire confiance pour votre projet. Les professionnels exp&eacute;riment&eacute;s poss&egrave;dent le savoir-faire technique n&eacute;cessaire pour d&eacute;velopper des sites Web qui ne sont pas seulement fonctionnels mais aussi esth&eacute;tiques. Ils comprennent &eacute;galement l&#39;importance de cr&eacute;er un site Web qui respecte toutes les r&eacute;glementations actuelles en mati&egrave;re d&#39;accessibilit&eacute; et de normes d&#39;exp&eacute;rience utilisateur. En plus de cette base de connaissances, ils doivent &ecirc;tre des experts dans la compr&eacute;hension des besoins des clients afin de livrer les projets &agrave; temps et dans les limites du budget tout en fournissant un excellent service &agrave; la client&egrave;le &agrave; tout moment</p>
+
+                                  <p>Lorsque vous envisagez de faire appel &agrave; une agence web, il est important d&#39;examiner le portefeuille qu&#39;elle a cr&eacute;&eacute; pour des clients pr&eacute;c&eacute;dents avant de prendre une d&eacute;cision. Il est &eacute;galement essentiel de rechercher leur r&eacute;putation parmi les clients en lisant les critiques en ligne ou en demandant autour de vous les exp&eacute;riences des clients pr&eacute;c&eacute;dents. En fin de compte, vous voulez trouver une agence dont le travail parle de lui-m&ecirc;me avec son engagement &agrave; l&#39;excellence dans tous les aspects - de la conception &agrave; la livraison - afin que votre entreprise puisse b&eacute;n&eacute;ficier de leur expertise dans la cr&eacute;ation d&#39;exp&eacute;riences en ligne r&eacute;ussies pour les clients, maintenant et &agrave; l&#39;avenir.</p>
 
                                 </div>
                             </div>
@@ -387,10 +443,10 @@
                             <div class="content">
                                 <div class="text">
                                   <p>
-                                    Lyneo est une agence de conseil et de création de sites web basée à Bordeaux en Gironde. Notre expertise réside dans la conception web professionnelle et le marketing digital, et nous sommes reconnus pour notre réactivité.
+                                    Lyneo est une agence de conseil et de création de sites web basée à Périgueux en Dordogne. Notre expertise réside dans la conception web professionnelle et le marketing digital, et nous sommes reconnus pour notre réactivité.
                                   </p>
                                   <p>
-                                    Dans notre entreprise, vous travaillerez avec des professionnels parmi les plus qualifiés de Bordeaux, qui seront ravis de vous aider à réussir. Notre équipe se compose de consultants, de chefs de projet, de graphistes, de développeurs et de webmasters.
+                                    Dans notre entreprise, vous travaillerez avec des professionnels parmi les plus qualifiés de Périgueux, qui seront ravis de vous aider à réussir. Notre équipe se compose de consultants, de chefs de projet, de graphistes, de développeurs et de webmasters.
                                   </p>
                                   <p>
                                     Chez Lyneo, nous sommes spécialisés dans la conception de sites Web créatifs et durables. Notre équipe est composée d'experts de divers aspects du développement web, tels que le conseil, le codage et le référencement.
