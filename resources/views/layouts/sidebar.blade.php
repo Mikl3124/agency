@@ -39,7 +39,7 @@
               <div class="sidebar-title">
                   <h4>Besoin de renseignements?</h4>
               </div>
-              <div class="text">Vous préférez parler à une personne plutôt que de remplir un formulaire? Cliquez sur le bouton ci-dessous, et prenons un rendez-vous.
+              <div class="text">Cliquez sur le bouton ci-dessous, et prenons un rendez-vous.
               </div>
               <div class="link-box my-4 text-center">
                 <a class="theme-btn btn-style-four" href="https://tidycal.com/lyneo/discutons-de-votre-projet">

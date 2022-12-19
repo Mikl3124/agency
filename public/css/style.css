@@ -26645,8 +26645,13 @@ img.lazy-image.loaded {
   padding: 0px 5px;
 }
 
-.cocon h2{
+/* COCON */
+.guide h2{
   color: var(--thm-base);
+}
+
+.guide ul li{
+  list-style: disc !important;
 }
 
 /* REVIEWS */
@@ -26678,3 +26683,6 @@ img.lazy-image.loaded {
   font-size: .85em;
 }
 
+.lower-box li{
+  list-style: disc !important;
+}

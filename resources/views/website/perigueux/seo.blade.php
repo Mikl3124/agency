@@ -276,7 +276,7 @@
                                   <p>Nous vous tenons informés</p>
                               </h3><!-- /.how-it-works-card__title -->
                               <p class="mt-3 mx-3">
-                                Lyneo s'attache à être transparent avec ses clients ; ils savent toujours où en est un projet en ayant accès aux outils de suivi des performances et aux rapports réguliers.
+                                Chez Lyneo, les clients ne sont jamais laissés dans l'ignorance. Nos outils de suivi des performances et nos rapports réguliers permettent une compréhension complète de l'évolution de tout projet. Nous veillons à ce que nos clients restent toujours informés !
                               </p>                                <!-- /.how-it-works-card__link -->
                           </div><!-- /.how-it-works-card__inner -->
                       </div><!-- /.how-it-works-card -->

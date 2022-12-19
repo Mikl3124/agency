@@ -28,16 +28,17 @@
               <div class="row clearfix">
 
                   <!--Content Side-->
-                  <div class="content-side col-lg-8 col-md-12 col-sm-12">
+                  <div class="content-side col-lg-8 col-md-12 col-sm-12 mt-5">
                       <div class="service-details">
                         <div class="sec-title">
                           <h4 class="text-center">Réalisez vos objectifs commerciaux avec des sites qui convertissent parfaitement<span class="dot">.</span></h4>
                         </div>
-
                         <div class="main-image image">
                           <img src="{{ asset('images') }}/web-ville.svg" alt="creation site web à bordeaux">
                         </div>
-
+                        <p>
+                          Chez Lyneo, nous mettons tout en œuvre pour aider votre entreprise à briller ! Notre agence web à Périgueux est spécialisée dans la production de contenu attrayant et professionnel. Qu'il s'agisse de petites et moyennes entreprises ou de tout type d'entreprise privée, peu importe ce que vous faites, notre équipe s'assurera que votre projet est à jour à chaque étape, du développement jusqu'à l'hébergement et l'optimisation du référencement.
+                        </p>
                       </div>
                   </div>
 
@@ -286,7 +287,7 @@
                                 <p>De beaux designs sur mesure</p>
                             </h3><!-- /.how-it-works-card__title -->
                             <p class="mt-3 mx-3">
-                              Lyneo se distingue de la concurrence par la création de sites web personnalisés. Nous nous attachons à donner vie à la personnalité de votre marque et mettons un point d'honneur à ce que chaque projet soit unique - pas de solutions génériques ici ! Notre équipe de développement web à Périgueux fournit une assistance constante, de sorte que vous pouvez toujours être sûr que toute question ou préoccupation sera prise au sérieux.
+                              Lyneo se distingue de la concurrence par la création de sites web personnalisés. Nous nous attachons à donner vie à la personnalité de votre marque et mettons un point d'honneur à ce que chaque projet soit unique - pas de solutions génériques ici !
                             </p>                                <!-- /.how-it-works-card__link -->
                         </div><!-- /.how-it-works-card__inner -->
                     </div><!-- /.how-it-works-card -->

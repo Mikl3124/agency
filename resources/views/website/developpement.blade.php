@@ -54,7 +54,7 @@
                             <h2>Architecture de l'information <span class="dot">.</span><!-- /.dot -->
                             </h2>
                         </div><!-- /.sec-title -->
-                        <p class="process-one__summery">Une bonne architecture d'information est la base de tout projet de conception Web. Elle détermine la manière dont les utilisateurs percevront le contenu du site et interagiront avec lui, ce qu'ils trouveront lorsqu'ils l'exploreront et comment vous pourrez les amener à s'engager plus profondément. C'est pourquoi nous accordons tant d'importance à cette phase du projet : une architecture informationnelle conditionne la réussite ou l'échec de tout le reste !</p><!-- /.process-one__summery -->
+                        <p class="process-one__summery">Une bonne architecture d'information est la base de tout projet de conception Web. Elle détermine la manière dont les utilisateurs percevront le contenu du site et interagiront avec lui, ce qu'ils trouveront lorsqu'ils l'exploreront et comment vous pourrez les amener à s'engager plus profondément. C'est pourquoi, dans notre <a href="{{ route('web_cible') }}">agence web</a> nous accordons tant d'importance à cette phase du projet : une architecture informationnelle conditionne la réussite ou l'échec de tout le reste !</p><!-- /.process-one__summery -->
                     </div><!-- /.process-one__content -->
                 </div><!-- /.col-md-12 col-lg-6 -->
             </div><!-- /.row -->

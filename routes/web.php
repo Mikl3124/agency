@@ -136,3 +136,93 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
 });
 
 Route::get('/sitemap.xml', 'SitemapXmlController@index');
+
+//COCON AGENCE WEB
+// Cible
+Route::get('web/guide-agence-web', 'AgenceWebController@cible')->name('web_cible');
+// Mixtes
+Route::get('web/comment-creer-une-agence-web', 'AgenceWebController@mixte_1')->name('web_mixte_1');
+Route::get('web/lemploi-en-agence-web', 'AgenceWebController@mixte_2')->name('web_mixte_2');
+Route::get('web/quels-sont-les-outils-dune-agence-web', 'AgenceWebController@mixte_3')->name('web_mixte_3');
+Route::get('web/quest-ce-quune-agence-web', 'AgenceWebController@mixte_4')->name('web_mixte_4');
+Route::get('web/quels-sont-les-services-dune-agence-web', 'AgenceWebController@mixte_5')->name('web_mixte_5');
+
+// Complémentaires 1
+Route::get('web/pourquoi-creer-une-agence-web', 'AgenceWebController@web_comp_1_1')->name('web_comp_1_1');
+Route::get('web/quels-sont-les-clients-dune-agence-web', 'AgenceWebController@web_comp_1_2')->name('web_comp_1_2');
+Route::get('web/comment-trouver-des-clients-en-agence-web', 'AgenceWebController@web_comp_1_3')->name('web_comp_1_3');
+Route::get('web/quel-statut-pour-une-agence-web', 'AgenceWebController@web_comp_1_4')->name('web_comp_1_4');
+// Complémentaires 2
+Route::get('web/qui-travaille-en-agence-web', 'AgenceWebController@web_comp_2_1')->name('web_comp_2_1');
+Route::get('web/pourquoi-travailler-en-agence-web', 'AgenceWebController@web_comp_2_2')->name('web_comp_2_2');
+// Complémentaires 3
+Route::get('web/quest-ce-quun-cms', 'AgenceWebController@web_comp_3_1')->name('web_comp_3_1');
+Route::get('web/quest-ce-quun-framework', 'AgenceWebController@web_comp_3_2')->name('web_comp_3_2');
+Route::get('web/comment-choisir-un-hebergeur-de-site-internet', 'AgenceWebController@web_comp_3_3')->name('web_comp_3_3');
+Route::get('web/pourquoi-utiliser-slack-en-agence-web', 'AgenceWebController@web_comp_3_4')->name('web_comp_3_4');
+Route::get('web/pourquoi-utiliser-trello-en-agence-web', 'AgenceWebController@web_comp_3_5')->name('web_comp_3_5');
+Route::get('web/pourquoi-utiliser-hootsuite-en-agence-web', 'AgenceWebController@web_comp_3_6')->name('web_comp_3_6');
+Route::get('web/google-analytics-en-agence-web', 'AgenceWebController@web_comp_3_7')->name('web_comp_3_7');
+Route::get('web/mailchimp-en-agence-web', 'AgenceWebController@web_comp_3_8')->name('web_comp_3_8');
+Route::get('web/pourquoi-utiliser-hhrefs-en-agence-web', 'AgenceWebController@web_comp_3_9')->name('web_comp_3_9');
+Route::get('web/pourquoi-utiliser-moz-en-agence-web', 'AgenceWebController@web_comp_3_10')->name('web_comp_3_10');
+// Complémentaires 4
+Route::get('web/comment-fonctionne-une-agence-web', 'AgenceWebController@web_comp_4_1')->name('web_comp_4_1');
+Route::get('web/quels-sont-les-differents-type-dagence', 'AgenceWebController@web_comp_4_2')->name('web_comp_4_2');
+Route::get('web/quel-est-le-role-dune-agence-web', 'AgenceWebController@web_comp_4_3')->name('web_comp_4_3');
+Route::get('web/quelle-est-la-difference-entre-une-agence-de-communication-et-une-agence-web', 'AgenceWebController@web_comp_4_4')->name('web_comp_4_4');
+Route::get('web/combien-coute-une-agence-web', 'AgenceWebController@web_comp_4_5')->name('web_comp_4_5');
+// Complémentaires 5
+Route::get('web/le-referencement-en-agence-web', 'AgenceWebController@web_comp_5_1')->name('web_comp_5_1');
+Route::get('web/la-creation-de-site-web', 'AgenceWebController@web_comp_5_2')->name('web_comp_5_2');
+Route::get('web/la-refonte-de-site-web', 'AgenceWebController@web_comp_5_3')->name('web_comp_5_3');
+
+// Complémentaires 2_1
+Route::get('web/le-metier-de-webdesigner', 'AgenceWebController@web_comp_2_1_1')->name('web_comp_2_1_1');
+Route::get('web/le-metier-de-developpeur-web', 'AgenceWebController@web_comp_2_1_2')->name('web_comp_2_1_2');
+Route::get('web/le-metier-de-referenceur-seo', 'AgenceWebController@web_comp_2_1_3')->name('web_comp_2_1_3');
+Route::get('web/le-metier-de-community-manager', 'AgenceWebController@web_comp_2_1_4')->name('web_comp_2_1_4');
+Route::get('web/le-metier-de-graphiste', 'AgenceWebController@web_comp_2_1_5')->name('web_comp_2_1_5');
+Route::get('web/le-metier-de-chef-de-projet', 'AgenceWebController@web_comp_2_1_6')->name('web_comp_2_1_6');
+// Complémentaires 3_1
+Route::get('web/quel-est-le-meilleur-cms-pour-creer-un-site-web', 'AgenceWebController@web_comp_3_1_1')->name('web_comp_3_1_1');
+Route::get('web/comment-faire-un-site-one-page-wordpress', 'AgenceWebController@web_comp_3_1_2')->name('web_comp_3_1_2');
+Route::get('web/comparatif-des-differents-cms', 'AgenceWebController@web_comp_3_1_3')->name('web_comp_3_1_3');
+// Complémentaires 3_2
+Route::get('web/quelle-est-la-difference-entre-un-cms-et-un-framework', 'AgenceWebController@web_comp_3_2_1')->name('web_comp_3_2_1');
+Route::get('web/quel-langage-utiliser-pour-le-developpement-web', 'AgenceWebController@web_comp_3_2')->name('web_comp_3_2');
+// Complémentaires 5_1
+Route::get('web/quest-ce-quune-agence-sea', 'AgenceWebController@web_comp_5_1_1')->name('web_comp_5_1_1');
+Route::get('web/quest-ce-quune-agence-seo', 'AgenceWebController@web_comp_5_1_2')->name('web_comp_5_1_2');
+// Complémentaires 5_2
+Route::get('web/qui-peut-creer-un-site-internet', 'AgenceWebController@web_comp_5_2_1')->name('web_comp_5_2_1');
+Route::get('web/comment-creer-un-site-web', 'AgenceWebController@web_comp_5_2_2')->name('web_comp_5_2_2');
+Route::get('web/les-differentes-etapes-pour-creer-un-site-web', 'AgenceWebController@web_comp_5_2_3')->name('web_comp_5_2_3');
+Route::get('web/comment-rediger-un-projet-de-creation-de-site-web', 'AgenceWebController@web_comp_5_2_4')->name('web_comp_5_2_4');
+Route::get('web/quels-sont-les-differents-types-de-site-web', 'AgenceWebController@web_comp_5_2_5')->name('web_comp_5_2_5');
+// Complémentaires 5_3
+Route::get('web/pourquoi-faire-une-refonte-de-site-web', 'AgenceWebController@web_comp_5_3_1')->name('web_comp_5_3_1');
+Route::get('web/quand-refondre-son-site-web', 'AgenceWebController@web_comp_5_3_2')->name('web_comp_5_3_2');
+Route::get('web/comment-refondre-son-site-internet', 'AgenceWebController@web_comp_5_3_3')->name('web_comp_5_3_3');
+Route::get('web/quels-sont-les-differents-types-de-refonte-web', 'AgenceWebController@web_comp_5_3_4')->name('web_comp_5_3_4');
+// Complémentaires 5_2_5
+Route::get('web/le-site-e-commerce', 'AgenceWebController@web_comp_5_2_5_1')->name('web_comp_5_2_5_1');
+Route::get('web/le-site-vitrine', 'AgenceWebController@web_comp_5_2_5_2')->name('web_comp_5_2_5_2');
+// Complémentaires 5_1_1
+Route::get('web/comment-faire-du-referencement-payant', 'AgenceWebController@web_comp_5_1_1')->name('web_comp_5_1_1');
+Route::get('web/quels-sont-les-differents-types-de-referencement-payant', 'AgenceWebController@web_comp_5_1_2')->name('web_comp_5_1_2');
+Route::get('web/quelle-est-la-difference-entre-referencement-naturel-et-payant', 'AgenceWebController@web_comp_5_1_3')->name('web_comp_5_1_3');
+// Complémentaires 5_1_2
+Route::get('web/quest-ce-que-le-referencement-naturel', 'AgenceWebController@web_comp_5_1_2_1')->name('web_comp_5_1_2_1');
+Route::get('web/pourquoi-optimiser-son-referencement-naturel', 'AgenceWebController@web_comp_5_1_2_2')->name('web_comp_5_1_2_2');
+Route::get('web/pourquoi-faire-du-referencement-naturel', 'AgenceWebController@web_comp_5_1_2_3')->name('web_comp_5_1_2_3');
+Route::get('web/quelles-sont-les-bases-de-la-redaction-web', 'AgenceWebController@web_comp_5_1_2_4')->name('web_comp_5_1_2_4');
+
+// Complémentaires 5_2_5_1
+Route::get('web/pourquoi-acheter-un-site-e-commerce', 'AgenceWebController@web_comp_5_2_5_1_1')->name('web_comp_5_2_5_1_1');
+Route::get('web/quel-est-le-prix-dun-site-e-commerce', 'AgenceWebController@web_comp_5_2_5_1_2')->name('web_comp_5_2_5_1_2');
+Route::get('web/comment-faire-son-propre-site-e-commerce', 'AgenceWebController@web_comp_5_2_5_1_3')->name('web_comp_6_5_1_3');
+// Complémentaires 5_2_5_2
+Route::get('web/quel-est-le-prix-dun-site-vitrine', 'AgenceWebController@web_comp_5_2_5_2_1')->name('web_comp_5_2_5_2_1');
+Route::get('web/pourquoi-acheter-un-site-vitrine', 'AgenceWebController@web_comp_5_2_5_2_2')->name('web_comp_5_2_5_2_2');
+Route::get('web/comment-faire-son-propre-site-vitrine', 'AgenceWebController@web_comp_5_2_5_2_3')->name('web_comp_5_2_5_2_3');

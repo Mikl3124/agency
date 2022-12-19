@@ -88,42 +88,42 @@ class FrontEndController extends Controller
 
     public function developpement(){
       $title = "Développement de sites Web professionnels | Agence de conception de sites Web";
-      $meta_description = "Si vous ne possédez pas un site Web personnalisé qui contribue directement développer vos ventes, vous passez à côté de quelque chose. Contactez notre équipe web dès aujourd'hui !";
+      $meta_description = "✅ Si vous ne possédez pas un site Web personnalisé qui contribue directement développer vos ventes, vous passez à côté de quelque chose. Contactez notre équipe web dès aujourd'hui !";
 
       return view('website.developpement', compact('title', 'meta_description'));
     }
 
     public function wordpress(){
       $title = "Conception de sites Web WordPress | Experts en création de sites Web WordPress";
-      $meta_description = "Créez un site Web convivial et optimisé pour le référencement de votre marque et augmentez vos ventes grâce aux services de conception Web WordPress personnalisés de Lyneo.";
+      $meta_description = "✅ Créez un site Web convivial et optimisé pour le référencement de votre marque et augmentez vos ventes grâce aux services de conception Web WordPress personnalisés de Lyneo.";
 
       return view('website.wordpress', compact('title', 'meta_description'));
     }
 
     public function commerce(){
       $title = "Services de conception de sites Web personnalisés | Agence de création de sites Web personnalisés";
-      $meta_description = "Améliorez votre classement et générez du trafic ciblé grâce à une conception web professionnelle personnalisée adaptée à votre entreprise.";
+      $meta_description = "✅ Améliorez votre classement et générez du trafic ciblé grâce à une conception web professionnelle personnalisée adaptée à votre entreprise.";
 
       return view('website.commerce', compact('title', 'meta_description'));
     }
 
     public function custom(){
       $title = "Services de conception de sites Web E-commerce | Agence de développement de sites Web E-commerce";
-      $meta_description = "Lyneo est une agence de création de sites E-commerce qui construit et commercialise votre boutique. Nous créons des sites de e-commerce personnalisés qui convertissent les visiteurs en acheteurs.";
+      $meta_description = "✅ Lyneo est une agence de création de sites E-commerce qui construit et commercialise votre boutique. Nous créons des sites de e-commerce personnalisés qui convertissent les visiteurs en acheteurs.";
 
       return view('website.custom', compact('title', 'meta_description'));
     }
 
     public function marketing(){
       $title = "Services de marketing numérique | Lyneo agence de marketing web";
-      $meta_description = "Lyneo fournit des services de marketing numérique aux entreprises Françaises. Contactez-nous dès aujourd'hui pour en savoir plus sur les services qui peuvent aider votre entreprise à se développer.";
+      $meta_description = "✅ Lyneo fournit des services de marketing numérique aux entreprises Françaises. Contactez-nous dès aujourd'hui pour en savoir plus sur les services qui peuvent aider votre entreprise à se développer.";
 
       return view('website.marketing-digital', compact('title', 'meta_description'));
     }
 
     public function seo(){
       $title = "Agence SEO | Services d'optimisation pour les moteurs de recherche";
-      $meta_description = "Agence de référencement Web : Lyneo aide les entreprises de toutes tailles dans leur stratégie SEO et leur visibilité sur Internet.";
+      $meta_description = "✅ Agence de référencement Web : Lyneo aide les entreprises de toutes tailles dans leur stratégie SEO et leur visibilité sur Internet.";
 
       return view('website.seo', compact('title', 'meta_description'));
     }
@@ -137,7 +137,7 @@ class FrontEndController extends Controller
 
     public function seo_technique(){
       $title = "Agence de SEO technique - Services professionnels de SEO technique";
-      $meta_description = "Améliorez votre classement et construisez votre site Web sur des bases solides grâce à des tactiques de SEO technique pensées pour l'utilisateur";
+      $meta_description = "✅ Améliorez votre classement et construisez votre site Web sur des bases solides grâce à des tactiques de SEO technique pensées pour l'utilisateur";
 
       return view('website.seo-technique', compact('title', 'meta_description'));
     }
@@ -154,7 +154,7 @@ class FrontEndController extends Controller
     public function marketing_digital_bordeaux(){
 
       $title = "Agence marketing numérique à Bordeaux | SEA, PPC, SEO | Lyneo Bordeaux";
-      $meta_description = "Lyneo, agence marketing Web à Bordeaux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
+      $meta_description = "✅ Lyneo, agence marketing Web à Bordeaux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
 
       return view('website.bordeaux.marketing', compact('title', 'meta_description'));
     }
@@ -170,7 +170,7 @@ class FrontEndController extends Controller
     public function web_bordeaux(){
 
       $title = "Bordeaux création de site web | Développement de site internet";
-      $meta_description = "Vous envisagez une conception de site web? Notre agence de développement web à Bordeaux est à votre service.";
+      $meta_description = "✅ Vous envisagez une conception de site web? Notre agence de développement web à Bordeaux est à votre service.";
 
       return view('website.bordeaux.web', compact('title', 'meta_description'));
     }
@@ -180,7 +180,7 @@ class FrontEndController extends Controller
     public function marketing_digital_perigueux(){
 
       $title = "Agence marketing numérique à Périgueux | SEA, PPC, SEO | Lyneo Périgueux";
-      $meta_description = "Lyneo, agence marketing Web à Périgueux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
+      $meta_description = "✅ Lyneo, agence marketing Web à Périgueux spécialisée en médias sociaux, publicité en ligne, SEO et stratégie Web. Au service de votre croissance !";
 
       return view('website.perigueux.marketing', compact('title', 'meta_description'));
     }
@@ -217,14 +217,6 @@ class FrontEndController extends Controller
       return view('website.confidentialite', compact('title', 'meta_description'));
     }
 
-    // COCON SEMANTIQUE AGENCE WEB
 
-    public function creer_agence_web(){
-
-      $title = "Comment créer une agence Web | Lyneo";
-      $meta_description = "✅ Si vous envisagez de créer une agence de conception Web, alors cet article est fait pour vous ! Nous passons en revue toutes les étapes que vous devez suivre pour créer une entreprise qui génère des revenus.";
-
-      return view('cocon-agence-web/comment-creer-agence-web', compact('title', 'meta_description'));
-    }
 
 }
