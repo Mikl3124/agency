@@ -104,7 +104,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--thm-b-font);
   color: var(--thm-text);
   line-height: 2.125em;
@@ -26646,8 +26646,24 @@ img.lazy-image.loaded {
 }
 
 /* COCON */
+.guide p {
+  font-size: 18px;
+}
+
 .guide h2{
-  color: var(--thm-base);
+  font-size: 18px;
+  font-family: var(--thm-b-font);
+  color: var(--thm-text);
+  line-height: 2.125em;
+  font-weight: 600;
+}
+
+.guide h3{
+  margin-top: 36px;
+}
+
+.guide h4{
+  margin-top: 36px;
 }
 
 .guide ul li{
@@ -26685,4 +26701,10 @@ img.lazy-image.loaded {
 
 .text li{
   list-style: disc !important;
+  margin-left: 30px !important;
 }
+
+#sticky-sidebar {
+  position:sticky !important;
+  top:250 !important;
+  }

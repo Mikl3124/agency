@@ -3,7 +3,7 @@
       <div class="sidebar-widget services">
           <div class="widget-inner">
             <!-- ////////Google Reviews////////// -->
-            <a style="color: #222429;" target="_blank" rel="noopener" href="https://www.google.com/search?q=lyneo+web&hl=fr-FR&gl=fr&sxsrf=ALiCzsYBQfjGEPMVYMZom0toeyHb8HZQVg%3A1671137867346&ei=S4qbY9DbFPOekdUPo_S0mA4&ved=0ahUKEwiQrdDXwfz7AhVzT6QEHSM6DeMQ4dUDCA8&uact=5&oq=lyneo+web&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzoHCCMQsAMQJzoKCAAQRxDWBBCwAzoHCAAQsAMQQzoLCC4QgAQQxwEQrwE6CggAEIAEEAoQywE6CQgAEB4Q8QQQCjoGCAAQHhAKSgQIQRgASgQIRhgAUKEEWPgIYK8MaAFwAXgAgAFjiAHAApIBATSYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp#lrd=0x47ff893042554d53:0x8e95570e952244ca,1,,,">
+            {{-- <a style="color: #222429;" target="_blank" rel="noopener" href="https://www.google.com/search?q=lyneo+web&hl=fr-FR&gl=fr&sxsrf=ALiCzsYBQfjGEPMVYMZom0toeyHb8HZQVg%3A1671137867346&ei=S4qbY9DbFPOekdUPo_S0mA4&ved=0ahUKEwiQrdDXwfz7AhVzT6QEHSM6DeMQ4dUDCA8&uact=5&oq=lyneo+web&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzoHCCMQsAMQJzoKCAAQRxDWBBCwAzoHCAAQsAMQQzoLCC4QgAQQxwEQrwE6CggAEIAEEAoQywE6CQgAEB4Q8QQQCjoGCAAQHhAKSgQIQRgASgQIRhgAUKEEWPgIYK8MaAFwAXgAgAFjiAHAApIBATSYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp#lrd=0x47ff893042554d53:0x8e95570e952244ca,1,,,">
               <section class="reviews-section text-center mb-4">
                 <div class="container">
                   <div id="reviews" class="columns is-marginless is-multiline"></div>
@@ -23,7 +23,7 @@
                   </div>
                 </div>
               </section>
-            </a>
+            </a> --}}
               <div class="sidebar-title">
                   <h4>Nos Services</h4>
               </div>
@@ -34,7 +34,7 @@
           </div>
       </div>
 
-      <div class="sidebar-widget call-up">
+      <div class="sidebar-widget call-up sidebar" >
           <div class="widget-inner">
               <div class="sidebar-title">
                   <h4>Besoin de renseignements?</h4>
@@ -51,3 +51,4 @@
       </div>
   </aside>
 </div>
+

@@ -54,8 +54,6 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL', null),
-
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -107,6 +105,8 @@ return [
     */
 
     'faker_locale' => 'fr_FR',
+
+    'google_api_key' => env('GOOGLE_API_KEY'),
 
     /*
     |--------------------------------------------------------------------------
